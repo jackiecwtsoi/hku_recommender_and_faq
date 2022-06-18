@@ -7,6 +7,8 @@ In this section, we review more than 20 papers on the concept of recommender sys
 - [Ontology Development 101: A Guide to Creating Your First Ontology](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf)
 - [Semantic searching IT careers concepts based on ontology](http://www.joams.com/uploadfile/2013/0426/20130426033427832.pdf)
 
+RDF - Resource Description Framework
+
 ## Ontology-Based Recommender System
 
 - [Ontology-Based Personalized Course Recommendation Framework](https://ieeexplore.ieee.org/document/8587168)
@@ -14,6 +16,17 @@ In this section, we review more than 20 papers on the concept of recommender sys
 - [An ontology-based hybrid e-learning content recommender system for alleviating the cold-start problem](https://link-springer-com.eproxy.lib.hku.hk/article/10.1007/s10639-021-10508-0)
 - [Knowledge-based recommendation: A review of ontology-based recommender systems for e-learning](https://link.springer.com/article/10.1007/s10462-017-9539-5)
 - [Course-recommendation system based on ontology](https://ieeexplore.ieee.org/document/6890767)
+
+**Deep Dive into OPCR**
+[OPRC main architecture](/screenshots/OPRC_main_architecture.png)
+
+Ontology model
+
+1. Course ontology
+2. Student ontology
+   - Personal & educational attributes
+   - User's rating of the previously recommended course(s)
+3. Job ontology
 
 ## Recommender Engine
 
