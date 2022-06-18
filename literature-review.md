@@ -18,7 +18,7 @@ RDF - Resource Description Framework
 - [Course-recommendation system based on ontology](https://ieeexplore.ieee.org/document/6890767)
 
 **Deep Dive into OPCR**
-[OPRC main architecture](/screenshots/OPRC_main_architecture.png)
+![OPRC main architecture](/screenshots/OPRC_main_architecture.png)
 
 Ontology model
 
