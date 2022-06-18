@@ -17,17 +17,6 @@ RDF - Resource Description Framework
 - [Knowledge-based recommendation: A review of ontology-based recommender systems for e-learning](https://link.springer.com/article/10.1007/s10462-017-9539-5)
 - [Course-recommendation system based on ontology](https://ieeexplore.ieee.org/document/6890767)
 
-**Deep Dive into OPCR**
-![OPRC main architecture](/screenshots/OPRC_main_architecture.png)
-
-Ontology model
-
-1. Course ontology
-2. Student ontology
-   - Personal & educational attributes
-   - User's rating of the previously recommended course(s)
-3. Job ontology
-
 ## Recommender Engine
 
 ### Collaborative-Based Filtering (CF) Method
@@ -45,3 +34,32 @@ Ontology model
 
 - [A hybrid course recommendation system by integrating collaborative filtering and artificial immune systems](https://www.mdpi.com/1999-4893/9/3/47)
 - [DBNCF: Personalized courses recommendation system based on DBN in MOOC environment](https://ieeexplore.ieee.org/document/8005400)
+
+## Deep Learning Based Recommender Engines
+
+- [Neural Collaborative Filtering](https://arxiv.org/abs/1708.05031)
+
+## Literature Deep Dive
+
+### Deep Dive #1 - OPCR
+
+[Original paper](https://ieeexplore.ieee.org/document/8587168)
+![OPCR main architecture](/screenshots/OPRC_main_architecture.png)
+
+**Ontology model**
+
+1. Course ontology
+2. Student ontology
+   - Personal & educational attributes
+   - User's rating of the previously recommended course(s)
+3. Job ontology
+
+**Recommender engine**
+The paper uses a hybrid recommender engine to generate recommendations.
+
+- For CBF (content-based filtering):
+  The course ontology (item profile) is mapped onto the student ontology (user profile), and similarity scores are generated.
+- For CF (collaborative-based filtering):
+  - Measuring the similarity between the active user and other userse in the database
+  - Enhance the KNN algorithm using a new algorithm OKNN (ontology similarity)
+- Final scoring algorithm
