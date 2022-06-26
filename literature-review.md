@@ -49,7 +49,7 @@ RDF - Resource Description Framework
   
   **Definition**:
 
-  - Use item's content vector ${\bf x}^i$ to predict user's preference vector ${\bf \beta}^j$
+  - Use item's content vector ${\bf x}^i $ to predict user's preference vector ${\bf \beta}^j$
   - Preference vector dot content vector gives rating of item $i$ by user $j$
 
 ### 2. Collaborative filtering (CF)
@@ -70,6 +70,7 @@ RDF - Resource Description Framework
 ## Typical problems to be solved
 
 **How to find items $j$ related to item $i$?**
+
 Solution: Minimize the distance between content vectors of item $i$ and item $j)
 
 # Literature Deep Dive
