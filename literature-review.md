@@ -48,18 +48,21 @@ RDF - Resource Description Framework
   **Goal**: To predict user's rating for an item
   
   **Definition**:
+
     - Use item's content vector ${\bf x}^i$ to predict user's preference vector ${\bf \beta}^j$
     - Preference vector dot content vector gives rating of item $i$ by user $j$
 
 ### 2. Collaborative filtering (CF)
 
-  **Goal**:: To predict user's rating for an item
+  **Goal**: To predict user's rating for an item
 
-  **Definition**::
-     - Used when we do not already have content vectors for the items or/nor preference vectors for the users
-     - To predict content vectors: Use user's preference vector ${\bf \beta}^j$ to predict item's content vector ${\bf x}^i$
+  **Definition**:
 
-  **Algorithm**:: 
+    - Used when we do not already have content vectors for the items or/nor preference vectors for the users
+    - To predict content vectors: Use user's preference vector ${\bf \beta}^j$ to predict item's content vector ${\bf x}^i$
+
+  **Algorithm**:
+
     1. Initialize content vectors and preference vectors 
     2. Minimize joint cost function using gradient descent
     3. Calculate rating by using dot product
