@@ -115,6 +115,7 @@ RDF - Resource Description Framework
 3. Job ontology
 
 **Recommender engine**
+
 The paper uses a hybrid recommender engine to generate recommendations.
 
 - For CBF (content-based filtering):
