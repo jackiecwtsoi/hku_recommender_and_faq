@@ -9,6 +9,12 @@ In this section, we review more than 20 papers on the concept of recommender sys
 
 RDF - Resource Description Framework
 
+## Web Crawling
+- [Uni-Search - A Web Crawler for Career Matching and University of Choice Detection](https://su-plus.strathmore.edu/handle/11071/4037)
+- [Focused Crawling for Educational Materials from the Web](https://www.interscience.in/cgi/viewcontent.cgi?article=1020&context=ijcsi)
+- **[Focused crawling of tagged web resources using ontology](https://www-sciencedirect-com.eproxy.lib.hku.hk/science/article/pii/S0045790612001759?via%3Dihub)**
+- [SOF: a semi-supervised ontology-learning-based focused crawler](https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.2980)
+
 ## Ontology-Based Recommender System
 
 - [Ontology-Based Personalized Course Recommendation Framework](https://ieeexplore.ieee.org/document/8587168)
@@ -37,7 +43,9 @@ RDF - Resource Description Framework
 
 ## Deep Learning Based Recommender Engines
 
+- [A review on deep learning for recommender systems: challenges and remedies](https://daiwk.github.io/assets/Batmaz2018_Article_AReviewOnDeepLearningForRecomm.pdf)
 - [Neural Collaborative Filtering (NCF)](https://arxiv.org/abs/1708.05031)
+- [A content-based recommendation algorithm for learning resources](https://link.springer.com/article/10.1007/s00530-017-0539-8)
 
 # Fundamental Concepts of Recommender Systems
 
