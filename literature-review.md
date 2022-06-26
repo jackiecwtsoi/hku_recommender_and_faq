@@ -49,7 +49,7 @@ RDF - Resource Description Framework
   
   **Definition**:
 
-  - Use item's content vector ${\bf x}^i $ to predict user's preference vector ${\bf \beta}^j$
+  - Use item's content vector  ${\bf x}^i $ to predict user's preference vector ${\bf \beta}^j $
   - Preference vector dot content vector gives rating of item $i$ by user $j$
 
 ### 2. Collaborative filtering (CF)
@@ -59,7 +59,7 @@ RDF - Resource Description Framework
   **Definition**:
 
   - Used when we do not already have content vectors for the items or/nor preference vectors for the users
-  - To predict content vectors: Use user's preference vector ${\bf \beta}^j$ to predict item's content vector ${\bf x}^i$
+  - To predict content vectors: Use user's preference vector  ${\bf \beta}^j $ to predict item's content vector ${\bf x}^i $
 
   **Algorithm**:
 
