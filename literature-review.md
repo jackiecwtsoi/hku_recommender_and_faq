@@ -39,7 +39,26 @@ RDF - Resource Description Framework
 
 - [Neural Collaborative Filtering](https://arxiv.org/abs/1708.05031)
 
-## Literature Deep Dive
+# Fundamental Concepts of Recommender Systems
+
+1. Content based filtering (CBF)
+  <u>Goal</u>: To predict user's rating for an item
+  <u>Definition</u>:
+    - Use item's content vector ($\b{x}^{i}$) to predict user's preference vector ($\b{\beta}^{j}$)
+     - Preference vector dot content vector gives rating of item $i$ by user $j$.
+
+2. Collaborative filtering (CF)
+  <u>Goal</u>: To predict user's rating for an item
+  <u>Definition</u>:
+     - Used when we do not already have content vectors for the items or/nor preference vectors for the users
+     - To predict content vectors: Use user's preference vector ($\b{\beta}^{j}$) to predict item's content vector ($\b{x}^{i}$)
+
+  <u>Algorithm</u>: 
+    1. Initialize content vectors and preference vectors 
+    2. Minimize joint cost function using gradient descent
+    3. Calculate rating by using dot product
+
+# Literature Deep Dive
 
 ### Deep Dive #1 - OPCR
 
