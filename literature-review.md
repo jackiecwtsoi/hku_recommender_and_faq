@@ -37,11 +37,11 @@ RDF - Resource Description Framework
 
 ## Deep Learning Based Recommender Engines
 
-- [Neural Collaborative Filtering](https://arxiv.org/abs/1708.05031)
+- [Neural Collaborative Filtering (NCF)](https://arxiv.org/abs/1708.05031)
 
 # Fundamental Concepts of Recommender Systems
 
-## Basic methods
+## Basic Methods
 
 ### 1. Content based filtering (CBF)
 
@@ -53,6 +53,9 @@ RDF - Resource Description Framework
   - Preference vector dot content vector gives rating of item $i$ by user $j$
 
 ### 2. Collaborative filtering (CF)
+
+  1. User-based CF
+  2. Item-based CF
 
   **Goal**: To predict user's rating for an item
 
@@ -67,17 +70,32 @@ RDF - Resource Description Framework
   2. Minimize joint cost function using gradient descent
   3. Calculate rating by using dot product
 
-## Typical problems to be solved
+  **Problems**:
+  - Data sparsity
+  - Cold start
+  - Scalability
 
-**How to find items $j$ related to item $i$?**
+## Typical Recommender Problems
 
-Solution: Minimize the distance between content vectors of item $i$ and item $j$
+**1. How to find items $j$ related to item $i$?**
+
+- Minimize the distance between content vectors of item $i$ and item $j$
+
+**2. What about users who have not rated any movies?**
+
+- Problem: Original CF would predict new user to have rating of $0$ for every item (because of the way the cost function is set up)
+- Solution: Mean normalization
+  - Calculate mean for every item across all users
+  - Take the big ratings matrix and subtract by the mean
+  - Use this new matrix to learn the vectors, and add the mean vector
+  - Result: New user who has not rated anything would now give rating for a particular item by its mean
 
 # Literature Deep Dive
 
 ### Deep Dive #1 - OPCR
 
 [Original paper](https://ieeexplore.ieee.org/document/8587168)
+
 ![OPCR main architecture](/screenshots/OPRC_main_architecture.png)
 
 **Ontology model**
@@ -94,6 +112,6 @@ The paper uses a hybrid recommender engine to generate recommendations.
 - For CBF (content-based filtering):
   The course ontology (item profile) is mapped onto the student ontology (user profile), and similarity scores are generated.
 - For CF (collaborative-based filtering):
-  - Measuring the similarity between the active user and other userse in the database
+  - Measuring the similarity between the active user and other users in the database
   - Enhance the KNN algorithm using a new algorithm OKNN (ontology similarity)
 - Final scoring algorithm
