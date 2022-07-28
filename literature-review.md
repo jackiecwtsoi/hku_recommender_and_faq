@@ -27,8 +27,8 @@ RDF - Resource Description Framework
 
 ### Collaborative-Based Filtering (CF) Method
 
-- [Item-based collaborative filtering recommendation algorithms](https://dl.acm.org/doi/10.1145/371920.372071)
-- [Amazon.com recommendations: Item-to-item collaborative filtering](https://ieeexplore.ieee.org/document/1167344)
+<!-- - [Item-based collaborative filtering recommendation algorithms](https://dl.acm.org/doi/10.1145/371920.372071)
+- [Amazon.com recommendations: Item-to-item collaborative filtering](https://ieeexplore.ieee.org/document/1167344) -->
 - [Using semantic similarity to enhance item-based collaborative filtering](http://facweb.cs.depaul.edu/mobasher/research/papers/JM03.pdf)
 - [An improved collaborative filtering method for recommendations' generation](https://ieeexplore.ieee.org/document/1401179)
 
