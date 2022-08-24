@@ -1,3 +1,0 @@
-[submodule "faq-chatbot/bert-based-faqir"]
-	path = faq-chatbot/bert-based-faqir
-	url = https://github.com/ku-nlp/bert-based-faqir.git
