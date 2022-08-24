@@ -33,6 +33,6 @@ The FAQ chatbot uses NLP model(s) to match the student's open-ended question/que
 
 **Model Training Trials**
 1. q-Q similarity: Try basic word embedding models on internal FAQ database
-    - CNN-rank (?)
-2. q-A similarity: 
-3. TSUBAKI
+    - GloVe word embedding
+2. q-A similarity: Use deep models to investigate relationship between query and answer, which shows the plausibility of the FAQ answer for the given query
+    - TSUBAKI + BERT (proposed by Wataru et al.)
