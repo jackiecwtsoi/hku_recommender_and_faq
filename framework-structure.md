@@ -28,7 +28,7 @@ The FAQ chatbot uses NLP model(s) to match the student's open-ended question/que
 **Data Collection**
 1. Internal FAQ database - scraped
 2. Datasets for NLP model training
-    - 
+    - Scraped FAQ database using university websites
     - SQuAD 2.0 (The Stanford Question Answering Dataset) - not necessarily on educational material
 
 **Model Training Trials**
