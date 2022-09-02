@@ -1,0 +1,528 @@
+,No.,Course Code,Title,Teacher,Teacher Department
+0,1,BIOC1600,Perspectives in biochemistry,Dr B C W Wong,Biomedical Sciences
+0,1,BIOC1600,Perspectives in biochemistry,Dr B H B Yuen,Biomedical Sciences
+0,1,BIOC1600,Perspectives in biochemistry,Dr. J W Y Ho,Biomedical Sciences
+0,1,BIOC1600,Perspectives in biochemistry,Dr. M S Y Huen,Biomedical Sciences
+0,1,BIOC1600,Perspectives in biochemistry,Dr. Y S Chan,Department of Paediatrics and Adolescent Medicine
+0,1,BIOC1600,Perspectives in biochemistry,Prof J Tanner,Biomedical Sciences
+1,2,BIOC2600,Basic biochemistry,Dr A S L Wong,Biomedical Sciences
+1,2,BIOC2600,Basic biochemistry,Dr C M Qian,Biomedical Sciences
+1,2,BIOC2600,Basic biochemistry,Dr C W Lee,Biomedical Sciences
+1,2,BIOC2600,Basic biochemistry,Dr M Kotaka,Biomedical Sciences
+2,3,BIOC3601,Basic metabolism,Dr B H B Yuen,Biomedical Sciences
+2,3,BIOC3601,Basic metabolism,Dr L W Lim,Biomedical Sciences
+2,3,BIOC3601,Basic metabolism,Dr L Y L Cheng,Biomedical Sciences
+2,3,BIOC3601,Basic metabolism,Dr WW Ng,Biomedical Sciences
+3,4,BIOC3604,Essential techniques in biochemistry and molecular biology,Dr R C C Chang,Biomedical Sciences
+3,4,BIOC3604,Essential techniques in biochemistry and molecular biology,Dr B C W Wong,Biomedical Sciences
+3,4,BIOC3604,Essential techniques in biochemistry and molecular biology,Dr B H B Yuen,Biomedical Sciences
+3,4,BIOC3604,Essential techniques in biochemistry and molecular biology,Dr K M Yao,Biomedical Sciences
+3,4,BIOC3604,Essential techniques in biochemistry and molecular biology,Prof D K Y Shum,Biomedical Sciences
+3,4,BIOC3604,Essential techniques in biochemistry and molecular biology,Prof Z J Zhou,Biomedical Sciences
+4,5,BIOC3605,Sequence bioinformatics,Dr B C W Wong,Biomedical Sciences
+4,5,BIOC3605,Sequence bioinformatics,Dr J W K Ho,Biomedical Sciences
+5,6,BIOC3606,Molecular medicine,Dr B Gao,Biomedical Sciences
+5,6,BIOC3606,Molecular medicine,Dr. YQ Song,Biomedical Sciences
+5,6,BIOC3606,Molecular medicine,Prof D Y Jin,Biomedical Sciences
+5,6,BIOC3606,Molecular medicine,Prof K S E Cheah,Biomedical Sciences
+6,7,BIOC3999,Directed studies in biochemistry,All academic staff in Biochemistry Major,Biomedical Sciences
+6,7,BIOC3999,Directed studies in biochemistry,Dr B H B Yuen,Biomedical Sciences
+7,8,BIOC4610,Advanced biochemistry,Dr J F C Ti,Biomedical Sciences
+7,8,BIOC4610,Advanced biochemistry,Dr K M Yao,Biomedical Sciences
+7,8,BIOC4610,Advanced biochemistry,Dr R Hervas Millan,Biomedical Sciences
+7,8,BIOC4610,Advanced biochemistry,Prof D Chan,Biomedical Sciences
+8,9,BIOC4612,Molecular biology of the gene,Dr K M Yao,Biomedical Sciences
+8,9,BIOC4612,Molecular biology of the gene,Prof K S E Cheah,Biomedical Sciences
+8,9,BIOC4612,Molecular biology of the gene,Prof PT Liu,Biomedical Sciences
+8,9,BIOC4612,Molecular biology of the gene,Prof ZJ Zhou,Biomedical Sciences
+9,10,BIOC4613,Advanced techniques in biochemistry & molecular biology,Dr B C W Wong,Biomedical Sciences
+9,10,BIOC4613,Advanced techniques in biochemistry & molecular biology,Dr C Y S Chung,Biomedical Sciences
+9,10,BIOC4613,Advanced techniques in biochemistry & molecular biology,Dr M C H Cheung,Biomedical Sciences
+9,10,BIOC4613,Advanced techniques in biochemistry & molecular biology,Dr. A B Kinghorn,Biomedical Sciences
+9,10,BIOC4613,Advanced techniques in biochemistry & molecular biology,Prof D Chan,Biomedical Sciences
+9,10,BIOC4613,Advanced techniques in biochemistry & molecular biology,Prof J A Tanner,Biomedical Sciences
+10,11,BIOC4966,Biochemistry internship,All academic staff in Biochemistry Major,Biomedical Sciences
+10,11,BIOC4966,Biochemistry internship,Dr B H B Yuen,Biomedical Sciences
+11,12,BIOC4999,Biochemistry project,All academic staff in Biochemistry Major,Biomedical Sciences
+11,12,BIOC4999,Biochemistry project,Dr B H B Yuen,Biomedical Sciences
+11,12,BIOC4999,Biochemistry project,Prof J D Huang,Biomedical Sciences
+12,13,BIOL3404,Protein structure and function,Dr C M Qian,Biomedical Sciences
+12,13,BIOL3404,Protein structure and function,Dr Y L Zhai,Biological Sciences
+13,14,BIOL1110,From molecules to cells,Dr C S C Lo,School of Biological Sciences
+13,14,BIOL1110,From molecules to cells,Dr G Y W Chan,School of Biological Sciences
+13,14,BIOL1110,From molecules to cells,Dr K W Y Yuen,School of Biological Sciences
+14,15,BIOL1201,Introduction to food and nutrition,Dr J C Y Lee,School of Biological Sciences
+14,15,BIOL1201,Introduction to food and nutrition,Dr L Zhang,School of Biological Sciences
+15,16,BIOL1309,Evolutionary diversity,Dr B Guenard,School of Biological Sciences
+15,16,BIOL1309,Evolutionary diversity,Dr C S C Lo,School of Biological Sciences
+15,16,BIOL1309,Evolutionary diversity,Dr C Schunter,School of Biological Sciences
+15,16,BIOL1309,Evolutionary diversity,Dr M Yasuhara,School of Biological Sciences
+16,17,BIOL2101,Principles of food chemistry,Dr J C Y Lee,School of Biological Sciences
+17,18,BIOL2102,Biostatistics,Dr E Pickett,Faculty of Science
+17,18,BIOL2102,Biostatistics,Dr J D Gaitan-Espitia,School of Biological Sciences
+18,19,BIOL2103,Biological sciences laboratory course,Dr A Yan,School of Biological Sciences
+18,19,BIOL2103,Biological sciences laboratory course,Dr W Y Lui,School of Biological Sciences
+18,19,BIOL2103,Biological sciences laboratory course,Prof B K C Chow,School of Biological Sciences
+19,20,BIOL2220,Principles of biochemistry,Dr C S C Lo,School of Biological Sciences
+20,21,BIOL2306,Ecology and evolution,Dr A C Hughes,School of Biological Sciences
+20,21,BIOL2306,Ecology and evolution,Dr C Schunter,School of Biological Sciences
+20,21,BIOL2306,Ecology and evolution,Prof G A Williams (Field course component only),School of Biological Sciences
+20,21,BIOL2306,Ecology and evolution,TBC,School of Biological Sciences
+21,22,BIOL2409,Biotechnology industry and entrepreneurship,Dr R Law,Faculty of Science
+21,22,BIOL2409,Biotechnology industry and entrepreneurship,Dr W B Lim,School of Biological Sciences
+21,22,BIOL2409,Biotechnology industry and entrepreneurship,Guest Lecturer,School of Biological Sciences
+22,23,BIOL3101,Animal behaviour,Dr S W Y Sin,School of Biological Sciences
+23,24,BIOL3105,Animal physiology and environmental adaptation,Dr W Y Lui,School of Biological Sciences
+23,24,BIOL3105,Animal physiology and environmental adaptation,Dr Y L Zhai,School of Biological Sciences
+23,24,BIOL3105,Animal physiology and environmental adaptation,Prof A O L Wong,School of Biological Sciences
+24,25,BIOL3109,Environmental and molecular ecology,Dr Mathew Seymour,School of Biological Sciences
+25,26,BIOL3202,Nutritional biochemistry,Dr C B Chan,Biological Sciences
+26,27,BIOL3203,Food microbiology,Dr H S El-Nezami,Biological Sciences
+26,27,BIOL3203,Food microbiology,TBC,Biological Sciences
+27,28,BIOL3204,Nutrition and the life cycle,Dr J C Y Louie,Biological Sciences
+28,29,BIOL3205,Human physiology,Dr C B Chan,Biological Sciences
+28,29,BIOL3205,Human physiology,Dr W Y Lui,Biological Sciences
+28,29,BIOL3205,Human physiology,Prof A O L Wong,Biologicl Sciences
+29,30,BIOL3207,Principles of toxicology,Dr H S El-Nezami,School of Biological Sciences
+29,30,BIOL3207,Principles of toxicology,Guest Lecturer,School of Biological Sciences
+30,31,BIOL3209,Food and nutrient analysis,Dr J C Y Lee,School of Biological Sciences
+30,31,BIOL3209,Food and nutrient analysis,Dr K S Leung,School of Biological Sciences
+31,32,BIOL3211,Nutrigenomics,Dr J C Y Lee,School of Biological Sciences
+32,33,BIOL3217,"Food, environment and health",Dr J C Y Lee,School of Biological Sciences
+32,33,BIOL3217,"Food, environment and health",Dr K S Leung,School of Biological Sciences
+33,34,BIOL3218,Food hygiene and quality control,Dr Zhang Lu,School of Biological Sciences
+34,35,BIOL3301,Marine biology,Dr B Russell,School of Biological Sciences
+34,35,BIOL3301,Marine biology,Dr D M Baker,School of Biological Sciences
+34,35,BIOL3301,Marine biology,TBC,School of Biological Sciences
+35,36,BIOL3302,Systematics and phylogenetics,Dr Alice Hughes,School of Biological Sciences
+35,36,BIOL3302,Systematics and phylogenetics,Dr Juha K K Merila,School of Biological Sciences
+36,37,BIOL3303,Conservation biology,Dr H Mummby,School of Biological Sciences
+36,37,BIOL3303,Conservation biology,Dr L A Ashton,School of Biological Sciences
+36,37,BIOL3303,Conservation biology,Dr T C Bonebrake,School of Biological Sciences
+36,37,BIOL3303,Conservation biology,Guest Lecturer,School of Biological Sciences
+37,38,BIOL3318,Experimental intertidal ecology,Prof G A Williams,School of Biological Sciences
+38,39,BIOL3319,Tropical terrestrial ecology,Dr B Guenard,School of Biological Sciences
+39,40,BIOL3328,Nearshore marine and estuarine ecology,Prof. G.A. Williams,School of Biological sciences
+40,41,BIOL3401,Molecular biology,Dr K W Y Yuen,School of Biological Sciences
+40,41,BIOL3401,Molecular biology,Dr Y L Zhai,School of Biological Sciences
+41,42,BIOL3402,Cell biology and cell technology,Dr Johnson Heath,School of Biological Sciences
+41,42,BIOL3402,Cell biology and cell technology,Dr Peng Wang,School of Biological Sciences
+41,42,BIOL3402,Cell biology and cell technology,Dr W Y Lui,School of Biological Sciences
+42,43,BIOL3403,Immunology,Dr Chaogu Zheng,School of Biological Sciences
+42,43,BIOL3403,Immunology,Dr W B L Lim,School of Biological Sciences
+43,44,BIOL3406,Reproduction and reproductive biotechnology,Prof A O L Wong,School of Biological Sciences
+44,45,BIOL3408,Genetics,Dr C Schunter,School of Biological Sciences
+44,45,BIOL3408,Genetics,Dr G Y W Chan,School of Biological Sciences
+45,46,BIOL3503,Endocrinology: human physiology II,Dr C B Chan,School of Biological Sciences
+45,46,BIOL3503,Endocrinology: human physiology II,Dr Y L Zhai,School of Biological Sciences
+45,46,BIOL3503,Endocrinology: human physiology II,Prof. B K C Chow,School of Biological Sciences
+46,47,BIOL3506,Evolutionary biology,Dr C Schunter,School of Biological Sciences
+46,47,BIOL3506,Evolutionary biology,Dr J D Gaitan-Espitia,School of Biological Sciences
+47,48,BIOL3508,Microbial physiology and biotechnology,Dr A Yan,School of Biological Sciences
+48,49,BIOL3606,Diet and disease,Dr J C Y Lee,School of Biological Sciences
+49,50,BIOL3608,Food commodities,Dr J C Y Lee,School of Biological Sciences
+49,50,BIOL3608,Food commodities,Dr L Zhang,School of Biological Sciences
+50,51,BIOL3991,Directed studies in ecology & biodiversity,All academic staff in E&B Major / E&B Major (Intensive) Major,School of Biological Sciences
+51,52,BIOL3992,Directed studies in food & nutritional science,All academic staff in Food & Nutritional Science Major,School of Biological Sciences
+52,53,BIOL3993,Directed studies in Molecular biology & biotechnology,All academic staff in Molecular Biology & Biotechnology Major,School of Biological Sciences
+53,54,BIOL3994,Directed studies in biological sciences,All academic staff in Biological Sciences Major,School of Biological Sciences
+54,55,BIOL4201,Public health nutrition,Dr J C Y Louie,School of Biological Sciences
+55,56,BIOL4205,Food technology,Dr J C Y Lee,School of Biological Sciences
+55,56,BIOL4205,Food technology,Dr L Zhang,School of Biological Sciences
+56,57,BIOL4209,Functional foods,Dr K S Leung,School of Biological Sciences
+56,57,BIOL4209,Functional foods,Dr L Zhang,School of Biological Sciences
+57,58,BIOL4302,Environmental impact assessment,Dr B Russell,School of Biological Sciences
+57,58,BIOL4302,Environmental impact assessment,Dr C H Hau,School of Biological Sciences
+57,58,BIOL4302,Environmental impact assessment,Dr J Wu,School of Biological Sciences
+58,59,BIOL4409,General virology,Dr W B Lim,School of Biological Sceinces
+59,60,BIOL4411,Plant and food biotechnology,mlchye@hku.hk,School of Biological Sciences
+60,61,BIOL4415,Healthcare biotechnology,Dr G Y W Chan,School of Biological Sciences
+60,61,BIOL4415,Healthcare biotechnology,Dr K W Y Yuen,School of Biological Sciences
+61,62,BIOL4416,Stem cells and regenerative biology,Dr Chaogu Zheng,Biological Sciences
+61,62,BIOL4416,Stem cells and regenerative biology,Dr J Zhang,Biological Sciences
+61,62,BIOL4416,Stem cells and regenerative biology,Dr K W Y Yuen,Biological Sciences
+62,63,BIOL4417,'Omics' and systems biology,Dr J W Zhang,School of Biological Sciences
+63,64,BIOL4505,Oyster aquaculture: business and technology,Dr T Vengatesen,School of Biological Sciences
+64,65,BIOL4861,Ecology & biodiversity internship,All academic staff in Ecology & Biodiversity Major,School of Biological Sciences
+65,66,BIOL4962,Food & nutritional science internship,All academic staff in Food & Nutritional Science Major,School of Biological Sciences
+66,67,BIOL4963,Molecular biology & biotechnology internship,All academic staff in Molecular Biology & Biotechnology Major,School of Biological Sciences
+67,68,BIOL4964,Biological sciences internship,All academic staff in Biological Sciences Major,School of Biological Sciences
+68,69,BIOL4991,Ecology & biodiversity project,All academic staff in E&B Major / E&B Intensive Major,Biological Sciences
+69,70,BIOL4992,Food & nutritional science project,All academic staff in Food & Nutritional Science Major,Biological Sciences
+70,71,BIOL4993,Molecular biology & biotechnology project,All academic staff in MBB Major / MBB Intensive Major,Biological Sciences
+71,72,BIOL4994,Biological sciences project,All academic staff in Biological Sciences Major,Biological Sciences
+72,73,ENVS1301,Environmental life science,Dr T Vengatesen,School of Biological Sciences
+73,74,ENVS2001,Methods in environmental science,Dr D M Baker,School of Biological Sciences
+74,75,ENVS2002,Environmental data analysis,Dr T C Bonebrake,School of Biological Sciences
+75,76,ENVS3020,Global change ecology,TBC,School of Biological Sciences
+76,77,ENVS3028,Coastal Sustainability,Dr T Vengatesen,School of Biological Sciences
+76,77,ENVS3028,Coastal Sustainability,Prof G A Williams,School of Biological Sciences
+77,78,ENVS3202,Plant ecophysiology and climate change,Dr J Wu,School of Biological Sciences
+78,79,ENVS3401,Understanding tropical ecosystems in a changing world,Dr A L Ashton,School of Biological Sciences
+78,79,ENVS3401,Understanding tropical ecosystems in a changing world,Dr C Dingle,School of Biological Sciences
+78,79,ENVS3401,Understanding tropical ecosystems in a changing world,Dr T Bonebrake,School of Biological Sciences
+79,80,ENVS3402,"Qualitative data, social science methods and decision-making in environmental science",Dr Hannah Mumby,Biological Sciences
+80,81,CAES1000,Core University English,Dr A Yau,Centre for Applied English Studies
+81,82,CAES9820,Academic English for science students,Mr S D Boynton,Centre for Applied English Studies
+82,83,CAES9821,Professional and technical communication for mathematical sciences,Mr S D Boynton,Centre for Applied English Studies
+83,84,CHEM1041,Foundations of chemistry,Dr A P L Tong,Chemistry
+84,85,CHEM1042,General chemistry I,Dr A P L Tong,Chemistry
+85,86,CHEM1043,General chemistry II,Dr A P L Tong,Chemistry
+85,86,CHEM1043,General chemistry II,Dr S K Lee,Chemistry
+85,86,CHEM1043,General chemistry II,Prof D L Phillips,Chemistry
+86,87,CHEM1044,Mathematics in chemistry,Dr A M Y Yuen,Chemistry
+86,87,CHEM1044,Mathematics in chemistry,Dr J Yang,Chemistry
+86,87,CHEM1044,Mathematics in chemistry,Dr. J Z Liu,Chemistry
+87,88,CHEM2241,Analytical chemistry I,Dr E C M Tse,Chemistry
+87,88,CHEM2241,Analytical chemistry I,Dr I K Chu,Chemistry
+88,89,CHEM2341,Inorganic chemistry I,Dr A M Y Yuen,Chemistry
+88,89,CHEM2341,Inorganic chemistry I,Dr H Y Au Yeung,Chemistry
+88,89,CHEM2341,Inorganic chemistry I,Prof H Z Sun,Chemistry
+89,90,CHEM2441,Organic chemistry I,Dr S K Lee,Chemistry
+89,90,CHEM2441,Organic chemistry I,Prof P Chiu,Chemistry
+89,90,CHEM2441,Organic chemistry I,Prof X Y Li,Chemistry
+90,91,CHEM2442,Fundamentals of organic chemistry,Dr P H Toy,Chemistry
+91,92,CHEM2541,Introductory physical chemistry,Dr J Y Tang,Chemistry
+92,93,CHEM3141,Environmental chemistry,Dr Y X Li,Chemistry
+93,94,CHEM3142,Chemical process industries and analysis,Prof G K Y Chan,Chemistry
+93,94,CHEM3142,Chemical process industries and analysis,Visiting Professor,Chemistry
+94,95,CHEM3143,Introduction to materials chemistry,Dr Y F Wang,Chemistry
+95,96,CHEM3241,Analytical chemistry II: chemical instrumentation,Dr I K Chu,Chemistry
+95,96,CHEM3241,Analytical chemistry II: chemical instrumentation,Dr Y Li,Chemistry
+96,97,CHEM3242,Food and water analysis,Dr K K H Ng,Chemistry
+97,98,CHEM3341,Inorganic chemistry II,Dr A M Y Yuen,Chemistry
+97,98,CHEM3341,Inorganic chemistry II,Prof V W W Yam,Chemistry
+98,99,CHEM3342,Bioinorganic chemistry,Dr H Y Au Yeung,Chemistry
+98,99,CHEM3342,Bioinorganic chemistry,Prof H Z Sun,Chemistry
+99,100,CHEM3441,Organic chemistry II,Dr Z X Huang,Chemistry
+99,100,CHEM3441,Organic chemistry II,Prof X D Li,Chemistry
+99,100,CHEM3441,Organic chemistry II,Prof X Y Li,Chemistry
+100,101,CHEM3442,Organic chemistry of biomolecules,Dr P H Toy,Chemistry
+100,101,CHEM3442,Organic chemistry of biomolecules,Dr. Y X Li,Chemistry
+101,102,CHEM3443,Organic chemistry laboratory,Dr A M Y Yuen,Chemistry
+101,102,CHEM3443,Organic chemistry laboratory,Dr Y F Wang,Chemistry
+102,103,CHEM3445,Integrated laboratory,Dr A M Y Yuen,Chemistry
+102,103,CHEM3445,Integrated laboratory,Dr J He,Chemistry
+103,104,CHEM3541,Physical chemistry: Introduction to quantum chemistry,Dr J Yang,Chemistry
+103,104,CHEM3541,Physical chemistry: Introduction to quantum chemistry,Prof G H Chen /(Visiting Professor) Prof. Karl Johnson,Chemistry
+104,105,CHEM3542,Physical chemistry: statistical thermodynamics and kinetics theory,Dr J Yang,Chemistry
+105,106,CHEM3999,Directed studies in chemistry,Various teachers in the Department,Chemistry
+106,107,CHEM4142,"Symmetry, group theory and applications",Dr E C M Tse,Chemistry
+106,107,CHEM4142,"Symmetry, group theory and applications",Dr K K H Ng,Chemistry
+107,108,CHEM4143,Interfacial science and technology,Prof G K Y Chan,Chemistry
+107,108,CHEM4143,Interfacial science and technology,Visiting Professor,Chemistry
+108,109,CHEM4144,Advanced materials,Dr E C M Tse,Chemistry
+108,109,CHEM4144,Advanced materials,Dr K Okuro,Chemistry
+109,110,CHEM4145,Medicinal chemistry,Dr P H Toy,Chemistry
+109,110,CHEM4145,Medicinal chemistry,Dr Y Li,Chemistry
+109,110,CHEM4145,Medicinal chemistry,Prof X C Li,Chemistry
+110,111,CHEM4147,Supramolecular chemistry,Dr H Y Au-Yeung,Chemistry
+110,111,CHEM4147,Supramolecular chemistry,Dr K Okuro,Chemistry
+110,111,CHEM4147,Supramolecular chemistry,Dr Y F Wang,Chemistry
+111,112,CHEM4148,Frontiers in Modern Chemical Science,Dr J Y Tang,Chemistry
+111,112,CHEM4148,Frontiers in Modern Chemical Science,Prof X D Li,Chemistry
+112,113,CHEM4241,Modern chemical instrumentation and applications,Dr H B Jiang,Chemistry
+112,113,CHEM4241,Modern chemical instrumentation and applications,Dr I K Chu,Chemistry
+113,114,CHEM4242,Analytical chemistry,Dr H B Jiang,Chemistry
+114,115,CHEM4341,Advanced inorganic chemistry,Prof C M Che,Chemistry
+114,115,CHEM4341,Advanced inorganic chemistry,Prof H Z Sun,Chemistry
+114,115,CHEM4341,Advanced inorganic chemistry,Prof V W W Yam,Chemistry
+115,116,CHEM4342,Organometallic chemistry,Dr J He,Chemistry
+115,116,CHEM4342,Organometallic chemistry,Dr. J Z Liu,Chemistry
+116,117,CHEM4441,Advanced organic chemistry,Dr J He,Chemistry
+116,117,CHEM4441,Advanced organic chemistry,Dr Z X Huang,Chemistry
+117,118,CHEM4443,Integrated organic synthesis,Dr Z X Huang,Chemistry
+118,119,CHEM4444,Chemical biology,Prof X C Li,Chemistry
+119,120,CHEM4542,Computational chemistry,Dr J Yang,Chemistry
+119,120,CHEM4542,Computational chemistry,Prof G H Chen,Chemistry
+120,121,CHEM4543,Advanced physical chemistry,Prof D L Phillips,Chemistry
+120,121,CHEM4543,Advanced physical chemistry,Prof G H Chen/Dr C Y Yam,Chemistry
+121,122,CHEM4910,Chemistry literacy and research,Various teachers in the Department,Chemistry
+122,123,CHEM4911,Capstone experience for chemistry undergraduates: HKUtopia,Various teachers in the Department,Chemistry
+123,124,CHEM4966,Chemistry internship,Dr K K H Ng,Chemistry
+124,125,CHEM4999,Chemistry project,Various teachers in the Department,Chemistry
+125,126,CSCI9001,Practical Chinese for science students,Dr C M Chan,Chinese
+125,126,CSCI9001,Practical Chinese for science students,Dr K T Lam,Chinese
+125,126,CSCI9001,Practical Chinese for science students,Dr S F Lee,Chinese
+125,126,CSCI9001,Practical Chinese for science students,Mr K W Wong,Chinese
+126,127,EASC1020,Introduction to climate science,Dr S H Li,Earth Sciences
+126,127,EASC1020,Introduction to climate science,Prof Z H Liu,Earth Sciences
+127,128,EASC1401,Blue Planet,Dr M H Lee,Earth Sciences
+128,129,EASC1402,Principles of geology,Dr M C Cheung,Earth Sciences
+128,129,EASC1402,Principles of geology,Prof M Sun,Earth Sciences
+129,130,EASC1403,Geological heritage of Hong Kong,Dr M C Cheung,Earth Sciences
+130,131,EASC2401,Fluid/solid interactions in earth processes,Dr K H Lemke,Earth Sciences
+131,132,EASC2402,Field and laboratory methods,TBC,Earth Sciences
+132,133,EASC2404,Introduction to atmosphere and hydrosphere,Dr B Zhang,Earth Sciences
+132,133,EASC2404,Introduction to atmosphere and hydrosphere,Dr J R Ali,Earth Sciences
+133,134,EASC2406,Geochemistry,Dr S H Li,Earth Sciences
+134,135,EASC2407,Mineralogy,Dr Y Li,Earth Sciences
+134,135,EASC2407,Mineralogy,Prof M Sun,Earth Sciences
+135,136,EASC2409,Regional field studies,Dr A A G Webb (Japan Field Trip),Earth Sciences
+135,136,EASC2409,Regional field studies,Dr J R Ali (Taiwan Field Trip),Earth Sciences
+136,137,EASC2410,Data analysis and modeling in earth sciences,Dr B Zhang,Earth Sciences
+137,138,EASC2411,Introduction to the Earth-Life system,Dr Y Li,Earth Sciences
+138,139,EASC3020,Global change: anthropogenic impacts,Prof Z H Liu,Earth Sciences
+139,140,EASC3402,Petrology,Dr M C Cheung,Earth Sciences
+139,140,EASC3402,Petrology,Prof G Zhao,Earth Sciences
+139,140,EASC3402,Petrology,Prof M Sun,Earth Sciences
+140,141,EASC3403,Sedimentary environments,Dr J King,Earth Sciences
+140,141,EASC3403,Sedimentary environments,Dr N R McKenzie,Earth Sciences
+141,142,EASC3404,Structural geology,Dr A A G Webb,Earth Sciences
+141,142,EASC3404,Structural geology,Dr J R Ali,Earth Sciences
+142,143,EASC3405,Environmental remote sensing,Dr J Michalski,Earth Sciences
+142,143,EASC3405,Environmental remote sensing,Dr J Wu,Biological Sciences
+143,144,EASC3408,Geophysics,Dr B Zhang,Earth Sciences
+143,144,EASC3408,Geophysics,Prof L S Chan,Earth Sciences
+144,145,EASC3409,Igneous and metamorphic petrogenesis,Prof G Zhao,Earth Sciences
+144,145,EASC3409,Igneous and metamorphic petrogenesis,Prof M Sun,Earth Sciences
+145,146,EASC3410,Hydrogeology,Prof J J Jiao,Earth Sciences
+146,147,EASC3413,Engineering geology,Dr L N Y Wong,Earth Sciences
+146,147,EASC3413,Engineering geology,Prof J J Jiao,Earth Sciences
+147,148,EASC3414,Soil and rock mechanics,Dr L N Y Wong,Earth Sciences
+147,148,EASC3414,Soil and rock mechanics,Prof J J Jiao,Earth Sciences
+148,149,EASC3415,Meteorology,Dr J O Kaplan,Earth Sciences
+149,150,EASC3417,Earth through time,Dr N R McKenzie,Earth Sciences
+149,150,EASC3417,Earth through time,Dr S C Chang,Earth Sciences
+150,151,EASC3999,Directed studies in earth sciences,Various teachers in the Department,Earth Sciences
+151,152,EASC4403,Biogeochemical cycles,Dr Y Li,Earth Sciences
+152,153,EASC4406,Earth dynamics & global tectonics,Prof G Zhao,Earth Sciences
+153,154,EASC4407,Regional geology,Dr A A G Webb,Earth Sciences
+153,154,EASC4407,Regional geology,Dr J R Ali,Earth Sciences
+154,155,EASC4911,Earth system: contemporary issues,Dr M C Cheung,Earth Sciences
+154,155,EASC4911,Earth system: contemporary issues,Dr S C Chang,Earth Sciences
+155,156,EASC4955,Integrated field studies,Dr N R McKenzie,Earth Sciences
+156,157,EASC4966,Earth sciences internship,Dr M C Cheung,Earth Sciences
+157,158,EASC4999,Earth sciences project,Various teachers in the Department,Earth Sciences
+158,159,ENVS1401,Introduction to environmental science,Dr C Not,Earth Sciences
+159,160,ENVS3004,"Environment, society and economics",Dr C Not,Earth Sciences
+159,160,ENVS3004,"Environment, society and economics",Dr N Khan,Earth Sciences
+159,160,ENVS3004,"Environment, society and economics",Dr T C Bonebrake,School of Biological Sciences
+160,161,ENVS3042,Pollution,Dr X Luo,Earth Sciences
+161,162,ENVS3313,Environmental oceanography,Dr C Not,Earth Sciences
+162,163,ENVS3999,Directed studies in environmental science,Various teachers (ERS),Earth Sciences
+162,163,ENVS3999,Directed studies in environmental science,Various teachers (SBS),Biological Sciences
+163,164,ENVS4966,Environmental science internship,Dr N S Khan,Earth Sciences
+164,165,ENVS4999,Environmental science project,Various teachers (ERS),Earth Sciences
+164,165,ENVS4999,Environmental science project,Various teachers (SBS),Biological Sciences
+165,166,APAI4012,High-performance computing,Dr Z Zhang,Mathematics
+166,167,MATH1009,Basic mathematics for business and economics,Dr K H Law,Mathematics
+166,167,MATH1009,Basic mathematics for business and economics,Dr Y M Chan,Mathematics
+167,168,MATH1011,University mathematics I,Dr H Y Zhang,Mathematics
+168,169,MATH1013,University mathematics II,Dr T W Ching,Mathematics
+169,170,MATH1821,Mathematical methods for actuarial science I,Dr K H Law,Mathematics
+170,171,MATH1851,Calculus and ordinary differential equations,Dr L Xu,Mechanical Engineering
+170,171,MATH1851,Calculus and ordinary differential equations,Dr X Zhang,Mathematics
+170,171,MATH1851,Calculus and ordinary differential equations,Dr Y Chen,Mechanical Engineering
+170,171,MATH1851,Calculus and ordinary differential equations,Prof K W Chow,Mechanical Engineering
+170,171,MATH1851,Calculus and ordinary differential equations,Prof Y K Lau,Mathematics
+171,172,MATH1853,"Linear algebra, probability and statistics",Dr N Wong,Electrical & Electronic Engineering
+171,172,MATH1853,"Linear algebra, probability and statistics",Dr S H Cheung,Civil Engineering
+171,172,MATH1853,"Linear algebra, probability and statistics",Prof G Han,Mathematics
+171,172,MATH1853,"Linear algebra, probability and statistics",Prof Z Q Yue,Civil Engineering
+172,173,MATH2012,Fundamental concepts of mathematics,Dr Y M Chan,Mathematics
+173,174,MATH2014,Multivariable calculus and linear algebra,Dr H Y Zhang,Mathematics
+174,175,MATH2101,Linear algebra I,Dr C Y Hui,Mathematics
+174,175,MATH2101,Linear algebra I,Dr H Y Zhang,Mathematics
+175,176,MATH2102,Linear algebra II,Dr Z Hua,Mathematics
+176,177,MATH2211,Multivariable calculus,Dr T W Ching,Mathematics
+177,178,MATH2241,Introduction to mathematical analysis,Prof M K P Ng,Mathematics
+178,179,MATH2822,Mathematical methods for actuarial science II,Dr K H Law,Mathematics
+179,180,MATH3002,Mathematics seminar,Dr X Zhang,Mathematics
+180,181,MATH3301,Algebra I,Prof Y K Lau,Mathematics
+181,182,MATH3303,Matrix theory and its applications,Prof M K P Ng,Mathematics
+182,183,MATH3304,Introduction to number theory,Dr B Kane,Mathematics
+183,184,MATH3401,Analysis I,Prof W S Cheung,Mathematics
+184,185,MATH3403,Functions of a complex variable,Dr K K Wong,Mathematics
+185,186,MATH3405,Differential equations,Dr T K Wong,Mathematics
+186,187,MATH3408,Computational methods and differential equations with applications,Prof W K Ching,Mathematics
+187,188,MATH3541,Introduction to topology,Prof J H Lu,Mathematics
+188,189,MATH3600,Discrete mathematics,Dr K H Law,Mathematics
+189,190,MATH3601,Numerical analysis,Dr Z Zhang,Mathematics
+190,191,MATH3603,Probability theory,Dr Z Qu,Mathematics
+191,192,MATH3901,Operations research I,Dr Z Qu,Mathematics
+192,193,MATH3904,Introduction to optimization,Prof W Zang,Mathematics
+193,194,MATH3906,Financial calculus,Dr G Li,Mathematics
+194,195,MATH3911,Game theory and strategy,Prof T W Ng,Mathematics
+195,196,MATH3943,Network models in operations research,Dr K H Law,Mathematics
+196,197,MATH3999,Directed studies in mathematics,All teaching staff,Mathematics
+197,198,MATH4302,Algebra II,Dr Z Hua,Mathematics
+198,199,MATH4402,Analysis II,Dr Y M Chan,Mathematics
+199,200,MATH4404,Functional analysis,Dr C Y Hui,Mathematics
+200,201,MATH4406,Introduction to partial differential equations,Dr T K Wong,Mathematics
+201,202,MATH4511,Introduction to differentiable manifolds,Prof J H Lu,Mathematics
+202,203,MATH4602,Scientific computing,Prof W K Ching,Mathematics
+203,204,MATH4907,Numerical methods for financial calculus,Dr G Li,Mathematics
+204,205,MATH4966,Mathematics internship,All teaching staff,Mathematics
+205,206,MATH4999,Mathematics project,All teaching staff,Mathematics
+206,207,MATH7101,Intermediate complex analysis,Prof N Mok,Mathematics
+207,208,MATH7501,Topics in algebra,Dr Z Hua,Mathematics
+208,209,MATH7502,Topics in applied discrete mathematics,Prof W Zang,Mathematics
+209,210,MATH7503,Topics in advanced optimization,Prof X Yuan,Mathematics
+210,211,MATH7505,Real analysis,Prof W S Cheung,Mathematics
+211,212,PHYS1055,How things work,Dr M K Yip,Physics
+212,213,PHYS1056,"Weather, climate and climate change",Dr F C C Ling,Physics
+212,213,PHYS1056,"Weather, climate and climate change",Dr P W Li,Hong Kong Observatory
+212,213,PHYS1056,"Weather, climate and climate change",Mr H W Tong,Hong Kong Observatory
+212,213,PHYS1056,"Weather, climate and climate change",Mr W K Wong,Hong Kong Observatory
+213,214,PHYS1150,Problem solving in physics,Dr M K Yip,Physics
+214,215,PHYS1240,Physics by inquiry,Dr F K Chow,Physics
+215,216,PHYS1250,Fundamental physics,Dr J H C Lee,Physics
+215,216,PHYS1250,Fundamental physics,Dr K M Lee,Physics
+216,217,PHYS1650,Nature of the universe,Dr K M Lee,Physics
+217,218,PHYS2055,Introductory relativity,Dr K M Lee,Physics
+218,219,PHYS2150,Methods in physics I,Dr F K Chow,Physics
+219,220,PHYS2155,Methods in physics II,Dr Y J Tu,Physics
+220,221,PHYS2160,Introductory computational physics,Dr F K Chow,Physics
+221,222,PHYS2250,Introductory mechanics,Dr M K Yip,Physics
+221,222,PHYS2250,Introductory mechanics,Dr Y Yang,Physics
+222,223,PHYS2255,Introductory electricity and magnetism,Dr J C S Pun,Physics
+223,224,PHYS2261,Introductory heat and thermodynamics,Prof M H Xie,Physics
+224,225,PHYS2265,Introductory quantum physics,Dr F K Chow,Physics
+224,225,PHYS2265,Introductory quantum physics,Prof G Chen,Physics
+225,226,PHYS2650,Modern astronomy,Dr J J L Lim,Physics
+226,227,PHYS3150,Theoretical physics,Dr C J Wang,Physics
+227,228,PHYS3151,Machine learning in physics,Dr Z Y Meng,Physics
+228,229,PHYS3350,Classical mechanics,Prof S Q Shen,Physics
+229,230,PHYS3351,Quantum mechanics,Dr F K Chow,Physics
+230,231,PHYS3450,Electromagnetism,Prof X D Cui,Physics
+231,232,PHYS3550,Statistical mechanics & thermodynamics,Dr S Z Zhang,Physics
+232,233,PHYS3650,Observational astronomy,Dr J J L Lim,Physics
+233,234,PHYS3653,Astrophysics,Dr L X Dai,Physics
+234,235,PHYS3660,Astronomy laboratory,Dr S C Y Ng,Physics
+235,236,PHYS3750,Foundations of laser and spectroscopy,Dr T T Luu,Physics
+236,237,PHYS3760,Physics laboratory,Dr T T Luu,Physics
+237,238,PHYS3850,Physical Optics,Dr D K Ki,Physics
+238,239,PHYS3851,Atomic and nuclear physics,Dr J H C Lee,Physics
+239,240,PHYS3999,Directed studies in physics,Various teachers in the department,Physics
+240,241,PHYS4150,Computational physics,Dr Z Y Meng,Physics
+241,242,PHYS4151,Data analysis and modeling in physics,Prof H F Chau,Physics
+242,243,PHYS4351,Advanced quantum mechanics,Dr C Xiao,Physics
+243,244,PHYS4450,Advanced electromagnetism,Prof X D Cui,Physics
+244,245,PHYS4551,Solid state physics,Dr S Z Zhang,Physics
+245,246,PHYS4653,Selected topics in astrophysics and cosmology,Dr L X Dai,Physics
+246,247,PHYS4654,General relativity,Dr K M Lee,Physics
+247,248,PHYS4655,Interstellar medium,Dr M H Lee,Physics
+248,249,PHYS4656,Advanced astrophysics,Dr S C Y Ng,Physics
+249,250,PHYS4850,Particle physics,Dr Y J Tu,Physics
+250,251,PHYS4966,Physics internship,NIL,Physics
+251,252,PHYS4999,Physics project,Various teachers in the department,Physics
+252,253,PHYS7351,Graduate quantum mechanics,Prof S Q Shen,Physics
+253,254,PHYS7450,Graduate electromagnetic field theory,Prof Z D Wang,Physics
+254,255,PHYS7550,Graduate statistical mechanics,Dr G Chen,Physics
+255,256,PHYS7750,Nanophysics,Dr D K Ki,Physics
+256,257,ENVS3010,Sustainable energy and environment,Prof A B Djurisic,Physics
+257,258,ENTR2001,Professional and leadership development,Dr R Law,Faculty of Science
+257,258,ENTR2001,Professional and leadership development,Ms J Lloyd,CEDARS
+258,259,ENTR3001,Science-based innovation development,Dr A C Koon,Biomedical Sciences
+258,259,ENTR3001,Science-based innovation development,Dr M Kotaka,Biomedical Sciences
+259,260,ENTR3002,Customer analysis and strategic marketing,,
+260,261,ENTR4966,Entrepreneurship internship,All academic staff in Faculty of Science,
+261,262,ENTR4999,Entrepreneurship project,All academic staff in Faculty of Science,
+262,263,INRE6033,Research ethics for graduate students (Faculty of Science),Various teachers, Biomedical Sciences
+263,264,SCNC1111,Scientific method and reasoning,Dr R K W Lui,Faculty of Science
+264,265,SCNC1112,Fundamentals of modern science,Dr C Zheng,Biological Sciences
+264,265,SCNC1112,Fundamentals of modern science,Dr E K M Leung,Faculty of Science
+264,265,SCNC1112,Fundamentals of modern science,Dr H Y Au-Yeung,Chemistry
+264,265,SCNC1112,Fundamentals of modern science,Dr J C S Pun,Physics
+264,265,SCNC1112,Fundamentals of modern science,Dr L Ashton,Biological Sciences
+264,265,SCNC1112,Fundamentals of modern science,Dr M H Lee,Earth Sciences
+265,266,SCNC3111,Frontiers of science honours seminar course,Dr C Zheng,Biological Sciences
+265,266,SCNC3111,Frontiers of science honours seminar course,Dr D Yu,Faculty of Science
+265,266,SCNC3111,Frontiers of science honours seminar course,Dr E K M Leung,Faculty of Science
+265,266,SCNC3111,Frontiers of science honours seminar course,Dr R K W Lui,Faculty of Science
+266,267,SCNC4988,Science research internship I,Various teachers in the Departments,
+267,268,APAI1001,"Artificial intelligence: foundation, philosophy and ethics",Dr J Y F Lau,Philosophy
+267,268,APAI1001,"Artificial intelligence: foundation, philosophy and ethics",Dr Y Cao,Statistics & Actuarial Science
+268,269,APAI3010,Image processing and computer vision,Dr K Han,Statistics & Actuarial Science
+269,270,APAI3021,Modern biostatistics,Dr E K F Lam,Statistics & Actuarial Science
+270,271,APAI3799,Directed studies in Applied AI,Various CS teachers as the assessors of oral presentations and written reports,Computer Science
+270,271,APAI3799,Directed studies in Applied AI,Various Maths teachers as the assessors of oral presentations and written reports,Mathematics
+270,271,APAI3799,Directed studies in Applied AI,Various SAAS teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+271,272,APAI4011,Natural language processing,Dr A S M Lau,Statistics & Actuarial Science
+272,273,APAI4766,Applied AI internship,Various teachers as the assessors of oral presentations and written reports, Computer Science
+273,274,APAI4798,Applied AI project,Various CS teachers as the assessors of oral presentations and written reports,Computer Science
+273,274,APAI4798,Applied AI project,Various Maths teachers as the assessors of oral presentations and written reports,Mathematics
+273,274,APAI4798,Applied AI project,Various SAAS teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+274,275,STAT1005,Essential skills for undergraduates: foundations of data science,Dr A S M Lau,Statistics & Actuarial Science
+274,275,STAT1005,Essential skills for undergraduates: foundations of data science,Dr T Yu,Computer Science
+275,276,STAT1600,Statistics: ideas and concepts,Dr C W Kwan,Statistics & Actuarial Science
+275,276,STAT1600,Statistics: ideas and concepts,Dr E A L Li,Statistics & Actuarial Science
+276,277,STAT2601,Probability and statistics I,Dr K P Wat,Statistics & Actuarial Science
+277,278,STAT2602,Probability and statistics II,Dr D Y Zhang,Statistics & Actuarial Science
+278,279,STAT2604,Introduction to R/Python programming and elementary data analysis,Dr A S M Lau,Statistics & Actuarial Science
+279,280,STAT2901,Probability and statistics: foundations of actuarial science,Prof S M S Lee,Statistics & Actuarial Science
+280,281,STAT2902,Financial mathematics,Prof K C Yuen,Statistics & Actuarial Science
+281,282,STAT3010,Image processing and computer vision,Dr K Han,Statistics & Actuarial Science
+282,283,STAT3021,Modern biostatistics,Dr E K F Lam,Statistics & Actuarial Science
+283,284,STAT3600,Linear statistical analysis,Dr C W Kwan,Statistics & Actuarial Science
+283,284,STAT3600,Linear statistical analysis,Prof T W K Fung,Statistics & Actuarial Science
+284,285,STAT3602,Statistical inference,Prof S M S Lee,Statistics & Actuarial Science
+285,286,STAT3603,Stochastic processes,Dr C Wang,Statistics & Actuarial Science
+286,287,STAT3606,Business logistics,Dr O T K Choi,Statistics & Actuarial Science
+287,288,STAT3609,The statistics of investment risk,Dr K P Wat,Statistics & Actuarial Science
+288,289,STAT3612,Statistical machine learning,Dr L Yu,Statistics & Actuarial Science
+289,290,STAT3613,Marketing analytics,Dr C W Kwan,Statistics & Actuarial Science
+290,291,STAT3615,Practical mathematics for investment,Prof K C Yuen,Statistics & Actuarial Science
+291,292,STAT3617,Sample survey methods,Dr O T K Choi,Statistics & Actuarial Science
+291,292,STAT3617,Sample survey methods,Prof F W H Ho,Statistics & Actuarial Science
+292,293,STAT3618,Derivatives and risk management,Prof K C Cheung,Statistics & Actuarial Science
+293,294,STAT3621,Statistical data analysis,Dr Y Cao,Statistics & Actuarial Science
+294,295,STAT3622,Data visualization,Dr L Feng,Statistics & Actuarial Science
+295,296,STAT3655,Survival analysis,Dr E K F Lam,Statistics & Actuarial Science
+296,297,STAT3799,Directed studies in statistics,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+297,298,STAT3901,Life contingencies I,Prof K C Yuen,Statistics & Actuarial Science
+298,299,STAT3902,Statistical models,Dr D Y Zhang,Statistics & Actuarial Science
+299,300,STAT3903,Stochastic models,Dr K Zhu,Statistics & Actuarial Science
+300,301,STAT3904,Corporate finance for actuarial science,Dr D Lee,Statistics & Actuarial Science
+301,302,STAT3905,Introduction to financial derivatives,Prof K C Cheung,Statistics & Actuarial Science
+302,303,STAT3906,Risk theory I,Prof K C Cheung,Statistics & Actuarial Science
+303,304,STAT3907,Linear models and forecasting,Dr E A L Li,Statistics & Actuarial Science
+304,305,STAT3908,Credibility theory and loss distributions,,
+305,306,STAT3909,Life contingencies II,Dr D Lee,Statistics & Actuarial Science
+306,307,STAT3910,Financial economics I,Prof H L Yang,Statistics & Actuarial Science
+307,308,STAT3911,Financial economics II,Prof H L Yang,Statistics & Actuarial Science
+308,309,STAT3951,Further topics in contingencies,Dr D Lee,Statistics & Actuarial Science
+309,310,STAT3953,Fundamentals of actuarial practice,Dr K P Wat,Statistics & Actuarial Science
+310,311,STAT3956,Pension funds and pension mathematics,TBC,Statistics & Actuarial Science
+311,312,STAT4011,Natural language processing,Dr A S M Lau,Statistics & Actuarial Science
+312,313,STAT4601,Time-series analysis,Prof G Li,Statistics & Actuarial Science
+313,314,STAT4602,Multivariate data analysis,Prof G Li,Statistics & Actuarial Science
+314,315,STAT4603,Current topics in risk management,Dr O T K Choi,Statistics & Actuarial Science
+315,316,STAT4607,Credit risk analysis,Dr K P Wat,Statistics & Actuarial Science
+316,317,STAT4608,Market risk analysis,Dr Z Zhang,Statistics & Actuarial Science
+317,318,STAT4609,Big data analytics,Dr M M Y Zhang,Statistics & Actuarial Science
+318,319,STAT4610,Bayesian learning,Prof G Yin,Statistics & Actuarial Science
+319,320,STAT4710,Capstone experience for statistics undergraduates,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+320,321,STAT4711,Capstone experience for actuarial science undergraduates,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+321,322,STAT4766,Statistics internship,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+322,323,STAT4767,Actuarial science internship,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+323,324,STAT4798,Statistics and actuarial science project,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+324,325,STAT4799,Statistics project,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+325,326,STAT4903,Actuarial techniques for general insurance,Dr D Lee,Statistics & Actuarial Science
+326,327,STAT4904,Statistical learning for risk modelling,Dr M M Y Zhang,Statistics & Actuarial Science
+327,328,STAT7609,Research methods in statistics,Dr K Zhu,Statistics & Actuarial Science
+328,329,STAT7610,Advanced probability,Prof H L Yang,Statistics & Actuarial Science
+329,330,STAT7614,Advanced statistical modelling,Dr C Wang,Statistics & Actuarial Science
+330,331,CCGL9016,Feeding the World,,
+331,332,CCGL9033,"Weapons of Mass Destruction: Science, Proliferation and Terrorism",,
+332,333,CCGL9059,Water in a Changing World,,
+333,334,CCST9012,Our Place in the Universe,,
+334,335,CCST9013,Our Living Environment,,
+335,336,CCST9014,Science and Music,,
+336,337,CCST9017,Hidden Order in Daily Life: A Mathematical Perspective,,
+337,338,CCST9019,Understanding Climate Change,,
+338,339,CCST9022,"How the Mass Media Depicts Science, Technology and the Natural World",,
+339,340,CCST9023,The Oceans: Science and Society,,
+340,341,CCST9026,Scientific Revolutions: Their Continuing Impact on Our World and Society,,
+341,342,CCST9030,"Forensic Science: Unmasking Evidence, Mysteries and Crimes",,
+342,343,CCST9036,"Frontiers in Materials: Civilisation, Industry, and Well-Being",,
+343,344,CCST9037,Mathematics: A Cultural Heritage,,
+344,345,CCST9038,Science and Science Fiction,,
+345,346,CCST9045,The Science and Lore of Culinary Culture,,
+346,347,CCST9048,Simplifying Complexity,,
+347,348,CCST9051,What are We Made of - the Fundamental Nature of Matter,,
+348,349,CCST9054,"War, Peace, and the Natural World",,
+349,350,CCST9056,The Force is with You: How Things Work,,
+350,351,CCST9067,Leaving Earth: Our Future in Space,,
+351,352,CCST9068,Artificial Intelligence: Utopia or Dystopia?,,
