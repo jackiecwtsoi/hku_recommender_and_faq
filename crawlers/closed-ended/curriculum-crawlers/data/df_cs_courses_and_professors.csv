@@ -1,0 +1,96 @@
+,Course Code,Course Title,Term,Staff
+0,COMP1117A,"Computer Programming (ActSc, AppAI, DA, IS, Minor & 2nd Major)",1,Chim T W
+1,COMP1117A,"Computer Programming (ActSc, AppAI, DA, IS, Minor & 2nd Major)",1,Ting HF
+2,COMP1117B,"Computer Programming (Quant Fin, DA, Minor, 2nd Major)",2,Choi Loretta
+3,COMP1117B,"Computer Programming (Quant Fin, DA, Minor, 2nd Major)",2,Ting HF
+4,ENGG1330A,Computer Programming I (A1 - M2),1,Schnieders Dirk
+5,ENGG1330A,Computer Programming I (A1 - M2),1,Chui CK
+6,ENGG1340A,Computer Programming II,1,Chim T W
+7,ENGG1340B,Computer Programming II,2,Qian Chenxiong
+8,ENGG1340B,Computer Programming II,2,Chim T W
+9,ENGG1340C,Computer Programming II,2,Qian Chenxiong
+10,ENGG1340C,Computer Programming II,2,Chim T W
+11,FITE1010,Introduction to Financial Technologies,1,Yuen John
+12,FITE2000A,Foundations of FinTech Programming,2,Chow K P
+13,STAT1005,Essential skills for undergraduates: Foundations of Data Science,1,Yu Tao
+14,COMP2113A,Programming Technologies,1,Chim T W
+15,COMP2113B,Programming Technologies,2,Qian Chenxiong
+16,COMP2113B,Programming Technologies,2,Chim T W
+17,COMP2113C,Programming Technologies,2,Qian Chenxiong
+18,COMP2113C,Programming Technologies,2,Chim T W
+19,COMP2119A,Introduction to Data Structures and Algorithms (CS),1,Chan Hubert
+20,COMP2119B,"Introduction to Data Structures and Algorithms  (CE, IS, DA, Minor, 2nd Major)",1,Kao Benjamin
+21,COMP2119C,"Introduction to Data Structures and Algorithms (CS, CE, IS, DA, Minor, 2nd Major)",2,Yiu S M
+22,COMP2119C,"Introduction to Data Structures and Algorithms (CS, CE, IS, DA, Minor, 2nd Major)",2,Kao Benjamin
+23,COMP2120A,Computer Organization (CS),2,Zhao Qi
+24,COMP2120B,"Computer Organization (IS, 2nd Major)",2,Chan K P
+25,COMP2121A,Discrete Mathematics (CS),1,Chan Hubert
+26,COMP2121B,"Discrete Mathematics (CS, CE, IS)",1,Ramanathan Ravishankar
+27,COMP2121C,"Discrete Mathematics (CS, CE, IS, 2nd Major)",2,Yang Yuxiang
+28,COMP2396A,Object-oriented Programming and Java (CS),1,Wong Kenneth
+29,COMP2396B,Object-oriented Programming and Java,2,Chim T W
+30,FITE2010,Distributed Ledger and Blockchain,2,Yuen John
+31,COMP3230A,Principles of Operating Systems (CS),1,Wu Chenshu
+32,COMP3230B,"Principles of Operating Systems (CE, IS, 2nd Major)",1,Tam Anthony
+33,COMP3234A,Computer and Communication Networks,1,
+34,COMP3234B,Computer and Communication Networks (CS),2,Tam Anthony
+35,COMP3251,Algorithm Design (Regular),2,Huang Z.Y.
+36,COMP3252,Algorithm Design and Analysis (Advanced),2,Lam T W
+37,COMP3278A,Intro. to Database Management Systems (CS),1,Luo Ping
+38,COMP3278B,"Intro. to Database Management Systems (CE, IS, DA, 2nd Major)",2,Chui CK
+39,COMP3297A,Software Engineering (CS),1,Yeung Leo
+40,COMP3297B,"Software Engineering (CE, IS, 2nd Major)",2,Yeung Leo
+41,COMP3410A,Internship,1,Tam Anthony
+42,COMP3410B,Internship,"
+                summer
+              ",Tam Anthony
+43,COMP3412A,Internship,1,Tam Anthony
+44,COMP3412B,Internship,"
+                summer
+              ",Tam Anthony
+45,COMP4801,Final Year Project,"
+                full year
+              ",Chan K P
+46,COMP4802A,Extended Final Year Project,1,Choi Loretta
+47,COMP4802B,Extended Final Year Project,1,Choi Loretta
+48,COMP4802A,Extended Final Year Project,2,Choi Loretta
+49,COMP4802B,Extended Final Year Project,2,Choi Loretta
+50,COMP4804,Computing and Data Analytics Project (CDA),1,Ting HF
+51,COMP4805,Project (2nd Major),1,Ting HF
+52,FITE4801,Project,"
+                full year
+              ",Chow K P
+53,COMP2501A,Introduction to Data Science and Engineering,1,Ting HF
+54,COMP2501B,Introduction to Data Science and Engineering (DS&E),2,Luo Ruibang
+55,COMP2502,Computing Fundamentals (Minor in DS&E only),2,Chow K P
+56,COMP3231,Computer Architecture,1,Cui H.M.
+57,COMP3235,Compiling Techniques,2,Lau Francis
+58,COMP3258,Functional Programming,1,Oliveira Bruno
+59,COMP3259,Principles of Programming Languages,2,Oliveira Bruno
+60,COMP3270A,Artificial Intelligence,1,Schnieders Dirk
+61,COMP3270B,Artificial Intelligence,2,Chan K P
+62,COMP3271,Computer Graphics,1,Komura Taku
+63,COMP3314A,Machine Learning,1,Zhao Hengshuang
+64,COMP3314B,Machine Learning,2,Kong Lingpeng
+65,COMP3314C,Machine Learning,2,Yu Y Z
+66,COMP3316,Quantum Information and Computation,2,Chiribella Giulio
+67,COMP3317,Computer Vision,2,Wong Kenneth
+68,COMP3322A,Modern Technologies on World Wide Web,1,Wu C
+69,COMP3322B,Modern Technologies on World Wide Web,2,Tam Anthony
+70,COMP3329,Computer Game Design and Programming,2,Chim T W
+71,COMP3330,Interactive Mobile Application Design and Programming,1,Chim T W
+72,COMP3340,Applied Deep Learning,1,Luo Ping
+73,COMP3353,Bioinformatics,1,Luo Ruibang
+74,COMP3355,Cyber Security,1,Qian Chenxiong
+75,COMP3356,Robotics ,2,Pan Jia
+76,COMP3357,Cryptography,2,Ramanathan Ravishankar
+77,COMP3358,Distributed and Parallel Computing,2,Cui H.M.
+78,COMP3360,Data-driven Computer Animation,2,Komura Taku
+79,COMP3361,Natural Language Processing,1,Kong Lingpeng
+80,COMP3362,Hands-on AI: Experimentation & Applications,1,Choi Loretta
+81,COMP3366,Quantum Algorithms and Computer Architecture,1,Yang Yuxiang
+82,COMP3516,Data Analytics for IoT,2,Wu Chenshu
+83,FITE3010,Big Data and Data Mining,2,Liu Qi
+84,FITE3012,E-payment and Crypto-currency,1,Au Allen
+85,COMP7310,Artificial intelligence of things,1,Wu Chenshu
+86,COMP7607,Natural language processing,1,Kong Lingpeng

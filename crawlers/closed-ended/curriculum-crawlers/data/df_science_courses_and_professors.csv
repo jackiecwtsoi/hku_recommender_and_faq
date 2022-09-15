@@ -154,7 +154,7 @@
 72,73,ENVS1301,Environmental life science,Dr T Vengatesen,School of Biological Sciences
 73,74,ENVS2001,Methods in environmental science,Dr D M Baker,School of Biological Sciences
 74,75,ENVS2002,Environmental data analysis,Dr T C Bonebrake,School of Biological Sciences
-75,76,ENVS3020,Global change ecology,TBC,School of Biological Sciences
+75,76,ENVS3020,Global change ecology,Dr L A Ashton,School of Biological Sciences
 76,77,ENVS3028,Coastal Sustainability,Dr T Vengatesen,School of Biological Sciences
 76,77,ENVS3028,Coastal Sustainability,Prof G A Williams,School of Biological Sciences
 77,78,ENVS3202,Plant ecophysiology and climate change,Dr J Wu,School of Biological Sciences
@@ -393,136 +393,135 @@
 235,236,PHYS3750,Foundations of laser and spectroscopy,Dr T T Luu,Physics
 236,237,PHYS3760,Physics laboratory,Dr T T Luu,Physics
 237,238,PHYS3850,Physical Optics,Dr D K Ki,Physics
-238,239,PHYS3851,Atomic and nuclear physics,Dr J H C Lee,Physics
-239,240,PHYS3999,Directed studies in physics,Various teachers in the department,Physics
-240,241,PHYS4150,Computational physics,Dr Z Y Meng,Physics
-241,242,PHYS4151,Data analysis and modeling in physics,Prof H F Chau,Physics
-242,243,PHYS4351,Advanced quantum mechanics,Dr C Xiao,Physics
-243,244,PHYS4450,Advanced electromagnetism,Prof X D Cui,Physics
-244,245,PHYS4551,Solid state physics,Dr S Z Zhang,Physics
-245,246,PHYS4653,Selected topics in astrophysics and cosmology,Dr L X Dai,Physics
-246,247,PHYS4654,General relativity,Dr K M Lee,Physics
-247,248,PHYS4655,Interstellar medium,Dr M H Lee,Physics
-248,249,PHYS4656,Advanced astrophysics,Dr S C Y Ng,Physics
-249,250,PHYS4850,Particle physics,Dr Y J Tu,Physics
-250,251,PHYS4966,Physics internship,NIL,Physics
-251,252,PHYS4999,Physics project,Various teachers in the department,Physics
-252,253,PHYS7351,Graduate quantum mechanics,Prof S Q Shen,Physics
-253,254,PHYS7450,Graduate electromagnetic field theory,Prof Z D Wang,Physics
-254,255,PHYS7550,Graduate statistical mechanics,Dr G Chen,Physics
-255,256,PHYS7750,Nanophysics,Dr D K Ki,Physics
-256,257,ENVS3010,Sustainable energy and environment,Prof A B Djurisic,Physics
-257,258,ENTR2001,Professional and leadership development,Dr R Law,Faculty of Science
-257,258,ENTR2001,Professional and leadership development,Ms J Lloyd,CEDARS
-258,259,ENTR3001,Science-based innovation development,Dr A C Koon,Biomedical Sciences
-258,259,ENTR3001,Science-based innovation development,Dr M Kotaka,Biomedical Sciences
-259,260,ENTR3002,Customer analysis and strategic marketing,,
-260,261,ENTR4966,Entrepreneurship internship,All academic staff in Faculty of Science,
-261,262,ENTR4999,Entrepreneurship project,All academic staff in Faculty of Science,
-262,263,INRE6033,Research ethics for graduate students (Faculty of Science),Various teachers, Biomedical Sciences
-263,264,SCNC1111,Scientific method and reasoning,Dr R K W Lui,Faculty of Science
-264,265,SCNC1112,Fundamentals of modern science,Dr C Zheng,Biological Sciences
-264,265,SCNC1112,Fundamentals of modern science,Dr E K M Leung,Faculty of Science
-264,265,SCNC1112,Fundamentals of modern science,Dr H Y Au-Yeung,Chemistry
-264,265,SCNC1112,Fundamentals of modern science,Dr J C S Pun,Physics
-264,265,SCNC1112,Fundamentals of modern science,Dr L Ashton,Biological Sciences
-264,265,SCNC1112,Fundamentals of modern science,Dr M H Lee,Earth Sciences
-265,266,SCNC3111,Frontiers of science honours seminar course,Dr C Zheng,Biological Sciences
-265,266,SCNC3111,Frontiers of science honours seminar course,Dr D Yu,Faculty of Science
-265,266,SCNC3111,Frontiers of science honours seminar course,Dr E K M Leung,Faculty of Science
-265,266,SCNC3111,Frontiers of science honours seminar course,Dr R K W Lui,Faculty of Science
-266,267,SCNC4988,Science research internship I,Various teachers in the Departments,
-267,268,APAI1001,"Artificial intelligence: foundation, philosophy and ethics",Dr J Y F Lau,Philosophy
-267,268,APAI1001,"Artificial intelligence: foundation, philosophy and ethics",Dr Y Cao,Statistics & Actuarial Science
-268,269,APAI3010,Image processing and computer vision,Dr K Han,Statistics & Actuarial Science
-269,270,APAI3021,Modern biostatistics,Dr E K F Lam,Statistics & Actuarial Science
-270,271,APAI3799,Directed studies in Applied AI,Various CS teachers as the assessors of oral presentations and written reports,Computer Science
-270,271,APAI3799,Directed studies in Applied AI,Various Maths teachers as the assessors of oral presentations and written reports,Mathematics
-270,271,APAI3799,Directed studies in Applied AI,Various SAAS teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
-271,272,APAI4011,Natural language processing,Dr A S M Lau,Statistics & Actuarial Science
-272,273,APAI4766,Applied AI internship,Various teachers as the assessors of oral presentations and written reports, Computer Science
-273,274,APAI4798,Applied AI project,Various CS teachers as the assessors of oral presentations and written reports,Computer Science
-273,274,APAI4798,Applied AI project,Various Maths teachers as the assessors of oral presentations and written reports,Mathematics
-273,274,APAI4798,Applied AI project,Various SAAS teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
-274,275,STAT1005,Essential skills for undergraduates: foundations of data science,Dr A S M Lau,Statistics & Actuarial Science
-274,275,STAT1005,Essential skills for undergraduates: foundations of data science,Dr T Yu,Computer Science
-275,276,STAT1600,Statistics: ideas and concepts,Dr C W Kwan,Statistics & Actuarial Science
-275,276,STAT1600,Statistics: ideas and concepts,Dr E A L Li,Statistics & Actuarial Science
-276,277,STAT2601,Probability and statistics I,Dr K P Wat,Statistics & Actuarial Science
-277,278,STAT2602,Probability and statistics II,Dr D Y Zhang,Statistics & Actuarial Science
-278,279,STAT2604,Introduction to R/Python programming and elementary data analysis,Dr A S M Lau,Statistics & Actuarial Science
-279,280,STAT2901,Probability and statistics: foundations of actuarial science,Prof S M S Lee,Statistics & Actuarial Science
-280,281,STAT2902,Financial mathematics,Prof K C Yuen,Statistics & Actuarial Science
-281,282,STAT3010,Image processing and computer vision,Dr K Han,Statistics & Actuarial Science
-282,283,STAT3021,Modern biostatistics,Dr E K F Lam,Statistics & Actuarial Science
-283,284,STAT3600,Linear statistical analysis,Dr C W Kwan,Statistics & Actuarial Science
-283,284,STAT3600,Linear statistical analysis,Prof T W K Fung,Statistics & Actuarial Science
-284,285,STAT3602,Statistical inference,Prof S M S Lee,Statistics & Actuarial Science
-285,286,STAT3603,Stochastic processes,Dr C Wang,Statistics & Actuarial Science
-286,287,STAT3606,Business logistics,Dr O T K Choi,Statistics & Actuarial Science
-287,288,STAT3609,The statistics of investment risk,Dr K P Wat,Statistics & Actuarial Science
-288,289,STAT3612,Statistical machine learning,Dr L Yu,Statistics & Actuarial Science
-289,290,STAT3613,Marketing analytics,Dr C W Kwan,Statistics & Actuarial Science
-290,291,STAT3615,Practical mathematics for investment,Prof K C Yuen,Statistics & Actuarial Science
-291,292,STAT3617,Sample survey methods,Dr O T K Choi,Statistics & Actuarial Science
-291,292,STAT3617,Sample survey methods,Prof F W H Ho,Statistics & Actuarial Science
-292,293,STAT3618,Derivatives and risk management,Prof K C Cheung,Statistics & Actuarial Science
-293,294,STAT3621,Statistical data analysis,Dr Y Cao,Statistics & Actuarial Science
-294,295,STAT3622,Data visualization,Dr L Feng,Statistics & Actuarial Science
-295,296,STAT3655,Survival analysis,Dr E K F Lam,Statistics & Actuarial Science
-296,297,STAT3799,Directed studies in statistics,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
-297,298,STAT3901,Life contingencies I,Prof K C Yuen,Statistics & Actuarial Science
-298,299,STAT3902,Statistical models,Dr D Y Zhang,Statistics & Actuarial Science
-299,300,STAT3903,Stochastic models,Dr K Zhu,Statistics & Actuarial Science
-300,301,STAT3904,Corporate finance for actuarial science,Dr D Lee,Statistics & Actuarial Science
-301,302,STAT3905,Introduction to financial derivatives,Prof K C Cheung,Statistics & Actuarial Science
-302,303,STAT3906,Risk theory I,Prof K C Cheung,Statistics & Actuarial Science
-303,304,STAT3907,Linear models and forecasting,Dr E A L Li,Statistics & Actuarial Science
-304,305,STAT3908,Credibility theory and loss distributions,,
-305,306,STAT3909,Life contingencies II,Dr D Lee,Statistics & Actuarial Science
-306,307,STAT3910,Financial economics I,Prof H L Yang,Statistics & Actuarial Science
-307,308,STAT3911,Financial economics II,Prof H L Yang,Statistics & Actuarial Science
-308,309,STAT3951,Further topics in contingencies,Dr D Lee,Statistics & Actuarial Science
-309,310,STAT3953,Fundamentals of actuarial practice,Dr K P Wat,Statistics & Actuarial Science
-310,311,STAT3956,Pension funds and pension mathematics,TBC,Statistics & Actuarial Science
-311,312,STAT4011,Natural language processing,Dr A S M Lau,Statistics & Actuarial Science
-312,313,STAT4601,Time-series analysis,Prof G Li,Statistics & Actuarial Science
-313,314,STAT4602,Multivariate data analysis,Prof G Li,Statistics & Actuarial Science
-314,315,STAT4603,Current topics in risk management,Dr O T K Choi,Statistics & Actuarial Science
-315,316,STAT4607,Credit risk analysis,Dr K P Wat,Statistics & Actuarial Science
-316,317,STAT4608,Market risk analysis,Dr Z Zhang,Statistics & Actuarial Science
-317,318,STAT4609,Big data analytics,Dr M M Y Zhang,Statistics & Actuarial Science
-318,319,STAT4610,Bayesian learning,Prof G Yin,Statistics & Actuarial Science
-319,320,STAT4710,Capstone experience for statistics undergraduates,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
-320,321,STAT4711,Capstone experience for actuarial science undergraduates,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
-321,322,STAT4766,Statistics internship,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
-322,323,STAT4767,Actuarial science internship,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
-323,324,STAT4798,Statistics and actuarial science project,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
-324,325,STAT4799,Statistics project,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
-325,326,STAT4903,Actuarial techniques for general insurance,Dr D Lee,Statistics & Actuarial Science
-326,327,STAT4904,Statistical learning for risk modelling,Dr M M Y Zhang,Statistics & Actuarial Science
-327,328,STAT7609,Research methods in statistics,Dr K Zhu,Statistics & Actuarial Science
-328,329,STAT7610,Advanced probability,Prof H L Yang,Statistics & Actuarial Science
-329,330,STAT7614,Advanced statistical modelling,Dr C Wang,Statistics & Actuarial Science
-330,331,CCGL9016,Feeding the World,,
-331,332,CCGL9033,"Weapons of Mass Destruction: Science, Proliferation and Terrorism",,
-332,333,CCGL9059,Water in a Changing World,,
-333,334,CCST9012,Our Place in the Universe,,
-334,335,CCST9013,Our Living Environment,,
-335,336,CCST9014,Science and Music,,
-336,337,CCST9017,Hidden Order in Daily Life: A Mathematical Perspective,,
-337,338,CCST9019,Understanding Climate Change,,
-338,339,CCST9022,"How the Mass Media Depicts Science, Technology and the Natural World",,
-339,340,CCST9023,The Oceans: Science and Society,,
-340,341,CCST9026,Scientific Revolutions: Their Continuing Impact on Our World and Society,,
-341,342,CCST9030,"Forensic Science: Unmasking Evidence, Mysteries and Crimes",,
-342,343,CCST9036,"Frontiers in Materials: Civilisation, Industry, and Well-Being",,
-343,344,CCST9037,Mathematics: A Cultural Heritage,,
-344,345,CCST9038,Science and Science Fiction,,
-345,346,CCST9045,The Science and Lore of Culinary Culture,,
-346,347,CCST9048,Simplifying Complexity,,
-347,348,CCST9051,What are We Made of - the Fundamental Nature of Matter,,
-348,349,CCST9054,"War, Peace, and the Natural World",,
-349,350,CCST9056,The Force is with You: How Things Work,,
-350,351,CCST9067,Leaving Earth: Our Future in Space,,
-351,352,CCST9068,Artificial Intelligence: Utopia or Dystopia?,,
+238,239,PHYS3999,Directed studies in physics,Various teachers in the department,Physics
+239,240,PHYS4150,Computational physics,Dr Z Y Meng,Physics
+240,241,PHYS4151,Data analysis and modeling in physics,Prof H F Chau,Physics
+241,242,PHYS4351,Advanced quantum mechanics,Dr C Xiao,Physics
+242,243,PHYS4450,Advanced electromagnetism,Prof X D Cui,Physics
+243,244,PHYS4551,Solid state physics,Dr S Z Zhang,Physics
+244,245,PHYS4653,Selected topics in astrophysics and cosmology,Dr L X Dai,Physics
+245,246,PHYS4654,General relativity,Dr K M Lee,Physics
+246,247,PHYS4655,Interstellar medium,Dr M H Lee,Physics
+247,248,PHYS4656,Advanced astrophysics,Dr S C Y Ng,Physics
+248,249,PHYS4850,Particle physics,Dr Y J Tu,Physics
+249,250,PHYS4966,Physics internship,NIL,Physics
+250,251,PHYS4999,Physics project,Various teachers in the department,Physics
+251,252,PHYS7351,Graduate quantum mechanics,Prof S Q Shen,Physics
+252,253,PHYS7450,Graduate electromagnetic field theory,Prof Z D Wang,Physics
+253,254,PHYS7550,Graduate statistical mechanics,Dr G Chen,Physics
+254,255,PHYS7750,Nanophysics,Dr D K Ki,Physics
+255,256,ENVS3010,Sustainable energy and environment,Prof A B Djurisic,Physics
+256,257,ENTR2001,Professional and leadership development,Dr R Law,Faculty of Science
+256,257,ENTR2001,Professional and leadership development,Ms J Lloyd,CEDARS
+257,258,ENTR3001,Science-based innovation development,Dr A C Koon,Biomedical Sciences
+257,258,ENTR3001,Science-based innovation development,Dr M Kotaka,Biomedical Sciences
+258,259,ENTR3002,Customer analysis and strategic marketing,,
+259,260,ENTR4966,Entrepreneurship internship,All academic staff in Faculty of Science,
+260,261,ENTR4999,Entrepreneurship project,All academic staff in Faculty of Science,
+261,262,INRE6033,Research ethics for graduate students (Faculty of Science),Various teachers, Biomedical Sciences
+262,263,SCNC1111,Scientific method and reasoning,Dr R K W Lui,Faculty of Science
+263,264,SCNC1112,Fundamentals of modern science,Dr C Zheng,Biological Sciences
+263,264,SCNC1112,Fundamentals of modern science,Dr E K M Leung,Faculty of Science
+263,264,SCNC1112,Fundamentals of modern science,Dr H Y Au-Yeung,Chemistry
+263,264,SCNC1112,Fundamentals of modern science,Dr J C S Pun,Physics
+263,264,SCNC1112,Fundamentals of modern science,Dr L Ashton,Biological Sciences
+263,264,SCNC1112,Fundamentals of modern science,Dr M H Lee,Earth Sciences
+264,265,SCNC3111,Frontiers of science honours seminar course,Dr C Zheng,Biological Sciences
+264,265,SCNC3111,Frontiers of science honours seminar course,Dr D Yu,Faculty of Science
+264,265,SCNC3111,Frontiers of science honours seminar course,Dr E K M Leung,Faculty of Science
+264,265,SCNC3111,Frontiers of science honours seminar course,Dr R K W Lui,Faculty of Science
+265,266,SCNC4988,Science research internship I,Various teachers in the Departments,
+266,267,APAI1001,"Artificial intelligence: foundation, philosophy and ethics",Dr J Y F Lau,Philosophy
+266,267,APAI1001,"Artificial intelligence: foundation, philosophy and ethics",Dr Y Cao,Statistics & Actuarial Science
+267,268,APAI3010,Image processing and computer vision,Dr K Han,Statistics & Actuarial Science
+268,269,APAI3021,Modern biostatistics,Dr E K F Lam,Statistics & Actuarial Science
+269,270,APAI3799,Directed studies in Applied AI,Various CS teachers as the assessors of oral presentations and written reports,Computer Science
+269,270,APAI3799,Directed studies in Applied AI,Various Maths teachers as the assessors of oral presentations and written reports,Mathematics
+269,270,APAI3799,Directed studies in Applied AI,Various SAAS teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+270,271,APAI4011,Natural language processing,Dr A S M Lau,Statistics & Actuarial Science
+271,272,APAI4766,Applied AI internship,Various teachers as the assessors of oral presentations and written reports, Computer Science
+272,273,APAI4798,Applied AI project,Various CS teachers as the assessors of oral presentations and written reports,Computer Science
+272,273,APAI4798,Applied AI project,Various Maths teachers as the assessors of oral presentations and written reports,Mathematics
+272,273,APAI4798,Applied AI project,Various SAAS teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+273,274,STAT1005,Essential skills for undergraduates: foundations of data science,Dr A S M Lau,Statistics & Actuarial Science
+273,274,STAT1005,Essential skills for undergraduates: foundations of data science,Dr T Yu,Computer Science
+274,275,STAT1600,Statistics: ideas and concepts,Dr C W Kwan,Statistics & Actuarial Science
+274,275,STAT1600,Statistics: ideas and concepts,Dr E A L Li,Statistics & Actuarial Science
+275,276,STAT2601,Probability and statistics I,Dr K P Wat,Statistics & Actuarial Science
+276,277,STAT2602,Probability and statistics II,Dr D Y Zhang,Statistics & Actuarial Science
+277,278,STAT2604,Introduction to R/Python programming and elementary data analysis,Dr A S M Lau,Statistics & Actuarial Science
+278,279,STAT2901,Probability and statistics: foundations of actuarial science,Prof S M S Lee,Statistics & Actuarial Science
+279,280,STAT2902,Financial mathematics,Prof K C Yuen,Statistics & Actuarial Science
+280,281,STAT3010,Image processing and computer vision,Dr K Han,Statistics & Actuarial Science
+281,282,STAT3021,Modern biostatistics,Dr E K F Lam,Statistics & Actuarial Science
+282,283,STAT3600,Linear statistical analysis,Dr C W Kwan,Statistics & Actuarial Science
+282,283,STAT3600,Linear statistical analysis,Prof T W K Fung,Statistics & Actuarial Science
+283,284,STAT3602,Statistical inference,Prof S M S Lee,Statistics & Actuarial Science
+284,285,STAT3603,Stochastic processes,Dr C Wang,Statistics & Actuarial Science
+285,286,STAT3606,Business logistics,Dr O T K Choi,Statistics & Actuarial Science
+286,287,STAT3609,The statistics of investment risk,Dr K P Wat,Statistics & Actuarial Science
+287,288,STAT3612,Statistical machine learning,Dr L Yu,Statistics & Actuarial Science
+288,289,STAT3613,Marketing analytics,Dr C W Kwan,Statistics & Actuarial Science
+289,290,STAT3615,Practical mathematics for investment,Prof K C Yuen,Statistics & Actuarial Science
+290,291,STAT3617,Sample survey methods,Dr O T K Choi,Statistics & Actuarial Science
+290,291,STAT3617,Sample survey methods,Prof F W H Ho,Statistics & Actuarial Science
+291,292,STAT3618,Derivatives and risk management,Prof K C Cheung,Statistics & Actuarial Science
+292,293,STAT3621,Statistical data analysis,Dr Y Cao,Statistics & Actuarial Science
+293,294,STAT3622,Data visualization,Dr L Feng,Statistics & Actuarial Science
+294,295,STAT3655,Survival analysis,Dr E K F Lam,Statistics & Actuarial Science
+295,296,STAT3799,Directed studies in statistics,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+296,297,STAT3901,Life contingencies I,Prof K C Yuen,Statistics & Actuarial Science
+297,298,STAT3902,Statistical models,Dr D Y Zhang,Statistics & Actuarial Science
+298,299,STAT3903,Stochastic models,Dr K Zhu,Statistics & Actuarial Science
+299,300,STAT3904,Corporate finance for actuarial science,Dr D Lee,Statistics & Actuarial Science
+300,301,STAT3905,Introduction to financial derivatives,Prof K C Cheung,Statistics & Actuarial Science
+301,302,STAT3906,Risk theory I,Prof K C Cheung,Statistics & Actuarial Science
+302,303,STAT3907,Linear models and forecasting,Dr E A L Li,Statistics & Actuarial Science
+303,304,STAT3908,Credibility theory and loss distributions,,
+304,305,STAT3909,Life contingencies II,Dr D Lee,Statistics & Actuarial Science
+305,306,STAT3910,Financial economics I,Prof H L Yang,Statistics & Actuarial Science
+306,307,STAT3911,Financial economics II,Prof H L Yang,Statistics & Actuarial Science
+307,308,STAT3951,Further topics in contingencies,Dr D Lee,Statistics & Actuarial Science
+308,309,STAT3953,Fundamentals of actuarial practice,Dr K P Wat,Statistics & Actuarial Science
+309,310,STAT3956,Pension funds and pension mathematics,TBC,Statistics & Actuarial Science
+310,311,STAT4011,Natural language processing,Dr A S M Lau,Statistics & Actuarial Science
+311,312,STAT4601,Time-series analysis,Prof G Li,Statistics & Actuarial Science
+312,313,STAT4602,Multivariate data analysis,Prof G Li,Statistics & Actuarial Science
+313,314,STAT4603,Current topics in risk management,Dr O T K Choi,Statistics & Actuarial Science
+314,315,STAT4607,Credit risk analysis,Dr K P Wat,Statistics & Actuarial Science
+315,316,STAT4608,Market risk analysis,Dr Z Zhang,Statistics & Actuarial Science
+316,317,STAT4609,Big data analytics,Dr M M Y Zhang,Statistics & Actuarial Science
+317,318,STAT4610,Bayesian learning,Prof G Yin,Statistics & Actuarial Science
+318,319,STAT4710,Capstone experience for statistics undergraduates,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+319,320,STAT4711,Capstone experience for actuarial science undergraduates,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+320,321,STAT4766,Statistics internship,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+321,322,STAT4767,Actuarial science internship,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+322,323,STAT4798,Statistics and actuarial science project,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+323,324,STAT4799,Statistics project,Various teachers as the assessors of oral presentations and written reports,Statistics & Actuarial Science
+324,325,STAT4903,Actuarial techniques for general insurance,Dr D Lee,Statistics & Actuarial Science
+325,326,STAT4904,Statistical learning for risk modelling,Dr M M Y Zhang,Statistics & Actuarial Science
+326,327,STAT7609,Research methods in statistics,Dr K Zhu,Statistics & Actuarial Science
+327,328,STAT7610,Advanced probability,Prof H L Yang,Statistics & Actuarial Science
+328,329,STAT7614,Advanced statistical modelling,Dr C Wang,Statistics & Actuarial Science
+329,330,CCGL9016,Feeding the World,,
+330,331,CCGL9033,"Weapons of Mass Destruction: Science, Proliferation and Terrorism",,
+331,332,CCGL9059,Water in a Changing World,,
+332,333,CCST9012,Our Place in the Universe,,
+333,334,CCST9013,Our Living Environment,,
+334,335,CCST9014,Science and Music,,
+335,336,CCST9017,Hidden Order in Daily Life: A Mathematical Perspective,,
+336,337,CCST9019,Understanding Climate Change,,
+337,338,CCST9022,"How the Mass Media Depicts Science, Technology and the Natural World",,
+338,339,CCST9023,The Oceans: Science and Society,,
+339,340,CCST9026,Scientific Revolutions: Their Continuing Impact on Our World and Society,,
+340,341,CCST9030,"Forensic Science: Unmasking Evidence, Mysteries and Crimes",,
+341,342,CCST9036,"Frontiers in Materials: Civilisation, Industry, and Well-Being",,
+342,343,CCST9037,Mathematics: A Cultural Heritage,,
+343,344,CCST9038,Science and Science Fiction,,
+344,345,CCST9045,The Science and Lore of Culinary Culture,,
+345,346,CCST9048,Simplifying Complexity,,
+346,347,CCST9051,What are We Made of - the Fundamental Nature of Matter,,
+347,348,CCST9054,"War, Peace, and the Natural World",,
+348,349,CCST9056,The Force is with You: How Things Work,,
+349,350,CCST9067,Leaving Earth: Our Future in Space,,
+350,351,CCST9068,Artificial Intelligence: Utopia or Dystopia?,,
