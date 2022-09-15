@@ -63,6 +63,9 @@
         <Class IRI="#CourseLearningOutcomes"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CourseTitle"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#CourseType"/>
     </Declaration>
     <Declaration>
@@ -105,7 +108,7 @@
         <Class IRI="#InterestArea"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#JobApplicationProcedure"/>
+        <Class IRI="#JobApplication"/>
     </Declaration>
     <Declaration>
         <Class IRI="#JobAspiration"/>
@@ -243,6 +246,10 @@
         <Class IRI="#CourseContent"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#CourseTitle"/>
+        <Class IRI="#CourseBasicInfo"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CourseType"/>
         <Class IRI="#CourseContent"/>
     </SubClassOf>
@@ -299,8 +306,8 @@
         <Class IRI="#EducationalInfo"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#JobApplicationProcedure"/>
-        <Class IRI="#JobQualification"/>
+        <Class IRI="#JobApplication"/>
+        <Class IRI="#Career"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#JobAspiration"/>
@@ -459,10 +466,6 @@
         <Class IRI="#HighSchoolActualGrades"/>
         <Class IRI="#HighSchoolCurriculum"/>
         <Class IRI="#HighSchoolPredictedGrades"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#JobApplicationProcedure"/>
-        <Class IRI="#JobRequiredQualification"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#JobBasicInfo"/>
