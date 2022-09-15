@@ -1,0 +1,487 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/kackie/ontologies/2022/8/university-info-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/kackie/ontologies/2022/8/university-info-ontology">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AdditionalCourseInfo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiologicalSciences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiomedicalSciences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Career"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chinese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComputerScience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CourseAssessmentInfo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CourseAssociatedCareer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CourseBasicInfo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CourseCode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CourseContent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CourseDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CourseGrade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CourseInfo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CourseLearningOutcomes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CourseType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoursesOffered"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeclaredFaculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeclaredMajor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EarthSciences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EducationalInfo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#English"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacultyOfScience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FirstName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighSchoolActualGrades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighSchoolCurriculum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighSchoolInfo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighSchoolPredictedGrades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterestArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JobApplicationProcedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JobAspiration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JobBasicInfo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JobDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JobQualification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JobRequiredQualification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JobRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JobTitle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LanguageSkills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LastName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mathematics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NontechnicalSkills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumberOfHours"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OfferingDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherSkills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PersonalInfo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreferredLanguage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prerequisites"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ScienceCommonCore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StatisticsAndActuarialScience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teachers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechnicalSkills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weightings"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AdditionalCourseInfo"/>
+        <Class IRI="#CourseContent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiologicalSciences"/>
+        <Class IRI="#CoursesOffered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiomedicalSciences"/>
+        <Class IRI="#CoursesOffered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemistry"/>
+        <Class IRI="#CoursesOffered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chinese"/>
+        <Class IRI="#CoursesOffered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputerScience"/>
+        <Class IRI="#CoursesOffered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CourseAssessmentInfo"/>
+        <Class IRI="#CourseInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CourseAssociatedCareer"/>
+        <Class IRI="#Course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CourseBasicInfo"/>
+        <Class IRI="#CourseInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CourseCode"/>
+        <Class IRI="#CourseBasicInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CourseContent"/>
+        <Class IRI="#CourseInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CourseDescription"/>
+        <Class IRI="#CourseContent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CourseGrade"/>
+        <Class IRI="#CourseAssessmentInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CourseInfo"/>
+        <Class IRI="#Course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CourseLearningOutcomes"/>
+        <Class IRI="#CourseContent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CourseType"/>
+        <Class IRI="#CourseContent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoursesOffered"/>
+        <Class IRI="#Course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeclaredFaculty"/>
+        <Class IRI="#EducationalInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeclaredMajor"/>
+        <Class IRI="#EducationalInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EarthSciences"/>
+        <Class IRI="#CoursesOffered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EducationalInfo"/>
+        <Class IRI="#Student"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#English"/>
+        <Class IRI="#CoursesOffered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacultyOfScience"/>
+        <Class IRI="#CoursesOffered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FirstName"/>
+        <Class IRI="#PersonalInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighSchoolActualGrades"/>
+        <Class IRI="#HighSchoolInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighSchoolCurriculum"/>
+        <Class IRI="#HighSchoolInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighSchoolInfo"/>
+        <Class IRI="#EducationalInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighSchoolPredictedGrades"/>
+        <Class IRI="#HighSchoolInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InterestArea"/>
+        <Class IRI="#EducationalInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JobApplicationProcedure"/>
+        <Class IRI="#JobQualification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JobAspiration"/>
+        <Class IRI="#EducationalInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JobBasicInfo"/>
+        <Class IRI="#Career"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JobDescription"/>
+        <Class IRI="#JobBasicInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JobQualification"/>
+        <Class IRI="#Career"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JobRequiredQualification"/>
+        <Class IRI="#JobQualification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JobRequirement"/>
+        <Class IRI="#JobBasicInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JobTitle"/>
+        <Class IRI="#JobBasicInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LanguageSkills"/>
+        <Class IRI="#Skills"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LastName"/>
+        <Class IRI="#PersonalInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mathematics"/>
+        <Class IRI="#CoursesOffered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NontechnicalSkills"/>
+        <Class IRI="#Skills"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumberOfHours"/>
+        <Class IRI="#CourseAssessmentInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OfferingDepartment"/>
+        <Class IRI="#CourseBasicInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherSkills"/>
+        <Class IRI="#Skills"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PersonalInfo"/>
+        <Class IRI="#Student"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physics"/>
+        <Class IRI="#CoursesOffered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreferredLanguage"/>
+        <Class IRI="#PersonalInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prerequisites"/>
+        <Class IRI="#CourseBasicInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ScienceCommonCore"/>
+        <Class IRI="#CoursesOffered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skills"/>
+        <Class IRI="#Student"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StatisticsAndActuarialScience"/>
+        <Class IRI="#CoursesOffered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teachers"/>
+        <Class IRI="#CourseBasicInfo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechnicalSkills"/>
+        <Class IRI="#Skills"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weightings"/>
+        <Class IRI="#CourseAssessmentInfo"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#BiologicalSciences"/>
+        <Class IRI="#BiomedicalSciences"/>
+        <Class IRI="#Chemistry"/>
+        <Class IRI="#Chinese"/>
+        <Class IRI="#ComputerScience"/>
+        <Class IRI="#EarthSciences"/>
+        <Class IRI="#English"/>
+        <Class IRI="#FacultyOfScience"/>
+        <Class IRI="#Mathematics"/>
+        <Class IRI="#Physics"/>
+        <Class IRI="#ScienceCommonCore"/>
+        <Class IRI="#StatisticsAndActuarialScience"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Career"/>
+        <Class IRI="#Course"/>
+        <Class IRI="#Student"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CourseAssessmentInfo"/>
+        <Class IRI="#CourseBasicInfo"/>
+        <Class IRI="#CourseContent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CourseAssociatedCareer"/>
+        <Class IRI="#CourseInfo"/>
+        <Class IRI="#CoursesOffered"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CourseCode"/>
+        <Class IRI="#OfferingDepartment"/>
+        <Class IRI="#Prerequisites"/>
+        <Class IRI="#Teachers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CourseGrade"/>
+        <Class IRI="#NumberOfHours"/>
+        <Class IRI="#Weightings"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeclaredFaculty"/>
+        <Class IRI="#DeclaredMajor"/>
+        <Class IRI="#HighSchoolInfo"/>
+        <Class IRI="#InterestArea"/>
+        <Class IRI="#JobAspiration"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EducationalInfo"/>
+        <Class IRI="#PersonalInfo"/>
+        <Class IRI="#Skills"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FirstName"/>
+        <Class IRI="#LastName"/>
+        <Class IRI="#PreferredLanguage"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HighSchoolActualGrades"/>
+        <Class IRI="#HighSchoolCurriculum"/>
+        <Class IRI="#HighSchoolPredictedGrades"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#JobApplicationProcedure"/>
+        <Class IRI="#JobRequiredQualification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#JobBasicInfo"/>
+        <Class IRI="#JobQualification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#JobDescription"/>
+        <Class IRI="#JobRequirement"/>
+        <Class IRI="#JobTitle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LanguageSkills"/>
+        <Class IRI="#NontechnicalSkills"/>
+        <Class IRI="#OtherSkills"/>
+        <Class IRI="#TechnicalSkills"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

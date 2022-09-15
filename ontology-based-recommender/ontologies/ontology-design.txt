@@ -1,0 +1,60 @@
+Course
+	CourseInfo
+		CourseBasicInfo
+			CourseCode
+			OfferingDepartment
+			Teachers
+			Prerequisites
+		CourseContent
+			CourseDescription
+			CourseObjectives
+			CourseLearningOutcomes
+			CourseType
+			AdditionalCourseInfo
+		CourseAssessmentInfo
+			CourseGrade
+			NumberOfHours
+			Weightings
+	CourseAssociatedCareer
+	CoursesOffered
+		BiomedicalSciences
+		BiologicalSciences
+		English
+		Chemistry
+		Chinese
+		ComputerScience
+		EarthSciences
+		Mathematics
+		Physics
+		FacultyOfScience
+		StatisticsAndActuarialScience
+		ScienceCommonCore
+Student
+	PersonalInfo
+		FirstName
+		LastName
+		PreferredLanguage
+	EducationalInfo
+		DeclaredMajor
+		DeclaredFaculty
+		HighSchoolInfo
+			HighSchoolCurriculum
+			HighSchoolPredictedGrades
+			HighSchoolActualGrades
+		InterestArea
+		JobAspiration
+	Skills
+		TechnicalSkills
+		NontechnicalSkills
+		LanguageSkills
+		OtherSkills
+Career
+	JobBasicInfo
+		JobTitle
+		JobDescription
+		JobRequirement
+	JobQualification
+		JobRequiredQualification
+		JobApplicationProcedure
+
+	
