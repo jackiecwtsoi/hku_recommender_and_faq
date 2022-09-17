@@ -1,0 +1,11 @@
+﻿student_provided_info,student_profile_equivalent,intent,target_course_code
+I want to learn about programming but I am a beginner.,interest_area,recommendation,COMP1117A
+I'm not familiar to databases but would like learn more about it.,interest_area,recommendation,COMP3278A
+I am interested in both biology and chemistry.,interest_area,recommendation,BIOC1600
+I am not good at math but I want to be in the science programme. Which math foundation course should I take?,interest_area,recommendation,MATH1011
+I am interested in the solar system.,interest_area,recommendation,PHYS1650
+"Interested in fintech, especially trading algorithms.",interest_area,recommendation,FITE1010
+I want to know more Java and practice to write some apps. Where can I learn that?,interest_area,recommendation,COMP3330
+Any common core courses about the environment?,interest_area,recommendation,CCST9013
+I like robots.,interest_area,recommendation,COMP3356
+I wanna learn about earth sciences.,interest_area,recommendation,EASC1401
