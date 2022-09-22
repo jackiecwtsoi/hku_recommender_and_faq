@@ -24,13 +24,3 @@ def generate_subject_domain_recommendations(student: Student, SUBJECT_DOMAIN_KEY
     df_recommendations = df_subject_domain_similarities.head(k)
 
     return df_recommendations
-
-# personal_info1 = PersonalInfo('Jackie', 'Tsoi', 'English')
-# educational_info1 = EducationalInfo(STUDENT_INTEREST_TEXT)
-# s1 = Student(personal_info1)
-# s1.set_educational_info(educational_info1)
-# s1.set_skills('computer programming, analytical skills, science, natural science, writing, speaking')
-# print(s1.get_skills())
-
-# df = generate_subject_domain_recommendations(s1, SUBJECT_DOMAIN_KEYWORDS_DATA_PATH, SUBJECT_DOMAIN_MODEL_PATH, k=K)
-# print(df)

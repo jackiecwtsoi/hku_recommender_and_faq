@@ -3,16 +3,16 @@ This a file for configurations ONLY. We define any global variables to be used t
 '''
 
 
-'''
-CONFIG - All the paths of our course-related datasets for our recommender
-- Key: The type of course recommendation
-- Value: Path of where the dataset is stored
-Type: DICT
-'''
-# COURSE_DATA_PATHS_DICT = {
-#     'course_content': 'ontology-based-recommender/data/df_course_content_with_domain.csv',
-#     'subject_domain': 'ontology-based-recommender/data/subject_domain_keywords_top_20_yake_dict.json'
-# }
+# '''
+# CONFIG - All the paths of our course-related datasets for our recommender
+# - Key: The type of course recommendation
+# - Value: Path of where the dataset is stored
+# Type: DICT
+# '''
+# # COURSE_DATA_PATHS_DICT = {
+# #     'course_content': 'ontology-based-recommender/data/df_course_content_with_domain.csv',
+# #     'subject_domain': 'ontology-based-recommender/data/subject_domain_keywords_top_20_yake_dict.json'
+# # }
 
 COURSE_BASE_DATA_PATH = 'ontology-based-recommender/data/df_course_content_with_domain.csv'
 
@@ -43,6 +43,8 @@ COURSE_MODEL_PATHS_DICT = {
 
 SUBJECT_DOMAIN_MODEL_PATH = 'ontology-based-recommender/models/w2v_online_job_descriptions.model'
 
+
+STUDENT_DATA_PATH = 'ontology-based-recommender/data/students_database.csv'
 
 #################################################################
 # Student Inputs

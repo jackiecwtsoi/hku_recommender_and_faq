@@ -22,6 +22,9 @@ class Student:
         skills_text_preprocessed = list(set(preprocess(skills_text, stem=True)))
         self.skills = skills_text_preprocessed
     
+    def set_any_further_info_required(self, further_info):
+        self.any_further_info_required = further_info
+
     '''
     getters
     '''
@@ -33,3 +36,6 @@ class Student:
 
     def get_skills(self):
         return self.skills
+
+    def get_any_further_info_required(self):
+        return self.any_further_info_required
