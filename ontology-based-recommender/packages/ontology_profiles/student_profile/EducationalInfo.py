@@ -15,6 +15,7 @@ class EducationalInfo:
     '''
     setters
     '''
+    # TODO: set interested_subject_domain
 
     '''
     getters

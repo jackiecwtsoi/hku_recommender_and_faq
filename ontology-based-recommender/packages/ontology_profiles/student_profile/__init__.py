@@ -1,1 +1,1 @@
-from ontology_profiles.student_profile import Student, PersonalInfo, EducationalInfo, Skill
+from ontology_profiles.student_profile import Student, PersonalInfo, EducationalInfo

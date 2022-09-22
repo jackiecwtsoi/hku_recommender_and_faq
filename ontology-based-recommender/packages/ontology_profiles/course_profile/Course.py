@@ -1,5 +1,6 @@
 '''
-This is a Python class representing the 'Course/CourseInfo' ontology profile. For the design and structure of this profile, check out the 'ontologies' directory.
+This is a Python class representing the 'Course/CourseInfo' ontology profile. 
+For the design and structure of this profile, check out the 'ontologies' directory.
 
 Variables:
 - CourseBasicInfo (another class)

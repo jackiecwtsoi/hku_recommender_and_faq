@@ -1,4 +1,5 @@
 
+from ontology_profiles.course_profile.SubjectDomain import *
 
 class CourseBasicInfo:
     # def __init__(self, course_code, course_title, offering_department, teachers, prerequisites):
@@ -22,6 +23,9 @@ class CourseBasicInfo:
     
     def set_course_title(self, course_title):
         self.course_title = course_title
+    
+    def set_subject_domain(self, subject_domain: SubjectDomain):
+        self.subject_domain = subject_domain
 
     '''
     getters

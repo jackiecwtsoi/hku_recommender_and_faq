@@ -1,7 +1,7 @@
 
 from ontology_profiles.student_profile.PersonalInfo import PersonalInfo
 from ontology_profiles.student_profile.EducationalInfo import EducationalInfo
-from ontology_profiles.student_profile.Skill import Skill
+from preprocess import *
 
 class Student:
     def __init__(self, personal_info, educational_info, skill):
@@ -17,9 +17,10 @@ class Student:
     '''
     def set_educational_info(self, educational_info: EducationalInfo):
         self.educational_info = educational_info
-    
-    def set_skill(self, skill: Skill):
-        self.skill = skill
+
+    def set_skills(self, skills_text):
+        skills_text_preprocessed = list(set(preprocess(skills_text, stem=True)))
+        self.skills = skills_text_preprocessed
     
     '''
     getters
@@ -30,5 +31,5 @@ class Student:
     def get_educational_info(self):
         return self.educational_info
 
-    def get_skill(self):
-        return self.skill
+    def get_skills(self):
+        return self.skills

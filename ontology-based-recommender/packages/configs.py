@@ -9,17 +9,25 @@ CONFIG - All the paths of our course-related datasets for our recommender
 - Value: Path of where the dataset is stored
 Type: DICT
 '''
-COURSE_DATA_PATHS_DICT = {
-    'course_content': 'ontology-based-recommender/data/df_course_content.csv'
+# COURSE_DATA_PATHS_DICT = {
+#     'course_content': 'ontology-based-recommender/data/df_course_content_with_domain.csv',
+#     'subject_domain': 'ontology-based-recommender/data/subject_domain_keywords_top_20_yake_dict.json'
+# }
+
+COURSE_BASE_DATA_PATH = 'ontology-based-recommender/data/df_course_content_with_domain.csv'
+
+COURSE_ADDITIONAL_DATA_PATH_DICT = {
 }
 
+SUBJECT_DOMAIN_KEYWORDS_DATA_PATH = 'ontology-based-recommender/data/subject_domain_keywords_top_20_yake_dict.json'
 
 '''
 CONFIG - All the types of course-related recommendations we accept
 Type: LIST
 '''
 COURSE_REC_TYPES = [
-    'course_content'
+    'course_content',
+    'subject_domain'
 ]
 
 '''
@@ -30,11 +38,15 @@ Type: DICT
 '''
 COURSE_MODEL_PATHS_DICT = {
     'course_content': 'ontology-based-recommender/models/w2v_google_news_300.model'
+    # TODO
 }
+
+SUBJECT_DOMAIN_MODEL_PATH = 'ontology-based-recommender/models/w2v_online_job_descriptions.model'
 
 
 #################################################################
 # Student Inputs
 #################################################################
-STUDENT_INTEREST_TEXT = 'I like robots and want to do something engineering related.'
+# STUDENT_INTEREST_TEXT = 'I like robots and want to do something engineering related.'
+STUDENT_INTEREST_TEXT = 'I do not really know...'
 K = 5

@@ -9,7 +9,6 @@ import pandas as pd
 from ontology_profiles.student_profile.Student import *
 from ontology_profiles.student_profile.PersonalInfo import *
 from ontology_profiles.student_profile.EducationalInfo import *
-from ontology_profiles.student_profile.Skill import *
 
 from ontology_profiles.course_profile.Course import *
 from ontology_profiles.course_profile.CourseBasicInfo import *
@@ -29,16 +28,25 @@ def generate_individual_course_similarity(student: Student, course: Course, mode
     # # NOTE below: can also consider looping through all class variables defined in Course class instead of directly specifying
     # # print(dir(course))
 
-    student_interest = student.get_educational_info().get_interest()
-    course_description = course.get_course_content().get_course_description()
-    course_learning_outcomes = course.get_course_content().get_course_learning_outcomes()
+    if course_rec_type == 'course_content':
+        # get Student and Course attribute values for 'course_content'
+        student_interest = student.get_educational_info().get_interest()
+        course_description = course.get_course_content().get_course_description()
+        course_learning_outcomes = course.get_course_content().get_course_learning_outcomes()
 
-    # calculate similarity scores for learning outcomes and description respectively
-    course_learning_outcomes_similarity_score = calculate_similarity(student_interest, course_learning_outcomes, model, similarity_type)
-    course_description_similarity_score = calculate_similarity(student_interest, course_description, model, similarity_type)
+        # calculate similarity scores for learning outcomes and description respectively
+        course_learning_outcomes_similarity_score = calculate_similarity(student_interest, course_learning_outcomes, model, similarity_type)
+        course_description_similarity_score = calculate_similarity(student_interest, course_description, model, similarity_type)
 
-    # calculate the final similarity score based on fixed weights (0.6:0.4)
-    final_course_similarity = 0.6*course_learning_outcomes_similarity_score + 0.4*course_description_similarity_score
+        # calculate the final similarity score based on fixed weights (0.6:0.4)
+        final_course_similarity = 0.6*course_learning_outcomes_similarity_score + 0.4*course_description_similarity_score
+
+    # TODO
+    elif course_rec_type == 'subject_domain':
+        print('SELECTED SUBJECT DOMAIN')
+        # get Student and Course attribute values for 'subject_domain'
+        course_subject_domain = course.get_course_basic_info().get_subject_domain()
+
 
     return final_course_similarity
 
