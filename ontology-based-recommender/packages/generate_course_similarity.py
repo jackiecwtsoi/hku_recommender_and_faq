@@ -30,7 +30,7 @@ def generate_individual_course_similarity(student: Student, course: Course, mode
 
     if course_rec_type == 'course_content':
         # get Student and Course attribute values for 'course_content'
-        student_interest = student.get_educational_info().get_interest()
+        student_interest = student.get_educational_info().get_student_interest()
         course_description = course.get_course_content().get_course_description()
         course_learning_outcomes = course.get_course_content().get_course_learning_outcomes()
 

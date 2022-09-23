@@ -1,3 +1,2 @@
-,first_name,last_name,email,preferred_language,any_further_info_required,student_interest,skills
-0,Jackie,Tsoi,tsoic1@connect.hku.hk,english,student_interest,I want to learn about programming.,
-1,,,jtvvip1212@gmail.com,,skills,,I want to learn about programming.
+,email,first_name,last_name,preferred_language,declared_faculty,declared_major,high_school_info,student_interest,job_aspiration,skills,any_further_info_required
+0,tsoic1@connect.hku.hk,Jackie,Tsoi,english,,,,I like computers and engineering subjects.,,I am good at computers and problem solving.,

@@ -4,14 +4,12 @@ from ontology_profiles.student_profile.EducationalInfo import EducationalInfo
 from preprocess import *
 
 class Student:
-    def __init__(self, personal_info, educational_info, skill):
+    def __init__(self, personal_info, educational_info, skills, any_further_info_required):
         self.personal_info = personal_info
         self.educational_info = educational_info
-        self.skill = skill
+        self.skills = skills
+        self.any_further_info_required = any_further_info_required
 
-    def __init__(self, personal_info: PersonalInfo):
-        self.personal_info = personal_info
-    
     '''
     setters
     '''
