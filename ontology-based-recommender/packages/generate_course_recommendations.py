@@ -31,7 +31,7 @@ from apis import course_database_api, subject_domain_database_api
 '''
 FUNCTION
 - Generate top k COURSE recommendations for the particular student
-- Separate
+- Separate FIXME
 Return: DATAFRAME consisting of top k recommendations (Course Code)
 '''
 def generate_course_recommendations(student: Student, COURSE_REC_TYPES: List, COURSE_BASE_DATA_PATH, COURSE_ADDITIONAL_DATA_PATH_DICT, similarity_type='cosine', k=5):

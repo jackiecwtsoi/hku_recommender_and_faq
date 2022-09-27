@@ -44,6 +44,13 @@ COURSE_MODEL_PATHS_DICT = {
 SUBJECT_DOMAIN_MODEL_PATH = 'ontology-based-recommender/models/w2v_online_job_descriptions.model'
 
 
+CAREER_BASE_DATA_PATH = 'ontology-based-recommender/data/job_postings_labeled.csv'
+CAREER_MODEL_PATHS_DICT = {
+    'text_embeddings': 'ontology-based-recommender/models/d2v_online_job_descriptions.model',
+    'classifier': 'ontology-based-recommender/models/clf_d2v_lr_career.joblib'
+}
+
+
 STUDENT_DATA_PATH = 'ontology-based-recommender/data/students_database.csv'
 
 #################################################################

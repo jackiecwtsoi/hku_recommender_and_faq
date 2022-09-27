@@ -15,6 +15,7 @@ from helper_functions import *
 from generate_course_similarity import *
 from generate_course_recommendations import *
 from generate_subject_domain_recommendations import *
+from generate_career_recommendations import *
 
 from apis import student_database_api
 
@@ -41,6 +42,15 @@ def any_further_student_info_required_for_recommender(student: Student, rec_type
         skills = student.get_skills()
         if skills == '': further_required_info = 'skills'
         else: further_required_info = None
+    
+    elif rec_type == 'career':
+        '''
+        For the career recommender, we need to check:
+        1. Student.EducationalInfo.job_aspiration
+        '''
+        job_aspiration = student.get_educational_info().get_job_aspiration()
+        if job_aspiration == '': further_required_info = 'job_aspiration'
+        else: further_required_info = None
             
     return further_required_info
     
@@ -53,7 +63,8 @@ def generate_final_recommendations(student: Student):
     # TODO: implement recommendation type
 
     # FIXME: delete later
-    rec_type = 'subject_domain'
+    # rec_type = 'subject_domain'
+    rec_type = 'career'
 
     any_further_info_required = any_further_student_info_required_for_recommender(student, rec_type)
     if any_further_info_required is None:
@@ -65,6 +76,8 @@ def generate_final_recommendations(student: Student):
             result = generate_course_recommendations(student, COURSE_REC_TYPES, COURSE_BASE_DATA_PATH, COURSE_ADDITIONAL_DATA_PATH_DICT, 'cosine', K)
         elif rec_type == 'subject_domain':
             result = generate_subject_domain_recommendations(student, SUBJECT_DOMAIN_KEYWORDS_DATA_PATH, SUBJECT_DOMAIN_MODEL_PATH, 'cosine', K, threshold=0.6)
+        elif rec_type == 'career':
+            result = generate_career_recommendations(student, CAREER_BASE_DATA_PATH, CAREER_MODEL_PATHS_DICT, K)
     
     else:
         logging.info('Need further information from the student.')
@@ -115,4 +128,5 @@ logging.getLogger().setLevel(logging.INFO)
 # print(s1.get_skills())
 
 s1 = student_database_api.get_student_from_email('tsoic1@connect.hku.hk')
-trigger_recommender_workflow('tsoic1@connect.hku.hk', 'recommendations', 'I am good at computers and problem solving.')
+# trigger_recommender_workflow('tsoic1@connect.hku.hk', 'answer', 'I am good at computers and problem solving.')
+trigger_recommender_workflow('tsoic1@connect.hku.hk', 'answer', 'I am good with excel and microsoft. I also like writing.')

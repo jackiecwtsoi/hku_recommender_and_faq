@@ -18,4 +18,7 @@ class EducationalInfo:
     '''
     def get_student_interest(self):
         return self.student_interest
+
+    def get_job_aspiration(self):
+        return self.job_aspiration
     
