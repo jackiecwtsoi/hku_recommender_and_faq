@@ -1,5 +1,4 @@
 import logging
-from ast import List
 import numpy as np
 import pandas as pd
 
@@ -44,7 +43,7 @@ def generate_individual_subject_domain_similarity(student: Student, subject_doma
 
 
 
-def generate_all_subject_domain_similarities(student: Student, subject_domains: List, MODEL_PATH, similarity_type, threshold):
+def generate_all_subject_domain_similarities(student: Student, subject_domains: list, MODEL_PATH, similarity_type, threshold):
     all_subject_domain_similarities = []
 
     if similarity_type == 'cosine':

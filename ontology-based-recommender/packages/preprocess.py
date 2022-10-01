@@ -5,12 +5,6 @@ This is where we do all the text preprocessing and word embeddings generation.
 import numpy as np
 import pandas as pd
 
-import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer, PorterStemmer

@@ -8,7 +8,6 @@ The course-related recommendation types include:
 - course_assessment TODO
 '''
 
-from ast import Dict, List
 import logging
 import numpy as np
 import pandas as pd
@@ -34,7 +33,7 @@ FUNCTION
 - Separate FIXME
 Return: DATAFRAME consisting of top k recommendations (Course Code)
 '''
-def generate_course_recommendations(student: Student, COURSE_REC_TYPES: List, COURSE_BASE_DATA_PATH, COURSE_ADDITIONAL_DATA_PATH_DICT, similarity_type='cosine', k=5):
+def generate_course_recommendations(student: Student, COURSE_REC_TYPES: list, COURSE_BASE_DATA_PATH, COURSE_ADDITIONAL_DATA_PATH_DICT, similarity_type='cosine', k=5):
     # 1. convert course dataset into a list of Course instances
     courses = course_database_api.convert_to_courses(COURSE_BASE_DATA_PATH, COURSE_ADDITIONAL_DATA_PATH_DICT)
 

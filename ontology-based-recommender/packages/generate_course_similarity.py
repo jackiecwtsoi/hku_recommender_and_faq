@@ -2,7 +2,6 @@
 This is where we take the student provided information (text) and generate similarity scores against the courses in our recommender database.
 '''
 import logging
-from ast import List
 import numpy as np
 import pandas as pd
 
@@ -55,7 +54,7 @@ FUNCTION
 - Generate similarity score for all courses in our database
 Return: DATAFRAME consisting of 2 columns: 'Course Code' and 'Course XXXX Similarity'
 '''
-def generate_all_course_similarities(student: Student, courses: List, MODEL_PATH, similarity_type, course_rec_type):
+def generate_all_course_similarities(student: Student, courses: list, MODEL_PATH, similarity_type, course_rec_type):
     all_course_similarities = []
 
     if similarity_type == 'cosine':
