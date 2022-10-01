@@ -59,7 +59,7 @@ class QueryQuestionSimlarity:
     def load_model(self, model_key: str):
         # define model path
         specific_path = QUERY_QUESTION_MODELS_DICT[model_key]['specific_path']
-        model_path = 'faq-chatbot/q-Q_similarity/models/' + specific_path
+        model_path = 'faq/q-Q_similarity/models/' + specific_path
         self.model_path = model_path
         logging.info(f'Model path: {model_path}')
         

@@ -1,4 +1,4 @@
-FAQ_DATABASE_PATH = 'faq-chatbot/q-Q_similarity/faq-data/df_faq.csv'
+FAQ_DATABASE_PATH = 'faq/q-Q_similarity/faq-data/df_faq.csv'
 
 
 '''

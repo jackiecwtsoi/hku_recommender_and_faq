@@ -36,6 +36,8 @@ class FAQ:
         df_overall['Final FAQ Score'] = df_overall['Predicted Cosine q-Q Similarity'] + df_overall['Predicted q-A Relevance']
         df_overall = df_overall.sort_values(by='Final FAQ Score', ascending=False)
 
+        print(df_overall)
+
         return df_overall
 
     '''
