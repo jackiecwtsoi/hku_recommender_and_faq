@@ -37,7 +37,7 @@ class QueryAnswerRelevance:
     def load_model(self, model_key: str, use_cuda: bool):
         # define model path
         specific_path = QUERY_ANSWER_MODELS_DICT[model_key]['specific_path']
-        model_path = 'faq-chatbot/q-A_relevance/outputs/' + model_key + '/' + specific_path
+        model_path = 'faq-chatbot/q-A_relevance/models/' + model_key + '/' + specific_path
         logging.info(f'Model path: {model_path}')
 
         # get model type (e.g. 'roberta' / 'bert' / 'mpnet') based on model path
