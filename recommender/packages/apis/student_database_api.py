@@ -5,8 +5,6 @@ This is an API layer that:
 
 The primary key of a student's data is his/her email.
 '''
-
-from ast import Str
 import numpy as np
 import pandas as pd
 import logging
@@ -32,7 +30,7 @@ FUNCTION
 - Find the student data in our students database based on the provided email (primary key)
 Return: STUDENT instance
 '''
-def get_student_from_email(email: Str):
+def get_student_from_email(email: str):
     df_students = read_student_dataframe()
 
     # find the corresponding row in the database for that student

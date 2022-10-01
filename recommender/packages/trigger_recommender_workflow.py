@@ -129,4 +129,4 @@ def trigger_recommender_workflow(email: str, student_response_type, student_resp
 
 s1 = student_database_api.get_student_from_email('tsoic1@connect.hku.hk')
 # trigger_recommender_workflow('tsoic1@connect.hku.hk', 'answer', 'I am good at computers and problem solving.', rec_type='')
-trigger_recommender_workflow('tsoic1@connect.hku.hk', 'recommendations', 'I am interested in robots.', rec_type='subject_domain')
+trigger_recommender_workflow('tsoic1@connect.hku.hk', 'recommendations', 'I like biology.', rec_type='career')

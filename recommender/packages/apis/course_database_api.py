@@ -2,8 +2,6 @@
 This is an API layer that converts our courses database to Course instances.
 '''
 
-from ast import Dict, List, Str
-import numpy as np
 import pandas as pd
 
 from ontology_profiles.student_profile.Student import *

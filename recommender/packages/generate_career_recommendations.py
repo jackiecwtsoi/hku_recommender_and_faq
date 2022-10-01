@@ -2,7 +2,6 @@
 This is the layer where we generate career-related recommendations for a particular student.
 '''
 
-import numpy as np
 import pandas as pd
 import logging
 import joblib

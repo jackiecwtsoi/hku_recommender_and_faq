@@ -3,7 +3,7 @@ This is a Python class representing the query-question (q-Q) similarity.
 '''
 import numpy as np
 import pandas as pd
-import logging, os, pickle
+import logging, pickle
 
 from gensim.models import KeyedVectors
 from nltk import word_tokenize
@@ -13,11 +13,10 @@ from scipy import spatial
 from configs import *
 
 class QueryQuestionSimlarity:
-    def __init__(self, cpu_count: int):
-        self.cpu_count = cpu_count
+    def __init__(self):
         self.model = self.load_model(DEFAULT_QUERY_QUESTION_MODEL_KEY)
         self.faq_database = pd.read_csv(FAQ_DATABASE_PATH, index_col=0)
-        logging.info(f'Query-question (q-Q) similarity instance initialized. CPU count: {cpu_count}.')
+        logging.info(f'Query-question (q-Q) similarity instance initialized.')
 
     '''
     getters
@@ -116,8 +115,7 @@ class QueryQuestionSimlarity:
 
 if __name__ == '__main__':
     logging.getLogger().setLevel(logging.INFO)
-    cpu_count = os.cpu_count()
-    qq_similarity = QueryQuestionSimlarity(cpu_count)
+    qq_similarity = QueryQuestionSimlarity()
     print(qq_similarity.generate_similarity_scores('When is the application deadline?'))
     
     

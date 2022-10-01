@@ -2,10 +2,6 @@
 This is an API layer that converts our subject domains database to SubjectDomain instances.
 '''
 
-from ast import Dict, List, Str
-from lib2to3.pytree import convert
-import numpy as np
-import pandas as pd
 import json
 
 from ontology_profiles.course_profile.SubjectDomain import *
@@ -15,7 +11,7 @@ FUNCTION
 - Convert a key, value item of a dictionary to a SubjectDomain instance
 Return: COURSE instance
 '''
-def convert_row_to_subject_domain_class(subject: Str, keywords: List):
+def convert_row_to_subject_domain_class(subject: str, keywords: list):
     subject_domain = SubjectDomain(subject)
     subject_domain.set_subject_domain_keywords(keywords)
 

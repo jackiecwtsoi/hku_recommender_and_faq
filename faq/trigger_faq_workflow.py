@@ -1,4 +1,4 @@
-import logging, os
+import logging
 import torch
 
 import nltk
@@ -6,8 +6,7 @@ from FAQ import *
 
 def trigger_faq_workflow():
     use_cuda = torch.cuda.is_available()
-    cpu_count = os.cpu_count()
-    faq = FAQ(use_cuda, cpu_count)
+    faq = FAQ(use_cuda)
 
     student_input = input(f'Please input your query or type \'quit\' to quit this program:\n')
     while student_input != 'quit':

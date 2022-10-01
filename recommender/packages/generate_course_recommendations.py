@@ -9,8 +9,6 @@ The course-related recommendation types include:
 '''
 
 import logging
-import numpy as np
-import pandas as pd
 
 from ontology_profiles.student_profile.Student import *
 from ontology_profiles.student_profile.PersonalInfo import *

@@ -6,8 +6,8 @@ from QueryAnswerRelevance import *
 import logging
 
 class FAQ:
-    def __init__(self, use_cuda: bool, cpu_count: int):
-        self.qq = QueryQuestionSimlarity(cpu_count)
+    def __init__(self, use_cuda: bool):
+        self.qq = QueryQuestionSimlarity()
         self.qa = QueryAnswerRelevance(use_cuda)
         logging.info(f'FAQ instance initialized.')
 
