@@ -5,5 +5,5 @@ This is one of the three major parts of the DASC7600 Data Science Project course
 ---
 
 There are two parts to this system:
-1. [University and career related information recommender](ontology-based-recommender/)
-2. [HKU FAQ/Q&A system](faq-chatbot/)
+1. [University and career related information recommender](recommender/)
+2. [HKU FAQ/Q&A system](faq/)
