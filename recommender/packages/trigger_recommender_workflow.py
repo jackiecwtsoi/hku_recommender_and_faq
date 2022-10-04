@@ -96,15 +96,22 @@ def trigger_single_recommender_cycle(email: str, student_response):
 
     if return_type == 'recommendations':
         print(f'Our top {K} {rec_type} recommendations for you are:\n{result}')
-    if return_type == 'further_question':
+
+        # # delete all existing additional information stored for that student to allow future new recommendations
+        # # FIXME
+        # student_database_api.delete_student_data(student, 'student_interest')
+        # student_database_api.delete_student_data(student, 'job_aspiration')
+        # student_database_api.delete_student_data(student, 'skills')
+
+    elif return_type == 'further_question':
         # get the most updated student data from the database
         student = student_database_api.get_student_from_email(email)
 
         # get the attribute that we further need from the student
         new_info_type = student.get_any_further_info_required()
         if new_info_type != '': 
-            student_answer = input(f'We need a bit more information from you. Please tell us your {" ".join(new_info_type.split("_"))}/interests/skills:\n')
-            if student_answer == 'quit': return
+            student_answer = input(f'We need a bit more information from you. Please tell us your {" ".join(new_info_type.split("_"))}/interests/skills (If you would like to go back to ask for a new recommendation simply enter \'back\'):\n')
+            if student_answer == 'back': return
             student_database_api.update_student_data(student, new_info_type, student_answer)
 
         # delete the entry in 'any_further_info_required' in the students database
