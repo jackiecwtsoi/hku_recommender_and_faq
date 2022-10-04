@@ -1,3 +1,8 @@
+
+---
+## **IMPORTANT: DO NOT COMMIT CODE TO THE 'MAIN'/'MASTER' BRANCH !!!**
+---
+
 # Introduction
 
 This is one of the three major parts of the DASC7600 Data Science Project course of the HKU MDASC programme. We develop a personalized HKU information recommender and Q&A system based on the established OPCR framework, which is a core part of the HKU metaverse chatbot's functionality.
