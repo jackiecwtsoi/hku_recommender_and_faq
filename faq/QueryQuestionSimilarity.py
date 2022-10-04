@@ -31,7 +31,9 @@ class QueryQuestionSimlarity:
         return self.faq_database
     
     '''
-    TODO
+    METHOD
+    - Get word embeddings using our trained model
+    Return: LIST/ARRAY of floats representing the text
     '''
     def get_word_embeddings(self, text, model):
         tokenized = self.preprocess(text)
@@ -39,7 +41,9 @@ class QueryQuestionSimlarity:
         return word_embeddings
 
     '''
-    TODO
+    METHOD
+    - Preprocess the text to tokenized form
+    Return: LIST of words representing the tokenized text
     '''
     def preprocess(self, text):
         text = text.lower() # convert all letters to lowercase

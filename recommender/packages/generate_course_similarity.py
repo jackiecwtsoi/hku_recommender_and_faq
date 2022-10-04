@@ -40,11 +40,11 @@ def generate_individual_course_similarity(student: Student, course: Course, mode
         # calculate the final similarity score based on fixed weights (0.6:0.4)
         final_course_similarity = 0.6*course_learning_outcomes_similarity_score + 0.4*course_description_similarity_score
 
-    # TODO
-    elif course_rec_type == 'subject_domain':
-        print('SELECTED SUBJECT DOMAIN')
-        # get Student and Course attribute values for 'subject_domain'
-        course_subject_domain = course.get_course_basic_info().get_subject_domain()
+    # # TODO
+    # elif course_rec_type == 'subject_domain':
+    #     print('SELECTED SUBJECT DOMAIN')
+    #     # get Student and Course attribute values for 'subject_domain'
+    #     course_subject_domain = course.get_course_basic_info().get_subject_domain()
 
 
     return final_course_similarity

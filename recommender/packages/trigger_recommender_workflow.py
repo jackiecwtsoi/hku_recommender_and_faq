@@ -83,18 +83,11 @@ def generate_final_recommendations(student: Student, rec_type):
 
     return final_tuple
 
-def trigger_recommender_cycle():
-    print(f'\n###########################################################')
-    print(f'You have entered the recommender system.')
-    print(f'###########################################################\n')
-    email = input(f'Please input your EMAIL (or type \'quit\' to quit this program):\n')
-    if email == 'quit': return
-    student_input = input(f'Please input your QUERY (or type \'quit\' to quit this program):\n')
-    while student_input != 'quit':
-        trigger_single_recommender_cycle(email, student_input)
-        student_input = input(f'Please input your query (or type \'quit\' to quit this program:)\n')
-
-
+'''
+FUNCTION
+- Trigger a single cycle for the recommender
+- Ask the student questions continuously until the information required is fulfilled to make one recommendation
+'''
 def trigger_single_recommender_cycle(email: str, student_response):
     student = student_database_api.get_student_from_email(email)
     recommender_intent_classifier = RecommenderIntentClassifier()
@@ -118,6 +111,17 @@ def trigger_single_recommender_cycle(email: str, student_response):
         student_database_api.delete_student_data(student, 'any_further_info_required')
 
         trigger_single_recommender_cycle(email, student_response)
+
+def trigger_recommender_cycle():
+    print(f'\n###########################################################')
+    print(f'You have entered the recommender system.')
+    print(f'###########################################################\n')
+    email = input(f'Please input your EMAIL (or type \'quit\' to quit this program):\n')
+    if email == 'quit': return
+    student_input = input(f'Please input your QUERY (or type \'quit\' to quit this program):\n')
+    while student_input != 'quit':
+        trigger_single_recommender_cycle(email, student_input)
+        student_input = input(f'Please input your query (or type \'quit\' to quit this program:)\n')
 
 if __name__ == '__main__':
     logging.getLogger().setLevel(logging.INFO)

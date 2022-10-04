@@ -46,7 +46,6 @@ def get_individual_word_embeddings(word, model, lemmatize=False, stem=False):
     word_embeddings = np.array([model[i] for i in preprocess(word, lemmatize, stem)])
     return word_embeddings
 
-# TODO
 def get_individual_d2v_embeddings(text, model, lemmatize=False, stem=True):
     text_tokenized = preprocess(text, stem=stem, lemmatize=lemmatize)
     vectors = model.infer_vector(text_tokenized)

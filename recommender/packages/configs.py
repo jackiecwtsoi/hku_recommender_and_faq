@@ -16,7 +16,7 @@ Type: LIST
 '''
 COURSE_REC_TYPES = [
     'course_content',
-    'subject_domain'
+    # 'subject_domain'
 ]
 
 '''
@@ -27,7 +27,6 @@ Type: DICT
 '''
 COURSE_MODEL_PATHS_DICT = {
     'course_content': 'recommender/models/w2v_google_news_300.model'
-    # TODO
 }
 
 SUBJECT_DOMAIN_MODEL_PATH = 'recommender/models/w2v_online_job_descriptions.model'
@@ -39,7 +38,6 @@ CAREER_MODEL_PATHS_DICT = {
     'classifier': 'recommender/models/clf_d2v_lr_career.joblib'
 }
 
-# FIXME: recommender intent classification
 RECOMMENDER_INTENT_EMBEDDING_MODELS_DICT = {
     'glove-wiki-finetuned': {
         'type': 'glove',
@@ -60,9 +58,4 @@ DEFAULT_RECOMMENDER_INTENT_CLASSIFIER_MODEL_KEY = 'linear_svm'
 
 STUDENT_DATA_PATH = 'recommender/data/students_database.csv'
 
-#################################################################
-# Student Inputs
-#################################################################
-# STUDENT_INTEREST_TEXT = 'I like robots and want to do something engineering related.'
-STUDENT_INTEREST_TEXT = 'I do not really know...' # FIXME
 K = 5
