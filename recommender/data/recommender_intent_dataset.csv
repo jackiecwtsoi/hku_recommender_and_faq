@@ -1,0 +1,121 @@
+﻿Student Query,Recommender Intent
+I am really worried about my future. What kind of job should I do?,career
+How do I know what career should I take?,career
+"I don't know what I'm good at, so I'd really like some advice on my career choice.",career
+Career or job recommendation?,career
+"Concerning my future, I am really anxious. Which profession should I pursue?",career
+I'd really appreciate any ideas on what to do for a living because I have no idea what I'm excellent at.,career
+career advice or hiring advice?,career
+"I have many classmates who already know what they want to do in life, but I'm still so clueless. Can you help me?",career
+"Many of my peers have already decided what they want to do with their lives, but I still have no idea. Can you assist me?",career
+Any idea on what I can do for my future?,career
+I don't have a goal and I want some help.,career
+What kind of career should I have?,career
+I want a high salary job but I don't have any other idea.,career
+I wanna earn a lot of money,career
+High paying jobs?,career
+I don't really like any subject I'm studying now… What kind of job would be best for me?,career
+"I am good at math and science, but I have no idea what to do in the future…",career
+Can you recommend me a career that suits me and has good salary?,career
+What type of job do you think I can have?,career
+I want some career recommendations.,career
+"I am good at math and science, but I have no idea what to study in university…",subject_domain
+Can you recommend me some subjects that I can study?,subject_domain
+I want to study something that I'm quite good at and something interesting.,subject_domain
+I am not good at anything in high school… What should I study in university?,subject_domain
+Is there even a subject that suits me in university?,subject_domain
+"I really want to get into HKU, but I'm afraid my grades are not good enough… Is there a subject that has low grade requirements?",subject_domain
+I like solving logical problems and have pretty good analytical skills. What should I study?,subject_domain
+"I did well in biology and chemistry in high school, but I wonder if there's any other interesting subjects I can study in university",subject_domain
+"I wanna try a really cool subject in university, is there anything like that?",subject_domain
+any subject recommendations?,subject_domain
+Is there a subject about earth structures and planets?,subject_domain
+"Physics seems really really cool to me, but I'm afraid if I'm not smart enough to study that…",subject_domain
+I'm not good at math but still want to study something related to science. Do you have any recommendations?,subject_domain
+I don't think I have the grades to study medicine but I still want to do something related to that in uni. Is there a subject like that at HKU?,subject_domain
+"I want to become an actuary, is there a subject for that at HKU?",subject_domain
+Is nutritional science or biology better for me?,subject_domain
+"Hi, can you help me decide what subjects I should study in uni?",subject_domain
+What are some subjects that are suitable for me?,subject_domain
+Do you think HKU has a subject for someone like me? I am not good at anything…,subject_domain
+I want to study a science subject.,subject_domain
+"I want to be a food scientist in future, what courses should I take?",course
+I want to work in investment bank after graduation. Need your course recommendation.,course
+What courses do I need to take if I want to study actuarial science?,course
+"They say computer science skills are important for future career, so I want to take a computer science course but I don't know anything about coding. Is there anything like that?",course
+I just want to take a science related common core course. Can you recommend me one?,course
+I want to take a biology course with no final exam.,course
+I want to take a computer science course with no group projects. I hate freeriders…,course
+"I am a sociable person, what job do I fit in?",course
+I'm a people person. What kind of jobs should I look for?,course
+Is there any course that combines data science and finance?,course
+I want to learn about fintech.,course
+Is there a course where we take an internship instead of going to class?,course
+I like biology but my maths foundation is bad... Is there an easy maths course for me?,course
+Really interested in artificial intelligence so is there a course about that?,course
+What courses should I take if I want to study food and nutrition?,course
+Any project-based courses?,course
+I want a good grade course please.,course
+Can you recommend some introductory courses in the science faculty?,course
+I want to study math.,course
+I am a fourth year student and just want to take some easy grade course.,course
+"All of my friends have received job offers from large corporations, but I am still unsure of what type of job would be best for me. How should I proceed?",career
+I'm very concerned about my future. What should I do for a living?,career
+What path should I take after graduation?,career
+"I'm not sure what I'm good at, so I would appreciate some career advice.",career
+I am extremely concerned about my future. What kind of jobs should I take?,career
+Any suggestions on what to do for a living. I have really can't think of something that I good at.,career
+"I am looking for gradurate job positions, any suggestions?",career
+Do you have any suggestions for me after graduration?,career
+I don't have dream. How can I find my dream job?,career
+Many of my peers have applied for the manangement trainee positions. Should I apply it too?,career
+How to get a high salary job in short period of time?,career
+"I don't like office jobs, any other recommendataions?",career
+I love economics. Any jobs are related to this?,career
+I am planning to migrate to UK. I need a high pay job there.,career
+I have already failed a few interviews. Does this mean I am not qualified to work in a bank?,career
+Which field should I pursue after graduation?,career
+What is the best industry in Hong Kong. I want to get a job in that industry?,career
+I can't find a job that I am interested in. What should I do?,career
+I am looking for someone who can provide me some career advices. Can you help me?,career
+"I enjoy working in front of a computer, but I am not familiar with programming. What job is best for me?",career
+"I studied accounting and economics in high school, but I'm not sure what university program to apply to.",subject_domain
+I need some program advices. I don't know what major should i take.,subject_domain
+All of my peers want to get into Business school but I don't really like to study business.,subject_domain
+I don't think I can get a good grade in the public exam. What kind of major fit me more?,subject_domain
+Can you recommend some program for me to study?,subject_domain
+Is there a university program that would be a good fit for me?,subject_domain
+"I really want to go to HKU, but I'm worried about my grades. Which program require low grade?",subject_domain
+I like inventing new things. Which program fits my interest?,subject_domain
+I want to study something that is related to new technology. What major should I pick?,subject_domain
+I want to learn more about computer programming in HKU.,subject_domain
+I want to become a software engineer. Which university program should I pick?,subject_domain
+I aspire to be a data scientist. Which university program should I enroll in?,subject_domain
+I don't have any dream. Which subject should I choose?,subject_domain
+"Which is better, science school or business school?",subject_domain
+"I want to be a scientist, but it appears that working in the financial industry will pay me more. Should I instead attend business school?",subject_domain
+"Hello, could you please advise me on which subjects I should study at university?",subject_domain
+I am good at playing around with numbers. What major fits my interest more?,subject_domain
+The application deadline is coming. I am still not yet decided what major to study.,subject_domain
+Which university major will give me an advantage in getting jobs in England?,subject_domain
+Universiy programme recommendataion?,subject_domain
+I am a year one statistic student. Which course should I take in next semester?,course
+I want to learn investment. Which course should I take?,course
+I'm just getting started with programming. Which of the introduction courses is best for me?,course
+I am a second year statistics student enjoy calculation.  Do you have any recommendations for courses I should take?,course
+I want to study an easy common core so that I can easily get a good grade.,course
+I love to work in a team. Which courses have group project?,course
+Any statistic courses don't have exam?,course
+Please help me decide which courses to take in the next semester.,course
+What are some good courses about data science?,course
+What are the courses I need to take as a maths major student?,course
+"I want to become a software engineer, so I want to learn some software engineer skills. Is there a course on that?",course
+I want to take some theoretical classes instead of classes with heavy calculation for chemistry.,course
+Can you recommend some courses for me to study?,course
+I cannot decide which course to take for the next semester.,course
+Which course should I take for the next year?,course
+I hate courses that teach theory. Can you help me choose something not related to theory?,course
+"Have some trouble choosing the best courses for me, can you help?",course
+I don't really know which classes I should take...,course
+"I am quite confused about what classes are best for me, can you help me with that?",course
+I want to learn about the ocean.,course

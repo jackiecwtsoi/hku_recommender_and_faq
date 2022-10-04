@@ -31,6 +31,7 @@ class QueryQuestionSimlarity:
         return self.faq_database
     
     '''
+    TODO
     '''
     def get_word_embeddings(self, text, model):
         tokenized = self.preprocess(text)
@@ -38,7 +39,7 @@ class QueryQuestionSimlarity:
         return word_embeddings
 
     '''
-    
+    TODO
     '''
     def preprocess(self, text):
         text = text.lower() # convert all letters to lowercase
@@ -81,7 +82,7 @@ class QueryQuestionSimlarity:
 
     '''
     METHOD
-    - Predict the q-Q similarity scores given a list of user queries
+    - Predict the q-Q similarity scores given a user query
     Return: DATAFRAME consisting of query, question from database, predicted q-Q similarity columns
     '''
     def generate_similarity_scores(self, query: str):

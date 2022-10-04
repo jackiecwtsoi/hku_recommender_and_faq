@@ -52,8 +52,7 @@ class QueryAnswerRelevance:
 
     '''
     METHOD
-    - Predict the q-A relevance classification given a list of user queries
-    Input: Simple Transformers model, A LIST of LISTS containing the user query and answer in our Q&A database each
+    - Predict the q-A relevance classification given a user query
     Return: DATAFRAME consisting of query, answer from database, predicted q-A relevance columns
     '''
     def generate_predictions(self, query: str):

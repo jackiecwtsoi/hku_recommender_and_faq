@@ -39,6 +39,24 @@ CAREER_MODEL_PATHS_DICT = {
     'classifier': 'recommender/models/clf_d2v_lr_career.joblib'
 }
 
+# FIXME: recommender intent classification
+RECOMMENDER_INTENT_EMBEDDING_MODELS_DICT = {
+    'glove-wiki-finetuned': {
+        'type': 'glove',
+        'specific_path': 'recommender_intent_classification_glove_wiki_finetuned.pkl',
+        'model_file_type': 'pkl'
+    }
+}
+DEFAULT_RECOMMENDER_INTENT_EMBEDDING_MODEL_KEY = 'glove-wiki-finetuned'
+
+RECOMMENDER_INTENT_CLASSIFIER_MODELS_DICT = {
+    'linear_svm': {
+        'type': 'svm',
+        'specific_path': 'clf_glove_sgd_recommender_intent_classification.joblib',
+        'model_file_type': 'joblib'
+    }
+}
+DEFAULT_RECOMMENDER_INTENT_CLASSIFIER_MODEL_KEY = 'linear_svm'
 
 STUDENT_DATA_PATH = 'recommender/data/students_database.csv'
 
