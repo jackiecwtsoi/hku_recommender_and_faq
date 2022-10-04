@@ -36,7 +36,7 @@ Our recommender system should store information of all student users who have in
 
 **HOWEVER**, currently we have not implemented the function of adding a new student through the command line, so in order for the recommender program code to work, we need to enter an email that **is already stored in the database**. Currently we only have two student entries (tsoic1@connect.hku.hk and 1234@connect.hku.hk). Feel free to use these two emails to test the program code. 
 
-If you wish to add more student entries using other emails, simply open the database CSV file on Excel and add the new entries.
+If you wish to add more student entries using other emails, simply open the database CSV file in Excel and add the new entries.
 
 ---
 ## **THE ENTIRE PROGRAM IS A PROTOTYPE ONLY AS OF CURRENTLY.**
