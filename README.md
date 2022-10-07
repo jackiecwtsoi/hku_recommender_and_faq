@@ -16,17 +16,21 @@ There are two parts to this system:
     - [Setup for the recommender](recommender/README.md)
     - [Setup for the FAQ/Q&A system](faq/README.md)
 2. Create a Conda environment and install all necessary dependencies using your terminal:
-    ```python
-    conda create --name NewEnv --file requirements.txt
+    ```console
+    conda create --name Recommender --file requirements.txt
+    ```
+3. Activate your Conda environment:
+    ```console
+    conda activate Recommender
     ```
 # Running the Program
 Currently the two parts need to be run separately.
 - To run the **recommender** component, run the following in your terminal (the terminal directory should be this current folder):
-    ```python
+    ```console
     python recommender/packages/trigger_recommender_workflow.py
     ```
 - To run the **FAQ/Q&A** component, run the following in your terminal (the terminal directory should be this current folder):
-    ```python
+    ```console
     python faq/trigger_faq_workflow.py
     ```
 
