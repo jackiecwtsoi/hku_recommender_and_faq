@@ -15,9 +15,9 @@ There are two parts to this system:
 1. Follow both documents below to download the necessary models:
     - [Setup for the recommender](recommender/README.md)
     - [Setup for the FAQ/Q&A system](faq/README.md)
-2. Install all necessary dependencies using your terminal:
+2. Create a Conda environment and install all necessary dependencies using your terminal:
     ```python
-    pip install -r requirements.txt
+    conda create --name NewEnv --file requirements.txt
     ```
 # Running the Program
 Currently the two parts need to be run separately.
