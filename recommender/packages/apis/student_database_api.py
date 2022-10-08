@@ -9,11 +9,11 @@ import numpy as np
 import pandas as pd
 import logging
 
-from ontology_profiles.student_profile.Student import *
-from ontology_profiles.student_profile.PersonalInfo import *
-from ontology_profiles.student_profile.EducationalInfo import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile.Student import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile.PersonalInfo import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile.EducationalInfo import *
 
-from configs import STUDENT_DATA_PATH
+from hku_recommender_and_faq.recommender.packages.configs import STUDENT_DATA_PATH
 
 '''
 FUNCTION
@@ -58,8 +58,11 @@ def get_student_from_email(email: str):
     # any_further_info_required
     any_further_info_required = df_selected_student['any_further_info_required'].values[0]
 
+    # rec_type
+    rec_type = df_selected_student['rec_type'].values[0]
+
     # finally initialize the Student instance
-    student = Student(personal_info, educational_info, skills, any_further_info_required)
+    student = Student(personal_info, educational_info, skills, any_further_info_required, rec_type)
 
     return student
 
@@ -98,15 +101,23 @@ FUNCTION
 - Delete column data for a specific student based on the attribute specified
 - Save the updated database to the csv file location
 '''
-def delete_student_data(student: Student, info_type_to_delete):
+def delete_student_data(student: Student, info_type_to_delete, all=False):
     df_students = read_student_dataframe()
 
     # get the primary key from the Student instance 
     email = student.get_personal_info().get_email()
 
-    # delete the value in the specified column
-    logging.info('Deleting the \'' + info_type_to_delete + '\' in the students database...')
-    df_students.loc[df_students['email']==email, info_type_to_delete] = ''
+    if all == True:
+        # define a list of attributes to delete
+        to_delete = ['student_interest', 'job_aspiration', 'skills']
+        logging.info('Deleting all additional information for the student...')
+        for attribute in to_delete:
+            df_students.loc[df_students['email']==email, attribute] = ''
+        
+    else:
+        # delete the value in the specified column
+        logging.info('Deleting the \'' + info_type_to_delete + '\' in the students database...')
+        df_students.loc[df_students['email']==email, info_type_to_delete] = ''
 
     # save the newly updated dataframe to the database csv location
     df_students.to_csv(STUDENT_DATA_PATH)

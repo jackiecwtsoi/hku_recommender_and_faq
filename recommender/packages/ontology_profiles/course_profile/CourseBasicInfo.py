@@ -1,5 +1,5 @@
 
-from ontology_profiles.course_profile.SubjectDomain import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.course_profile.SubjectDomain import *
 
 class CourseBasicInfo:
     # def __init__(self, course_code, course_title, offering_department, teachers, prerequisites):

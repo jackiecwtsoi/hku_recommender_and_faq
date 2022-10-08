@@ -4,7 +4,7 @@ This is an API layer that converts our subject domains database to SubjectDomain
 
 import json
 
-from ontology_profiles.course_profile.SubjectDomain import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.course_profile.SubjectDomain import *
 
 '''
 FUNCTION

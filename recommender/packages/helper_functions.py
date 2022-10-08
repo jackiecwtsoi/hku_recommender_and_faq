@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 from scipy import spatial
 
-from preprocess import *
+from hku_recommender_and_faq.recommender.packages.preprocess import *
 
 '''
 FUNCTION

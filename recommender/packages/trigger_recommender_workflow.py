@@ -1,21 +1,21 @@
-import logging, contextlib
+import logging
 
-from ontology_profiles.student_profile.Student import *
-from ontology_profiles.student_profile.PersonalInfo import *
-from ontology_profiles.student_profile.EducationalInfo import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile.Student import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile.PersonalInfo import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile.EducationalInfo import *
 
-from ontology_profiles.course_profile.Course import *
-from ontology_profiles.course_profile.CourseBasicInfo import *
-from ontology_profiles.course_profile.CourseContent import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.course_profile.Course import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.course_profile.CourseBasicInfo import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.course_profile.CourseContent import *
 
-from helper_functions import *
-from generate_course_similarity import *
-from generate_course_recommendations import *
-from generate_subject_domain_recommendations import *
-from generate_career_recommendations import *
-from RecommenderIntentClassifier import *
+from hku_recommender_and_faq.recommender.packages.helper_functions import *
+from hku_recommender_and_faq.recommender.packages.generate_course_similarity import *
+from hku_recommender_and_faq.recommender.packages.generate_course_recommendations import *
+from hku_recommender_and_faq.recommender.packages.generate_subject_domain_recommendations import *
+from hku_recommender_and_faq.recommender.packages.generate_career_recommendations import *
+from hku_recommender_and_faq.recommender.packages.RecommenderIntentClassifier import *
 
-from apis import student_database_api
+from hku_recommender_and_faq.recommender.packages.apis import student_database_api
 
 import nltk
 
@@ -31,8 +31,9 @@ def any_further_student_info_required_for_recommender(student: Student, rec_type
         1. Student.EducationalInfo().student_interest
         '''
         student_interest = student.get_educational_info().get_student_interest()
+        print(f'student_interest is: {student_interest}')
         if student_interest == '': further_required_info = 'student_interest'
-        else: further_required_info = None
+        else: further_required_info = ''
 
     elif rec_type == 'subject_domain':
         '''
@@ -41,7 +42,7 @@ def any_further_student_info_required_for_recommender(student: Student, rec_type
         '''
         skills = student.get_skills()
         if skills == '': further_required_info = 'skills'
-        else: further_required_info = None
+        else: further_required_info = ''
     
     elif rec_type == 'career':
         '''
@@ -50,7 +51,7 @@ def any_further_student_info_required_for_recommender(student: Student, rec_type
         '''
         job_aspiration = student.get_educational_info().get_job_aspiration()
         if job_aspiration == '': further_required_info = 'job_aspiration'
-        else: further_required_info = None
+        else: further_required_info = ''
             
     return further_required_info
     
@@ -61,7 +62,7 @@ Return: TUPLE consisting of (return_type, result)
 '''
 def generate_final_recommendations(student: Student, rec_type):
     any_further_info_required = any_further_student_info_required_for_recommender(student, rec_type)
-    if any_further_info_required is None:
+    if any_further_info_required == '':
         logging.info(f'No further information from the student required to generate {rec_type} recommendations.')
         return_type = 'recommendations'
         logging.info(f'Generating {rec_type} recommendations...')
@@ -82,58 +83,3 @@ def generate_final_recommendations(student: Student, rec_type):
     final_tuple = (return_type, result)
 
     return final_tuple
-
-'''
-FUNCTION
-- Trigger a single cycle for the recommender
-- Ask the student questions continuously until the information required is fulfilled to make one recommendation
-'''
-def trigger_single_recommender_cycle(email: str, student_response):
-    student = student_database_api.get_student_from_email(email)
-    recommender_intent_classifier = RecommenderIntentClassifier()
-    rec_type = recommender_intent_classifier.generate_classification(student_response)
-    return_type, result = generate_final_recommendations(student, rec_type)
-
-    if return_type == 'recommendations':
-        print(f'Our top {K} {rec_type} recommendations for you are:\n{result}')
-
-        # # delete all existing additional information stored for that student to allow future new recommendations
-        # # FIXME
-        # student_database_api.delete_student_data(student, 'student_interest')
-        # student_database_api.delete_student_data(student, 'job_aspiration')
-        # student_database_api.delete_student_data(student, 'skills')
-
-    elif return_type == 'further_question':
-        # get the most updated student data from the database
-        student = student_database_api.get_student_from_email(email)
-
-        # get the attribute that we further need from the student
-        new_info_type = student.get_any_further_info_required()
-        if new_info_type != '': 
-            student_answer = input(f'We need a bit more information from you. Please tell us your {" ".join(new_info_type.split("_"))}/interests/skills (If you would like to go back to ask for a new recommendation simply enter \'back\'):\n')
-            if student_answer == 'back': return
-            student_database_api.update_student_data(student, new_info_type, student_answer)
-
-        # delete the entry in 'any_further_info_required' in the students database
-        student_database_api.delete_student_data(student, 'any_further_info_required')
-
-        trigger_single_recommender_cycle(email, student_response)
-
-def trigger_recommender_cycle():
-    print(f'\n###########################################################')
-    print(f'You have entered the recommender system.')
-    print(f'###########################################################\n')
-    email = input(f'Please input your EMAIL (or type \'quit\' to quit this program):\n')
-    if email == 'quit': return
-    student_input = input(f'Please input your QUERY (or type \'quit\' to quit this program):\n')
-    while student_input != 'quit':
-        trigger_single_recommender_cycle(email, student_input)
-        student_input = input(f'Please input your query (or type \'quit\' to quit this program:)\n')
-
-if __name__ == '__main__':
-    logging.getLogger().setLevel(logging.INFO)
-    nltk.download('punkt')
-    nltk.download('stopwords')
-    nltk.download('wordnet')
-    nltk.download('omw-1.4')
-    trigger_recommender_cycle()

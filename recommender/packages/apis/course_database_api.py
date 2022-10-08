@@ -4,13 +4,13 @@ This is an API layer that converts our courses database to Course instances.
 
 import pandas as pd
 
-from ontology_profiles.student_profile.Student import *
-from ontology_profiles.student_profile.PersonalInfo import *
-from ontology_profiles.student_profile.EducationalInfo import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile.Student import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile.PersonalInfo import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile.EducationalInfo import *
 
-from ontology_profiles.course_profile.Course import *
-from ontology_profiles.course_profile.CourseBasicInfo import *
-from ontology_profiles.course_profile.CourseContent import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.course_profile.Course import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.course_profile.CourseBasicInfo import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.course_profile.CourseContent import *
 
 '''
 FUNCTION

@@ -12,10 +12,6 @@ Variables:
     - job_application_procedure
 '''
 
-from JobBasicInfo import JobBasicInfo
-from JobQualification import JobQualification
-from JobApplication import JobApplication
-
 class Job:
     def __init__(self, job_basic_info, job_qualification, job_application):
         self.job_basic_info = job_basic_info

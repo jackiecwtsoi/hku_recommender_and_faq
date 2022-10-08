@@ -8,7 +8,7 @@ Variables:
 - CourseAssessmentInfo (another class)
 '''
 
-from ontology_profiles.course_profile.CourseContent import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.course_profile.CourseContent import *
 
 class Course:
     def __init__(self, course_basic_info, course_content, course_assessment_info):

@@ -1,1 +1,1 @@
-from ontology_profiles.student_profile import Student, PersonalInfo, EducationalInfo
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile import Student, PersonalInfo, EducationalInfo

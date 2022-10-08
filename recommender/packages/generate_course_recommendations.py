@@ -10,20 +10,19 @@ The course-related recommendation types include:
 
 import logging
 
-from ontology_profiles.student_profile.Student import *
-from ontology_profiles.student_profile.PersonalInfo import *
-from ontology_profiles.student_profile.EducationalInfo import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile.Student import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile.PersonalInfo import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile.EducationalInfo import *
 
-from ontology_profiles.course_profile.Course import *
-from ontology_profiles.course_profile.CourseBasicInfo import *
-from ontology_profiles.course_profile.CourseContent import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.course_profile.Course import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.course_profile.CourseBasicInfo import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.course_profile.CourseContent import *
 
-from helper_functions import *
-from generate_course_similarity import *
-from configs import *
-from apis import course_database_api, subject_domain_database_api
+from hku_recommender_and_faq.recommender.packages.helper_functions import *
+from hku_recommender_and_faq.recommender.packages.generate_course_similarity import *
+from hku_recommender_and_faq.recommender.packages.configs import *
+from hku_recommender_and_faq.recommender.packages.apis import course_database_api, subject_domain_database_api
 
-# logging.getLogger().setLevel(logging.DEBUG)
 
 '''
 FUNCTION
@@ -43,4 +42,6 @@ def generate_course_recommendations(student: Student, COURSE_REC_TYPES: list, CO
     df_recommendations = df_course_content_similarities.head(k)
     #[['Course Code', 'Course Title']]
 
-    return df_recommendations
+    df_recommendations['Final'] = df_recommendations['Course Code'] + ': ' + df_recommendations['Course Title']
+
+    return df_recommendations['Final'].values

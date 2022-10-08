@@ -7,9 +7,6 @@ Variables:
 - subject_domain_keywords: LIST
 '''
 
-from ast import List
-
-
 class SubjectDomain:
     def __init__(self, subject_domain):
         self.subject_domain = subject_domain
@@ -17,7 +14,7 @@ class SubjectDomain:
     '''
     setters
     '''
-    def set_subject_domain_keywords(self, keywords: List):
+    def set_subject_domain_keywords(self, keywords: list):
         self.subject_domain_keywords = keywords
     
     '''

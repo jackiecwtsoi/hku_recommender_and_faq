@@ -4,8 +4,8 @@ which identifies whether the student user wants a recommendation on career, subj
 '''
 import logging, pickle, joblib
 
-from preprocess import get_word_embeddings
-from configs import *
+from hku_recommender_and_faq.recommender.packages.preprocess import get_word_embeddings
+from hku_recommender_and_faq.recommender.packages.configs import *
 
 class RecommenderIntentClassifier:
     def __init__(self):
@@ -33,7 +33,7 @@ class RecommenderIntentClassifier:
 
         # define model path
         specific_path = model_path_dict[model_key]['specific_path']
-        model_path = 'recommender/models/' + specific_path
+        model_path = 'hku_recommender_and_faq/recommender/models/' + specific_path
         self.model_path = model_path
         logging.info(f'Model path: {model_path}')
 

@@ -3,12 +3,12 @@ This a file for configurations ONLY. We define any global variables to be used t
 '''
 
 
-COURSE_BASE_DATA_PATH = 'recommender/data/df_course_content_with_domain.csv'
+COURSE_BASE_DATA_PATH = 'hku_recommender_and_faq/recommender/data/df_course_content_with_domain.csv'
 
 COURSE_ADDITIONAL_DATA_PATH_DICT = {
 }
 
-SUBJECT_DOMAIN_KEYWORDS_DATA_PATH = 'recommender/data/subject_domain_keywords_top_20_yake_dict.json'
+SUBJECT_DOMAIN_KEYWORDS_DATA_PATH = 'hku_recommender_and_faq/recommender/data/subject_domain_keywords_top_20_yake_dict.json'
 
 '''
 CONFIG - All the types of course-related recommendations we accept
@@ -26,16 +26,16 @@ CONFIG - All the paths of the models used in our course-related recommender
 Type: DICT
 '''
 COURSE_MODEL_PATHS_DICT = {
-    'course_content': 'recommender/models/w2v_google_news_300.model'
+    'course_content': 'hku_recommender_and_faq/recommender/models/w2v_google_news_300.model'
 }
 
-SUBJECT_DOMAIN_MODEL_PATH = 'recommender/models/w2v_online_job_descriptions.model'
+SUBJECT_DOMAIN_MODEL_PATH = 'hku_recommender_and_faq/recommender/models/w2v_online_job_descriptions.model'
 
 
-CAREER_BASE_DATA_PATH = 'recommender/data/job_postings_labeled.csv'
+CAREER_BASE_DATA_PATH = 'hku_recommender_and_faq/recommender/data/job_postings_labeled.csv'
 CAREER_MODEL_PATHS_DICT = {
-    'text_embeddings': 'recommender/models/d2v_online_job_descriptions.model',
-    'classifier': 'recommender/models/clf_d2v_lr_career.joblib'
+    'text_embeddings': 'hku_recommender_and_faq/recommender/models/d2v_online_job_descriptions.model',
+    'classifier': 'hku_recommender_and_faq/recommender/models/clf_d2v_lr_career.joblib'
 }
 
 RECOMMENDER_INTENT_EMBEDDING_MODELS_DICT = {
@@ -56,6 +56,6 @@ RECOMMENDER_INTENT_CLASSIFIER_MODELS_DICT = {
 }
 DEFAULT_RECOMMENDER_INTENT_CLASSIFIER_MODEL_KEY = 'linear_svm'
 
-STUDENT_DATA_PATH = 'recommender/data/students_database.csv'
+STUDENT_DATA_PATH = 'hku_recommender_and_faq/recommender/data/students_database.csv'
 
 K = 5

@@ -7,14 +7,14 @@ import logging
 import joblib
 from gensim.models.doc2vec import Doc2Vec
 
-from ontology_profiles.student_profile.Student import *
-from ontology_profiles.student_profile.PersonalInfo import *
-from ontology_profiles.student_profile.EducationalInfo import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile.Student import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile.PersonalInfo import *
+from hku_recommender_and_faq.recommender.packages.ontology_profiles.student_profile.EducationalInfo import *
 
 
-from helper_functions import *
-from generate_course_similarity import *
-from configs import *
+from hku_recommender_and_faq.recommender.packages.helper_functions import *
+from hku_recommender_and_faq.recommender.packages.generate_course_similarity import *
+from hku_recommender_and_faq.recommender.packages.configs import *
 
 '''
 FUNCTION
@@ -34,7 +34,7 @@ def generate_career_recommendations(student: Student, CAREER_BASE_DATA_PATH, CAR
 
     df_recommendations = pd.DataFrame(recommendations, columns=['Job Title Recommendation'])
 
-    return df_recommendations
+    return df_recommendations['Job Title Recommendation'].values
 
 
 def predict_job_cluster(job_aspiration_text, CAREER_MODEL_PATHS_DICT):
