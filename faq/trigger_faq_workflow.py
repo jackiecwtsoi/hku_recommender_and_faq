@@ -2,7 +2,7 @@ import logging
 import torch
 
 import nltk
-from FAQ import *
+from hku_recommender_and_faq.faq.FAQ import *
 
 def trigger_faq_workflow():
     use_cuda = torch.cuda.is_available()

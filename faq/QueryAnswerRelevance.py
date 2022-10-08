@@ -8,7 +8,7 @@ import logging
 import torch
 from simpletransformers.classification import ClassificationModel
 
-from configs import *
+from hku_recommender_and_faq.faq.configs import *
 
 class QueryAnswerRelevance:
     def __init__(self, use_cuda: bool):
@@ -37,7 +37,7 @@ class QueryAnswerRelevance:
     def load_model(self, model_key: str, use_cuda: bool):
         # define model path
         specific_path = QUERY_ANSWER_MODELS_DICT[model_key]['specific_path']
-        model_path = 'faq/q-A_relevance/models/' + model_key + '/' + specific_path
+        model_path = 'hku_recommender_and_faq/faq/q-A_relevance/models/' + model_key + '/' + specific_path
         logging.info(f'Model path: {model_path}')
 
         # get model type (e.g. 'roberta' / 'bert' / 'mpnet') based on model path

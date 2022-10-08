@@ -1,8 +1,8 @@
 '''
 This is a Python class representing the overall FAQ/Q&A session.
 '''
-from QueryQuestionSimilarity import *
-from QueryAnswerRelevance import *
+from hku_recommender_and_faq.faq.QueryQuestionSimilarity import *
+from hku_recommender_and_faq.faq.QueryAnswerRelevance import *
 import logging
 
 class FAQ:

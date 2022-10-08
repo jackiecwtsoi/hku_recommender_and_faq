@@ -10,7 +10,7 @@ from nltk import word_tokenize
 from nltk.corpus import stopwords
 from scipy import spatial
 
-from configs import *
+from hku_recommender_and_faq.faq.configs import *
 
 class QueryQuestionSimlarity:
     def __init__(self):
@@ -63,7 +63,7 @@ class QueryQuestionSimlarity:
     def load_model(self, model_key: str):
         # define model path
         specific_path = QUERY_QUESTION_MODELS_DICT[model_key]['specific_path']
-        model_path = 'faq/q-Q_similarity/models/' + specific_path
+        model_path = 'hku_recommender_and_faq/faq/q-Q_similarity/models/' + specific_path
         self.model_path = model_path
         logging.info(f'Model path: {model_path}')
         

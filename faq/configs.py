@@ -1,4 +1,4 @@
-FAQ_DATABASE_PATH = 'faq/q-Q_similarity/faq-data/df_faq.csv'
+FAQ_DATABASE_PATH = 'hku_recommender_and_faq/faq/q-Q_similarity/faq-data/df_faq.csv'
 
 
 '''
