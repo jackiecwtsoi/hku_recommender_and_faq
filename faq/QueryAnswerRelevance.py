@@ -6,7 +6,7 @@ import pandas as pd
 import logging
 
 import torch
-from simpletransformers.classification import ClassificationModel
+from simpletransformers.classification import ClassificationModel, ClassificationArgs
 
 from hku_recommender_and_faq.faq.configs import *
 
@@ -38,15 +38,18 @@ class QueryAnswerRelevance:
         # define model path
         specific_path = QUERY_ANSWER_MODELS_DICT[model_key]['specific_path']
         model_path = 'hku_recommender_and_faq/faq/q-A_relevance/models/' + model_key + '/' + specific_path
-        logging.info(f'Model path: {model_path}')
+        logging.debug(f'Model path: {model_path}')
 
         # get model type (e.g. 'roberta' / 'bert' / 'mpnet') based on model path
         model_type = QUERY_ANSWER_MODELS_DICT[model_key]['type']
-        logging.info(f'Model type: {model_type}')
+        logging.debug(f'Model type: {model_type}')
 
         # load the model
-        model = ClassificationModel(model_type, model_path, use_cuda=use_cuda)
-        logging.info(f'{model_type.upper()} model loaded from {model_path}.')
+        model_args = ClassificationArgs()
+        model_args.use_multiprocessing = False
+        model_args.use_multiprocessing_for_evaluation = False
+        model = ClassificationModel(model_type, model_path, use_cuda=use_cuda, args=model_args)
+        logging.debug(f'{model_type.upper()} model loaded from {model_path}.')
 
         return model 
 
@@ -61,6 +64,7 @@ class QueryAnswerRelevance:
         pairs = list(map(lambda x: [query, x], answers_from_database))
         
         # generate binary classification for each pair
+        logging.info('The q-A relevance model is making predictions...')
         predictions, _ = self.model.predict(pairs)
 
         # define dataframe for output

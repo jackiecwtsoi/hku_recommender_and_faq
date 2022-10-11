@@ -35,14 +35,14 @@ class RecommenderIntentClassifier:
         specific_path = model_path_dict[model_key]['specific_path']
         model_path = 'hku_recommender_and_faq/recommender/models/' + specific_path
         self.model_path = model_path
-        logging.info(f'Model path: {model_path}')
+        logging.debug(f'Model path: {model_path}')
 
         # get the model type and file type based on model path
         model_type = model_path_dict[model_key]['type']
         self.model_type = model_type
         model_file_type = model_path_dict[model_key]['model_file_type']
         self.model_file_type = model_file_type
-        logging.info(f'Model type: {model_type}')
+        logging.debug(f'Model type: {model_type}')
 
         # load the model based on the model and model file types
         if model_file_type == 'pkl':
@@ -50,7 +50,7 @@ class RecommenderIntentClassifier:
                 model = pickle.load(f)
         elif model_file_type == 'joblib':
             model = joblib.load(model_path)
-        logging.info(f'{model_type.upper()} model loaded from {model_path}.')
+        logging.debug(f'{model_type.upper()} model loaded from {model_path}.')
 
         return model
     
@@ -65,8 +65,9 @@ class RecommenderIntentClassifier:
         try: 
             query_embeddings = get_word_embeddings(query, model=self.word_embedding_model, lemmatize=False, stem=False)
             predicted_intent = self.classifier.predict([query_embeddings])[0]
+            logging.info(f'Predicted intent: {predicted_intent.upper()}')
         except: 
-            logging.info(f'Could not generate word embeddings for query: \'{query}\'.')
+            logging.debug(f'Could not generate word embeddings for query: \'{query}\'.')
         
         return predicted_intent
 

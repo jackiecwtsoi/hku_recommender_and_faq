@@ -27,7 +27,10 @@ class FAQ:
     '''
     def get_overall_faq_scores(self, query):
         df_qq = self.qq.generate_similarity_scores(query)
+        logging.debug('Query-question similarity results generation complete.')
+        
         df_qa = self.qa.generate_predictions(query)
+        logging.debug('Query-answer relevance results generational complete.')
 
         # concatenate the useful columns into an overall dataframe
         df_overall = pd.concat([df_qq, df_qa], axis=1, join='inner')
@@ -36,7 +39,7 @@ class FAQ:
         df_overall['Final FAQ Score'] = df_overall['Predicted Cosine q-Q Similarity'] + df_overall['Predicted q-A Relevance']
         df_overall = df_overall.sort_values(by='Final FAQ Score', ascending=False)
 
-        print(df_overall)
+        logging.info(df_overall)
 
         return df_overall
 

@@ -65,14 +65,14 @@ class QueryQuestionSimlarity:
         specific_path = QUERY_QUESTION_MODELS_DICT[model_key]['specific_path']
         model_path = 'hku_recommender_and_faq/faq/q-Q_similarity/models/' + specific_path
         self.model_path = model_path
-        logging.info(f'Model path: {model_path}')
+        logging.debug(f'Model path: {model_path}')
         
         # get the model type and file type based on model path
         model_type = QUERY_QUESTION_MODELS_DICT[model_key]['type']
         self.model_type = model_type
         model_file_type = QUERY_QUESTION_MODELS_DICT[model_key]['model_file_type']
         self.model_file_type = model_file_type
-        logging.info(f'Model type: {model_type}')
+        logging.debug(f'Model type: {model_type}')
 
         # load the model based on the model and model file types
         if model_file_type == 'pkl':
@@ -80,7 +80,7 @@ class QueryQuestionSimlarity:
                 model = pickle.load(f)
         elif model_file_type == 'model':
             model = KeyedVectors.load(model_path)
-        logging.info(f'{model_type.upper()} model loaded from {model_path}.')
+        logging.debug(f'{model_type.upper()} model loaded from {model_path}.')
 
         return model
 
@@ -95,7 +95,7 @@ class QueryQuestionSimlarity:
 
         # get word embeddings for student query
         try: query_embeddings = self.get_word_embeddings(query, self.model)
-        except: logging.info(f'Could not generate {self.model_type} word embeddings for query: {query}')
+        except: logging.debug(f'Could not generate {self.model_type} word embeddings for query: {query}')
 
         # generate similarity score for every q-Q pair using our FAQ database
         similarities = []
