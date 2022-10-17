@@ -65,7 +65,7 @@ class RecommenderIntentClassifier:
         try: 
             query_embeddings = get_word_embeddings(query, model=self.word_embedding_model, lemmatize=False, stem=False)
             predicted_intent = self.classifier.predict([query_embeddings])[0]
-            logging.info(f'Predicted intent: {predicted_intent.upper()}')
+            logging.info(f'Predicted recommender intent: {predicted_intent.upper()}')
         except: 
             logging.debug(f'Could not generate word embeddings for query: \'{query}\'.')
         
