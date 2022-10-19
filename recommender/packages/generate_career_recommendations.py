@@ -24,9 +24,15 @@ Return: DATAFRAME of top k recommendations (job title)
 def generate_career_recommendations(student: Student, CAREER_BASE_DATA_PATH, CAREER_MODEL_PATHS_DICT, k=5):
     # get the necessary student information text
     student_job_aspiration = student.get_educational_info().get_job_aspiration()
+    student_interest = student.get_educational_info().get_student_interest()
+    student_skills = student.get_skills()
+
+    # concatenate all three attributes (student_interest, job_aspiration, skills) to form a string which is then used to generate the similarity score
+    student_info = student_interest + '; ' + student_job_aspiration + '; ' + student_skills
+    logging.debug(f'The student information based on historical inputs is:\n{student_info}')
 
     # predict the cluster number using the specified model (already trained)
-    job_cluster = predict_job_cluster(student_job_aspiration, CAREER_MODEL_PATHS_DICT)
+    job_cluster = predict_job_cluster(student_info, CAREER_MODEL_PATHS_DICT)
     logging.info(f'Predicted job cluster number is: {job_cluster}')
 
     # get the list of top k job titles based on job cluster number
@@ -34,7 +40,7 @@ def generate_career_recommendations(student: Student, CAREER_BASE_DATA_PATH, CAR
 
     df_recommendations = pd.DataFrame(recommendations, columns=['Job Title Recommendation'])
 
-    return df_recommendations['Job Title Recommendation'].values
+    return df_recommendations['Job Title Recommendation'].values.tolist()
 
 
 def predict_job_cluster(job_aspiration_text, CAREER_MODEL_PATHS_DICT):

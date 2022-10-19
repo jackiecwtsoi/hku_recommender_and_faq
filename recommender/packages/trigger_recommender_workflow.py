@@ -60,7 +60,7 @@ FUNCTION
 - Generate final recommendations based on Student information
 Return: TUPLE consisting of (return_type, result)
 '''
-def generate_final_recommendations(student: Student, rec_type):
+def generate_final_recommendations(student: Student, rec_type: str):
     any_further_info_required = any_further_student_info_required_for_recommender(student, rec_type)
     if any_further_info_required == '':
         logging.info(f'No further information from the student required to generate {rec_type} recommendations.')

@@ -23,21 +23,27 @@ from gensim.models import KeyedVectors, Word2Vec
 def generate_individual_subject_domain_similarity(student: Student, subject_domain: SubjectDomain, model, similarity_type, threshold):
     subject_keywords = subject_domain.get_subject_domain_keywords()
     student_skills = student.get_skills()
+    job_aspiration = student.get_educational_info().get_job_aspiration()
+    student_interest = student.get_educational_info().get_student_interest()
+
+    # concatenate all three attributes (student_interest, job_aspiration, skills) to form a string which is then used to generate the similarity score
+    student_info = student_interest + '; ' + job_aspiration + '; ' + student_skills
+    logging.debug(f'The student information based on historical inputs is:\n{student_info}')
 
     # similarity algorithm: calculate the average similarity between the student's skills and the keywords
-    skills_similarities = []
-    for skill in student_skills:
+    similarities = []
+    for info in student_info:
         word_similarities = []
         for keyword in subject_keywords:
             try:
-                word_similarities.append(model.similarity(skill, keyword))
+                word_similarities.append(model.similarity(info, keyword))
             except:
                 word_similarities.append(0)
         filtered_word_similarities = [score for score in word_similarities if score > threshold]
         individual_skill_similarity = np.sum(filtered_word_similarities)
-        skills_similarities.append(individual_skill_similarity)
+        similarities.append(individual_skill_similarity)
 
-    final_skills_similarity = np.mean(skills_similarities)
+    final_skills_similarity = np.mean(similarities)
 
     return final_skills_similarity
 

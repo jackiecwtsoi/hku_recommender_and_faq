@@ -22,4 +22,4 @@ def generate_subject_domain_recommendations(student: Student, SUBJECT_DOMAIN_KEY
 
     df_recommendations = df_subject_domain_similarities.head(k)
 
-    return df_recommendations['Subject Domain'].values
+    return df_recommendations['Subject Domain'].values.tolist()

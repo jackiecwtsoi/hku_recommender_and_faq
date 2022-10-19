@@ -27,7 +27,6 @@ from hku_recommender_and_faq.recommender.packages.apis import course_database_ap
 '''
 FUNCTION
 - Generate top k COURSE recommendations for the particular student
-- Separate FIXME
 Return: DATAFRAME consisting of top k recommendations (Course Code)
 '''
 def generate_course_recommendations(student: Student, COURSE_REC_TYPES: list, COURSE_BASE_DATA_PATH, COURSE_ADDITIONAL_DATA_PATH_DICT, similarity_type='cosine', k=5):
@@ -44,4 +43,4 @@ def generate_course_recommendations(student: Student, COURSE_REC_TYPES: list, CO
 
     df_recommendations['Final'] = df_recommendations['Course Code'] + ': ' + df_recommendations['Course Title']
 
-    return df_recommendations['Final'].values
+    return df_recommendations['Final'].values.tolist()

@@ -1,10 +1,10 @@
 
 
 class PersonalInfo:
-    def __init__(self, email, first_name, last_name, preferred_language):
+    def __init__(self, email, preferred_language):
         self.email = email
-        self.first_name = first_name
-        self.last_name = last_name
+        # self.first_name = first_name
+        # self.last_name = last_name
         self.preferred_language = preferred_language
     
     '''

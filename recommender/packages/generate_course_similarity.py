@@ -30,22 +30,21 @@ def generate_individual_course_similarity(student: Student, course: Course, mode
     if course_rec_type == 'course_content':
         # get Student and Course attribute values for 'course_content'
         student_interest = student.get_educational_info().get_student_interest()
+        job_aspiration = student.get_educational_info().get_job_aspiration()
+        student_skills = student.get_skills()
         course_description = course.get_course_content().get_course_description()
         course_learning_outcomes = course.get_course_content().get_course_learning_outcomes()
 
+        # concatenate all three attributes (student_interest, job_aspiration, skills) to form a string which is then used to generate the similarity score
+        student_info = student_interest + '; ' + job_aspiration + '; ' + student_skills
+        logging.debug(f'The student information based on historical inputs is:\n{student_info}')
+
         # calculate similarity scores for learning outcomes and description respectively
-        course_learning_outcomes_similarity_score = calculate_similarity(student_interest, course_learning_outcomes, model, similarity_type)
-        course_description_similarity_score = calculate_similarity(student_interest, course_description, model, similarity_type)
+        course_learning_outcomes_similarity_score = calculate_similarity(student_info, course_learning_outcomes, model, similarity_type)
+        course_description_similarity_score = calculate_similarity(student_info, course_description, model, similarity_type)
 
         # calculate the final similarity score based on fixed weights (0.6:0.4)
         final_course_similarity = 0.6*course_learning_outcomes_similarity_score + 0.4*course_description_similarity_score
-
-    # # TODO
-    # elif course_rec_type == 'subject_domain':
-    #     print('SELECTED SUBJECT DOMAIN')
-    #     # get Student and Course attribute values for 'subject_domain'
-    #     course_subject_domain = course.get_course_basic_info().get_subject_domain()
-
 
     return final_course_similarity
 

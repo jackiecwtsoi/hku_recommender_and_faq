@@ -27,6 +27,17 @@ def read_student_dataframe():
 
 '''
 FUNCTION
+- Get all emails/accounts
+Return: LIST
+'''
+def get_all_student_emails():
+    df_students = read_student_dataframe()
+    all_emails = df_students['email'].tolist()
+
+    return all_emails
+
+'''
+FUNCTION
 - Find the student data in our students database based on the provided email (primary key)
 Return: STUDENT instance
 '''
@@ -39,10 +50,10 @@ def get_student_from_email(email: str):
     # convert each attribute in the database to attributes inside the Student instance
     
     # personal info
-    first_name = df_selected_student['first_name'].values[0]
-    last_name = df_selected_student['last_name'].values[0]
+    # first_name = df_selected_student['first_name'].values[0]
+    # last_name = df_selected_student['last_name'].values[0]
     preferred_language = df_selected_student['preferred_language'].values[0]
-    personal_info = PersonalInfo(email, first_name, last_name, preferred_language)
+    personal_info = PersonalInfo(email, preferred_language)
 
     # educational info
     declared_faculty = df_selected_student['declared_faculty'].values[0]
@@ -71,9 +82,19 @@ FUNCTION
 - Add a new student into our students database and subsequently saves the new database
 Return: VOID
 '''
-# TODO
-def add_new_student(student: Student):
-    pass
+def add_new_student(email: str, preferred_language: str):
+    df_students = read_student_dataframe()
+
+    # add a new row in the students database
+    new_student = {'email': [email], 'preferred_language': [preferred_language]}
+    new_student_row = pd.DataFrame(new_student)
+    df_students = df_students.append(new_student_row)
+    df_students = df_students.reset_index(drop=True)
+
+    logging.info(f'Added new account \'{email}\' to our students database.')
+
+    # save the newly updated dataframe to the database csv location
+    df_students.to_csv(STUDENT_DATA_PATH)
 
 '''
 FUNCTION
