@@ -35,7 +35,7 @@ def generate_course_recommendations(student: Student, COURSE_REC_TYPES: list, CO
 
     # 2. generate all similarity scores by comparing the student provided info and all courses in our database
     # FIXME: need to change this to incorporate the LIST of course rec types instead of only one type
-    df_course_content_similarities = generate_all_course_similarities(student, courses, COURSE_MODEL_PATHS_DICT[COURSE_REC_TYPES[0]], similarity_type, COURSE_REC_TYPES[0])
+    df_course_content_similarities, actual_string = generate_all_course_similarities(student, courses, COURSE_MODEL_PATHS_DICT[COURSE_REC_TYPES[0]], similarity_type, COURSE_REC_TYPES[0])
 
     # 3. return the top k most similar courses as final recommendations
     df_recommendations = df_course_content_similarities.head(k)
@@ -43,4 +43,4 @@ def generate_course_recommendations(student: Student, COURSE_REC_TYPES: list, CO
 
     df_recommendations['Final'] = df_recommendations['Course Code'] + ': ' + df_recommendations['Course Title']
 
-    return df_recommendations['Final'].values.tolist()
+    return df_recommendations['Final'].values.tolist(), actual_string

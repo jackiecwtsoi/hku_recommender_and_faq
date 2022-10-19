@@ -40,7 +40,7 @@ def generate_career_recommendations(student: Student, CAREER_BASE_DATA_PATH, CAR
 
     df_recommendations = pd.DataFrame(recommendations, columns=['Job Title Recommendation'])
 
-    return df_recommendations['Job Title Recommendation'].values.tolist()
+    return df_recommendations['Job Title Recommendation'].values.tolist(), student_info
 
 
 def predict_job_cluster(job_aspiration_text, CAREER_MODEL_PATHS_DICT):

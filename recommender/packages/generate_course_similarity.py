@@ -46,7 +46,7 @@ def generate_individual_course_similarity(student: Student, course: Course, mode
         # calculate the final similarity score based on fixed weights (0.6:0.4)
         final_course_similarity = 0.6*course_learning_outcomes_similarity_score + 0.4*course_description_similarity_score
 
-    return final_course_similarity
+    return final_course_similarity, student_info
 
 '''
 FUNCTION
@@ -62,7 +62,7 @@ def generate_all_course_similarities(student: Student, courses: list, MODEL_PATH
 
     # for each course we generate a similarity score and store it inside the greater list
     for course in courses:
-        course_similarity_score = generate_individual_course_similarity(student, course, model, similarity_type, course_rec_type)
+        course_similarity_score, actual_string = generate_individual_course_similarity(student, course, model, similarity_type, course_rec_type)
         course_code = course.get_course_basic_info().get_course_code()
         course_title = course.get_course_basic_info().get_course_title()
         all_course_similarities.append( # store both the course code and similarity score
@@ -75,4 +75,4 @@ def generate_all_course_similarities(student: Student, courses: list, MODEL_PATH
         columns=['Course Code', 'Course Title', 'Course '+similarity_type+' Similarity']
     ).sort_values(by='Course '+similarity_type+' Similarity', ascending=False)
 
-    return df
+    return df, actual_string

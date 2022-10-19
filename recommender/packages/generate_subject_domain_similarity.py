@@ -45,7 +45,7 @@ def generate_individual_subject_domain_similarity(student: Student, subject_doma
 
     final_skills_similarity = np.mean(similarities)
 
-    return final_skills_similarity
+    return final_skills_similarity, student_info
 
 
 
@@ -59,7 +59,7 @@ def generate_all_subject_domain_similarities(student: Student, subject_domains: 
     
     for subject in subject_domains:
         subject_domain_name = subject.get_subject_domain()
-        keyword_matching_similarity_score = generate_individual_subject_domain_similarity(student, subject, model, similarity_type, threshold)
+        keyword_matching_similarity_score, actual_string = generate_individual_subject_domain_similarity(student, subject, model, similarity_type, threshold)
         all_subject_domain_similarities.append(
             [subject_domain_name, keyword_matching_similarity_score]
         )
@@ -69,4 +69,4 @@ def generate_all_subject_domain_similarities(student: Student, subject_domains: 
         columns=['Subject Domain', 'Similarity']
     ).sort_values(by='Similarity', ascending=False)
 
-    return df
+    return df, actual_string

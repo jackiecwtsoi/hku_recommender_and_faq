@@ -17,7 +17,6 @@ from hku_recommender_and_faq.recommender.packages.RecommenderIntentClassifier im
 
 from hku_recommender_and_faq.recommender.packages.apis import student_database_api
 
-import nltk
 
 '''
 FUNCTION
@@ -31,7 +30,7 @@ def any_further_student_info_required_for_recommender(student: Student, rec_type
         1. Student.EducationalInfo().student_interest
         '''
         student_interest = student.get_educational_info().get_student_interest()
-        print(f'student_interest is: {student_interest}')
+        logging.info(f'student_interest is: {student_interest}')
         if student_interest == '': further_required_info = 'student_interest'
         else: further_required_info = ''
 
@@ -68,18 +67,19 @@ def generate_final_recommendations(student: Student, rec_type: str):
         logging.info(f'Generating {rec_type} recommendations...')
 
         if rec_type == 'course':
-            result = generate_course_recommendations(student, COURSE_REC_TYPES, COURSE_BASE_DATA_PATH, COURSE_ADDITIONAL_DATA_PATH_DICT, 'cosine', K)
+            result, actual_string = generate_course_recommendations(student, COURSE_REC_TYPES, COURSE_BASE_DATA_PATH, COURSE_ADDITIONAL_DATA_PATH_DICT, 'cosine', K)
         elif rec_type == 'subject_domain':
-            result = generate_subject_domain_recommendations(student, SUBJECT_DOMAIN_KEYWORDS_DATA_PATH, SUBJECT_DOMAIN_MODEL_PATH, 'cosine', K, threshold=0.6)
+            result, actual_string = generate_subject_domain_recommendations(student, SUBJECT_DOMAIN_KEYWORDS_DATA_PATH, SUBJECT_DOMAIN_MODEL_PATH, 'cosine', K, threshold=0.6)
         elif rec_type == 'career':
-            result = generate_career_recommendations(student, CAREER_BASE_DATA_PATH, CAREER_MODEL_PATHS_DICT, K)
+            result, actual_string = generate_career_recommendations(student, CAREER_BASE_DATA_PATH, CAREER_MODEL_PATHS_DICT, K)
     
     else:
         logging.info('Need further information from the student.')
         return_type = 'further_question'
         result = any_further_info_required
+        actual_string = student_database_api.get_actual_string_from_email(student.get_personal_info().get_email())
         student_database_api.update_student_data(student, 'any_further_info_required', any_further_info_required)
 
-    final_tuple = (return_type, result)
+    final_tuple = (return_type, result, actual_string)
 
     return final_tuple

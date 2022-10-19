@@ -142,3 +142,17 @@ def delete_student_data(student: Student, info_type_to_delete, all=False):
 
     # save the newly updated dataframe to the database csv location
     df_students.to_csv(STUDENT_DATA_PATH)
+
+def get_actual_string_from_email(email: str):
+    df_students = read_student_dataframe()
+
+    # find the corresponding row in the database for that student
+    df_selected_student = df_students.loc[df_students['email'] == email]
+
+    student_interest = df_selected_student['student_interest'].values[0]
+    job_aspiration = df_selected_student['job_aspiration'].values[0]
+    skills = df_selected_student['skills'].values[0]
+
+    actual_string = student_interest + job_aspiration + skills
+
+    return actual_string
