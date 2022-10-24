@@ -1,0 +1,113 @@
+,user_email,actual_string,result,rating,Course,CF Score,Predicted Rating
+0,6,i desire biology,SCNC1112: Fundamentals of modern science,5,SCNC1112: Fundamentals of modern science,2.3841857910156245e-08,4.750000023841858
+0,42,"financial time series modeling, stochastic calculus?",COMP2121A: Discrete Mathematics (CS),3,COMP2121A: Discrete Mathematics (CS),-0.09114116430282593,3.908858835697174
+1,42,"financial time series modeling, stochastic calculus?",PHYS2155: Methods in physics II,2,PHYS2155: Methods in physics II,0.2734234929084778,4.273423492908478
+0,63,I am interested in earth and planet,ENVS3020: Global change ecology,4,ENVS3020: Global change ecology,0.0,4.25
+0,59,I am a year one want to take biology major in future. Any introduction course of biology?,BIOL4963: Molecular biology & biotechnology internship,1,,,
+0,27,deep learning,ENTR2001: Professional and leadership development,1,,,
+0,39,"i love earth science related stuff, can you recommend me some course?",SCNC1112: Fundamentals of modern science,4,,,
+1,39,"i love earth science related stuff, can you recommend me some course?",PHYS1055: How things work,1,,,
+0,92,atmosphere,ENVS3313: Environmental oceanography,3,ENVS3313: Environmental oceanography,0.0,4.0
+0,65,Climate change and sustainability,BIOL3303: Conservation biology,3,BIOL3303: Conservation biology,0.0,4.0
+0,33,I am interested in Environmental Science.,BIOL3994: Directed studies in biological sciences,3,BIOL3994: Directed studies in biological sciences,-7.152557373046876e-08,4.249999928474426
+0,31,molecular biology,BIOL4963: Molecular biology & biotechnology internship,5,BIOL4963: Molecular biology & biotechnology internship,0.0,3.3333333333333335
+1,31,molecular biology,CHEM4542: Computational chemistry,2,CHEM4542: Computational chemistry,0.0,3.3333333333333335
+0,89,I want to learn some programming skills for my Decision Analytics degree.,STAT4609: Big data analytics,3,,,
+1,89,I want to learn some programming skills for my Decision Analytics degree.,ENTR2001: Professional and leadership development,1,,,
+0,62,I wanna know how food affects our body and how to build a healthy body,BIOL3205: Human physiology,5,,,
+1,62,I wanna know how food affects our body and how to build a healthy body,BIOL1201: Introduction to food and nutrition,5,,,
+0,96,"climate change, air pollution, ecology",ENVS3020: Global change ecology,5,ENVS3020: Global change ecology,0.12449824810028076,4.624498248100281
+0,86,Fundamentals science and fundamentals chemistry courses,SCNC1112: Fundamentals of modern science,5,SCNC1112: Fundamentals of modern science,-0.07648338079452521,2.1735166192054747
+0,5,astronomy,PHYS4655: Interstellar medium,5,,,
+1,5,astronomy,SCNC1112: Fundamentals of modern science,3,,,
+0,43,i want to work in the environment industry. I like studying rocks and the earth.,ENVS1401: Introduction to environmental science,5,ENVS1401: Introduction to environmental science,-0.05508868694305425,4.944911313056946
+0,71,ocean and coastal,BIOL3303: Conservation biology,2,BIOL3303: Conservation biology,0.38442645072937004,4.38442645072937
+0,64,Physical chemistry,CHEM4444: Chemical biology,1,CHEM4444: Chemical biology,0.0,1.0
+1,64,Physical chemistry,"CHEM4142: Symmetry, group theory and applications",1,,,
+2,64,Physical chemistry,CHEM2442: Fundamentals of organic chemistry,2,,,
+0,108,knowledge of statistics,APAI3021: Modern biostatistics,3,,,
+1,108,knowledge of statistics,STAT4798: Statistics and actuarial science project,4,,,
+0,40,optimization and gradient descent. i also want to learn about differential calculus.,MATH3904: Introduction to optimization,5,,,
+0,95,I want to learn environmental toxicology and protection.,ENVS1301: Environmental life science,1,ENVS1301: Environmental life science,-0.03717195590337119,0.9628280440966288
+1,95,I want to learn environmental toxicology and protection.,BIOL4861: Ecology & biodiversity internship,1,BIOL4861: Ecology & biodiversity internship,-4.172325134277344e-07,0.9999995827674866
+0,10,investment,STAT3615: Practical mathematics for investment,4,,,
+0,24,course,CHEM3999: Directed studies in chemistry,2,,,
+1,24,course,MATH3999: Directed studies in mathematics,1,MATH3999: Directed studies in mathematics,0.5386710405349733,2.20533770720164
+0,116,cosmology,PHYS4655: Interstellar medium,5,,,
+1,116,cosmology,SCNC1112: Fundamentals of modern science,3,,,
+0,120,molecular and cell biology,BIOL2220: Principles of biochemistry,2,,,
+0,75,some theoretical maths maybe,MATH1009: Basic mathematics for business and economics,1,MATH1009: Basic mathematics for business and economics,-0.34117043018341064,1.9088295698165894
+0,Max,biology,BIOL4963: Molecular biology & biotechnology internship,5,BIOL4963: Molecular biology & biotechnology internship,-9.934107462565102e-08,4.749999900658925
+0,fee,number theory; ; math,"COMP2121B: Discrete Mathematics (CS, CE, IS)",4,"COMP2121B: Discrete Mathematics (CS, CE, IS)",0.0,2.5
+0,109,I want to learn applied statistical concepts and models,APAI3021: Modern biostatistics,1,APAI3021: Modern biostatistics,0.39258377552032475,1.3925837755203248
+0,68,want to learn how environment affects the society,ENVS1301: Environmental life science,3,ENVS1301: Environmental life science,0.10369497537612916,4.103694975376129
+0,121,"I want to learn about agriculture production, fisheries and aquaculture, biomedical research and pharmaceutical purposes",BIOL4205: Food technology,4,,,
+1,121,"I want to learn about agriculture production, fisheries and aquaculture, biomedical research and pharmaceutical purposes",BIOL3508: Microbial physiology and biotechnology,2,,,
+0,56,hydrogeology,EASC2409: Regional field studies,3,,,
+0,32,ecology,ENVS1301: Environmental life science,4,ENVS1301: Environmental life science,0.0,4.0
+0,78,introduction to differential calculus and optimization,"PHYS1056: Weather, climate and climate change",1,,,
+1,78,introduction to differential calculus and optimization,PHYS1150: Problem solving in physics,1,,,
+0,83,cell biology,CHEM4444: Chemical biology,2,CHEM4444: Chemical biology,-0.12674120664596558,4.123258793354035
+0,14,"java and object oriented programming, software engineering",COMP2396A: Object-oriented Programming and Java (CS),5,COMP2396A: Object-oriented Programming and Java (CS),-0.17142983227968212,4.828570167720318
+0,sudairi,courses computer AI,COMP2120A: Computer Organization (CS),3,,,
+0,79,some practical courses on geology? i want to go on field trips,BIOL4861: Ecology & biodiversity internship,3,BIOL4861: Ecology & biodiversity internship,0.08740073442459106,2.337400734424591
+0,57,marine and fish ecology,BIOL3109: Environmental and molecular ecology,4,,,
+1,57,marine and fish ecology,BIOL3303: Conservation biology,4,BIOL3303: Conservation biology,0.17940454483032223,4.179404544830322
+2,57,marine and fish ecology,ENVS3020: Global change ecology,4,ENVS3020: Global change ecology,-0.044851136207580605,3.9551488637924193
+0,112,life science,SCNC1112: Fundamentals of modern science,3,SCNC1112: Fundamentals of modern science,0.0,3.6666666666666665
+1,112,life science,PHYS1055: How things work,3,,,
+0,69,"environment conservation, marine life",ENVS1301: Environmental life science,5,ENVS1301: Environmental life science,0.0,4.75
+0,72,Some math course for completing my decision analytics degree,MATH7502: Topics in applied discrete mathematics,11,,,
+1,72,Some math course for completing my decision analytics degree,MATH1009: Basic mathematics for business and economics,2,,,
+2,72,Some math course for completing my decision analytics degree,"COMP2121B: Discrete Mathematics (CS, CE, IS)",1,,,
+0,98,"carbohydrates, protein , fat, how do they affect the body?",BIOL2220: Principles of biochemistry,3,,,
+0,91,Earth system science major student want to take courses related to data analysis and modeling,ENVS2001: Methods in environmental science,1,,,
+0,101,I want to make biotechnological applications,BIOL4415: Healthcare biotechnology,3,,,
+1,101,I want to make biotechnological applications,ENTR3002: Customer analysis and strategic marketing,4,,,
+2,101,I want to make biotechnological applications,ENTR3001: Science-based innovation development,5,,,
+0,111,I’m interested in biological sciences. Which course should I take?,BIOL4964: Biological sciences internship,4,,,
+0,80,courses that will discuss about the time series,COMP4804: Computing and Data Analytics Project (CDA),1,COMP4804: Computing and Data Analytics Project (CDA),-1.4305114746093747e-07,1.2499998569488526
+0,99,"quality control over food, waste management",CHEM3242: Food and water analysis,5,CHEM3242: Food and water analysis,0.0,3.3333333333333335
+1,99,"quality control over food, waste management",BIOL3203: Food microbiology,3,,,
+0,52,I want to learn chemistry and biology. Thank you.,CHEM4444: Chemical biology,4,,,
+1,52,I want to learn chemistry and biology. Thank you.,CHEM2442: Fundamentals of organic chemistry,4,,,
+2,52,I want to learn chemistry and biology. Thank you.,BIOL4963: Molecular biology & biotechnology internship,4,BIOL4963: Molecular biology & biotechnology internship,0.4241038322448731,4.424103832244873
+0,117,curious about astrophysics,CHEM4542: Computational chemistry,4,CHEM4542: Computational chemistry,-1.7881393432617188e-07,3.4999998211860657
+0,107,I want to do physics research and project,ENVS4999: Environmental science project,1,ENVS4999: Environmental science project,0.0,1.25
+0,1,food and nutrition,BIOL1201: Introduction to food and nutrition,5,,,
+0,82,environment and chemistry,ENVS1301: Environmental life science,3,ENVS1301: Environmental life science,-0.4952716827392578,1.5047283172607422
+1,82,environment and chemistry,CHEM2442: Fundamentals of organic chemistry,3,,,
+0,54,give me some plant related course. Dump ass,CHEM3999: Directed studies in chemistry,1,,,
+1,54,give me some plant related course. Dump ass,BIOL4861: Ecology & biodiversity internship,1,,,
+0,60,Machine learning,COMP3314C: Machine Learning,4,,,
+0,110,small scale particle physics,CHEM4542: Computational chemistry,1,,,
+1,110,small scale particle physics,"CHEM4142: Symmetry, group theory and applications",1,"CHEM4142: Symmetry, group theory and applications",0.18044178485870363,2.1804417848587034
+0,16,food nutrition and health,BIOL4962: Food & nutritional science internship,4,,,
+0,93,interested in biodiversity and animals,BIOL3109: Environmental and molecular ecology,3,BIOL3109: Environmental and molecular ecology,0.0,4.0
+1,93,interested in biodiversity and animals,ENVS3020: Global change ecology,3,ENVS3020: Global change ecology,0.3860599398612976,4.386059939861298
+2,93,interested in biodiversity and animals,ENVS1301: Environmental life science,3,ENVS1301: Environmental life science,0.0,4.0
+0,45,I am majoring in biology. I want to learn something related to human health and disease. Any recommendation?,BIOL1110: From molecules to cells,5,,,
+0,90,courses related to computer graphic and data visualization,COMP3314C: Machine Learning,3,,,
+0,114,I like to learn biofuels as alternative energy sources!,ENVS1301: Environmental life science,5,ENVS1301: Environmental life science,0.1050373911857605,4.6050373911857605
+0,77,bioinformatics course,BIOL3508: Microbial physiology and biotechnology,4,,,
+0,53,systematics and evolution,BIOL3506: Evolutionary biology,5,,,
+0,36,"fuck you idiot, give me some python programming course",COMP3329: Computer Game Design and Programming,3,,,
+0,84,Biology courses with laboratory session.,BIOC4613: Advanced techniques in biochemistry & molecular biology,4,,,
+0,103,time series analysis,STAT3021: Modern biostatistics,1,,,
+0,29,biology,BIOL3506: Evolutionary biology,4,,,
+0,74,how does the earth work?,BIOL4861: Ecology & biodiversity internship,3,,,
+0,28,physics like biology and homeopathy,CHEM4542: Computational chemistry,3,CHEM4542: Computational chemistry,-0.028100721041361496,3.7218992789586385
+0,8,CS requirements,STAT2604: Introduction to R/Python programming and elementary data analysis,5,STAT2604: Introduction to R/Python programming and elementary data analysis,0.7883421421051027,4.121675475438436
+1,8,CS requirements,COMP2396B: Object-oriented Programming and Java,4,COMP2396B: Object-oriented Programming and Java,0.1313903570175172,3.4647236903508505
+0,81,"introduction to nutrition, biology, chemistry",SCNC1112: Fundamentals of modern science,2,SCNC1112: Fundamentals of modern science,0.0,1.3333333333333333
+1,81,"introduction to nutrition, biology, chemistry",CHEM2442: Fundamentals of organic chemistry,3,CHEM2442: Fundamentals of organic chemistry,-0.19592161178588868,1.1374117215474446
+0,11,physics,PHYS2155: Methods in physics II,3,,,
+0,119,risk analytics skills,COMP3314A: Machine Learning,2,,,
+0,41,"hydrogeology, mineralogy",EASC2409: Regional field studies,4,,,
+0,70,algorithms and data structure,MATH3943: Network models in operations research,1,,,
+0,15,"astronomy, quantum physics, and probability",COMP3366: Quantum Algorithms and Computer Architecture,5,,,
+0,58,capstone course for earth system science,SCNC1112: Fundamentals of modern science,1,,,
+0,55,policies about environmental preservation,ENVS1401: Introduction to environmental science,5,ENVS1401: Introduction to environmental science,-0.07333216667175299,4.426667833328247
+0,102,want to be a quantitative analyst,EASC4999: Earth sciences project,1,,,
+0,50,"I am a final year chemistry student, I want to do a research project or capstone project in chemistry.",BIOL4963: Molecular biology & biotechnology internship,3,BIOL4963: Molecular biology & biotechnology internship,0.04327080150445303,4.043270801504453
+0,94,"i want to learn about minerals and natural resources, also quite interested in rocks and the chemistry behind.",CHEM4341: Advanced inorganic chemistry,1,,,

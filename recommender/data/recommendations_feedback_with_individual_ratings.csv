@@ -1,0 +1,561 @@
+,user_email,user_level_index,user_query,result,rating,precision_count,chatbox_sex,recommender_rec_type,actual_string,overall_rating
+0,sudairi,1,courses computer AI,COMP2396B: Object-oriented Programming and Java,3,5,male,course,courses computer AI; ; ,5
+0,sudairi,1,courses computer AI,COMP2396A: Object-oriented Programming and Java (CS),3,5,male,course,courses computer AI; ; ,5
+0,sudairi,1,courses computer AI,COMP3270A: Artificial Intelligence,5,5,male,course,courses computer AI; ; ,5
+0,sudairi,1,courses computer AI,COMP3270B: Artificial Intelligence,5,5,male,course,courses computer AI; ; ,5
+0,sudairi,1,courses computer AI,COMP2120A: Computer Organization (CS),3,5,male,course,courses computer AI; ; ,5
+1,fee,4,number theory,COMP2121A: Discrete Mathematics (CS),4,0,male,course,number theory; ; math,3
+1,fee,4,number theory,"COMP2121C: Discrete Mathematics (CS, CE, IS, 2nd Major)",4,0,male,course,number theory; ; math,3
+1,fee,4,number theory,"COMP2121B: Discrete Mathematics (CS, CE, IS)",4,0,male,course,number theory; ; math,3
+1,fee,4,number theory,PHYS2155: Methods in physics II,1,0,male,course,number theory; ; math,3
+1,fee,4,number theory,PHYS2150: Methods in physics I,1,0,male,course,number theory; ; math,3
+2,Max,1,biology,CHEM4444: Chemical biology,4,4,female,course,biology; ; ,4
+2,Max,1,biology,BIOL4963: Molecular biology & biotechnology internship,5,4,female,course,biology; ; ,4
+2,Max,1,biology,BIOC4613: Advanced techniques in biochemistry & molecular biology,5,4,female,course,biology; ; ,4
+2,Max,1,biology,BIOL3506: Evolutionary biology,5,4,female,course,biology; ; ,4
+2,Max,1,biology,BIOL1110: From molecules to cells,5,4,female,course,biology; ; ,4
+3,kiki,1,molecular biology,CHEM4444: Chemical biology,3,4,female,course,molecular biology; ; ,5
+3,kiki,1,molecular biology,CHEM4542: Computational chemistry,3,4,female,course,molecular biology; ; ,5
+3,kiki,1,molecular biology,BIOC2600: Basic biochemistry,3,4,female,course,molecular biology; ; ,5
+3,kiki,1,molecular biology,BIOL1110: From molecules to cells,5,4,female,course,molecular biology; ; ,5
+3,kiki,1,molecular biology,BIOL4963: Molecular biology & biotechnology internship,5,4,female,course,molecular biology; ; ,5
+4,1,1,food and nutrition ,BIOL1201: Introduction to food and nutrition,5,4,female,course,food and nutrition ; ; ,4
+4,1,1,food and nutrition ,BIOL4209: Functional foods,4,4,female,course,food and nutrition ; ; ,4
+4,1,1,food and nutrition ,BIOL3608: Food commodities,5,4,female,course,food and nutrition ; ; ,4
+4,1,1,food and nutrition ,BIOL3203: Food microbiology,4,4,female,course,food and nutrition ; ; ,4
+4,1,1,food and nutrition ,BIOL4962: Food & nutritional science internship,5,4,female,course,food and nutrition ; ; ,4
+5,3,1,atmospheric science,SCNC1112: Fundamentals of modern science,3,3,female,course,atmospheric science; ; ,3
+5,3,1,atmospheric science,EASC3415: Meteorology,4,3,female,course,atmospheric science; ; ,3
+5,3,1,atmospheric science,EASC2404: Introduction to atmosphere and hydrosphere,4,3,female,course,atmospheric science; ; ,3
+5,3,1,atmospheric science,EASC1020: Introduction to climate science,3,3,female,course,atmospheric science; ; ,3
+5,3,1,atmospheric science,ENVS1301: Environmental life science,2,3,female,course,atmospheric science; ; ,3
+6,4,2,inorganic chemistry,CHEM4341: Advanced inorganic chemistry,5,3,male,course,inorganic chemistry; ; ,4
+6,4,2,inorganic chemistry,CHEM2442: Fundamentals of organic chemistry,1,3,male,course,inorganic chemistry; ; ,4
+6,4,2,inorganic chemistry,CHEM4444: Chemical biology,2,3,male,course,inorganic chemistry; ; ,4
+6,4,2,inorganic chemistry,"CHEM4142: Symmetry, group theory and applications",2,3,male,course,inorganic chemistry; ; ,4
+6,4,2,inorganic chemistry,CHEM4542: Computational chemistry,3,3,male,course,inorganic chemistry; ; ,4
+7,5,1,astronomy,SCNC1112: Fundamentals of modern science,3,4,male,course,astronomy; ; ,4
+7,5,1,astronomy,PHYS3850: Physical Optics,4,4,male,course,astronomy; ; ,4
+7,5,1,astronomy,PHYS4655: Interstellar medium,5,4,male,course,astronomy; ; ,4
+7,5,1,astronomy,BIOL4963: Molecular biology & biotechnology internship,2,4,male,course,astronomy; ; ,4
+7,5,1,astronomy,PHYS3750: Foundations of laser and spectroscopy,3,4,male,course,astronomy; ; ,4
+8,6,1,i desire biology,BIOL4963: Molecular biology & biotechnology internship,5,5,female,course,i desire biology; ; ,5
+8,6,1,i desire biology,CHEM4444: Chemical biology,5,5,female,course,i desire biology; ; ,5
+8,6,1,i desire biology,SCNC1112: Fundamentals of modern science,5,5,female,course,i desire biology; ; ,5
+8,6,1,i desire biology,BIOL1110: From molecules to cells,5,5,female,course,i desire biology; ; ,5
+8,6,1,i desire biology,ENVS1301: Environmental life science,4,5,female,course,i desire biology; ; ,5
+9,7,2,food toxicology,BIOL3203: Food microbiology,5,5,male,course,food toxicology; ; ,5
+9,7,2,food toxicology,CHEM3242: Food and water analysis,4,5,male,course,food toxicology; ; ,5
+9,7,2,food toxicology,BIOL1201: Introduction to food and nutrition,4,5,male,course,food toxicology; ; ,5
+9,7,2,food toxicology,BIOL4209: Functional foods,5,5,male,course,food toxicology; ; ,5
+9,7,2,food toxicology,BIOL3209: Food and nutrient analysis,5,5,male,course,food toxicology; ; ,5
+10,8,2,AI,COMP3234B: Computer and Communication Networks (CS),3,5,female,course,CS requirements; ; ,5
+10,8,2,AI,COMP3234A: Computer and Communication Networks,3,5,female,course,CS requirements; ; ,5
+10,8,2,AI,STAT2604: Introduction to R/Python programming and elementary data analysis,5,5,female,course,CS requirements; ; ,5
+10,8,2,AI,COMP2396B: Object-oriented Programming and Java,4,5,female,course,CS requirements; ; ,5
+10,8,2,AI,COMP2396A: Object-oriented Programming and Java (CS),4,5,female,course,CS requirements; ; ,5
+11,9,1,fintech,ENTR3002: Customer analysis and strategic marketing,3,4,male,course,fintech; ; ,4
+11,9,1,fintech,FITE3010: Big Data and Data Mining,4,4,male,course,fintech; ; ,4
+11,9,1,fintech,COMP3322A: Modern Technologies on World Wide Web,3,4,male,course,fintech; ; ,4
+11,9,1,fintech,COMP3322B: Modern Technologies on World Wide Web,3,4,male,course,fintech; ; ,4
+11,9,1,fintech,COMP3297A: Software Engineering (CS),3,4,male,course,fintech; ; ,4
+12,10,2,investment,STAT2902: Financial mathematics,4,5,female,course,investment; ; ,4
+12,10,2,investment,STAT3615: Practical mathematics for investment,4,5,female,course,investment; ; ,4
+12,10,2,investment,ENTR3002: Customer analysis and strategic marketing,3,5,female,course,investment; ; ,4
+12,10,2,investment,STAT3618: Derivatives and risk management,4,5,female,course,investment; ; ,4
+12,10,2,investment,ENTR3001: Science-based innovation development,3,5,female,course,investment; ; ,4
+13,11,1,physics,CHEM4542: Computational chemistry,2,3,male,course,physics; ; ,3
+13,11,1,physics,PHYS2155: Methods in physics II,3,3,male,course,physics; ; ,3
+13,11,1,physics,PHYS1240: Physics by inquiry,3,3,male,course,physics; ; ,3
+13,11,1,physics,PHYS2150: Methods in physics I,3,3,male,course,physics; ; ,3
+13,11,1,physics,PHYS3850: Physical Optics,3,3,male,course,physics; ; ,3
+14,12,1,statistics and programming like R language and python,COMP3259: Principles of Programming Languages,4,3,female,course,statistics and programming like R language and python; ; ,4
+14,12,1,statistics and programming like R language and python,COMP2396B: Object-oriented Programming and Java,4,3,female,course,statistics and programming like R language and python; ; ,4
+14,12,1,statistics and programming like R language and python,COMP2396A: Object-oriented Programming and Java (CS),3,3,female,course,statistics and programming like R language and python; ; ,4
+14,12,1,statistics and programming like R language and python,STAT2604: Introduction to R/Python programming and elementary data analysis,5,3,female,course,statistics and programming like R language and python; ; ,4
+14,12,1,statistics and programming like R language and python,COMP2502: Computing Fundamentals (Minor in DS&E only),3,3,female,course,statistics and programming like R language and python; ; ,4
+15,13,1,astronomy and planets. maybe also something related to theoretical physics,PHYS4655: Interstellar medium,4,3,female,course,astronomy and planets. maybe also something related to theoretical physics; ; ,4
+15,13,1,astronomy and planets. maybe also something related to theoretical physics,PHYS1240: Physics by inquiry,4,3,female,course,astronomy and planets. maybe also something related to theoretical physics; ; ,4
+15,13,1,astronomy and planets. maybe also something related to theoretical physics,SCNC1112: Fundamentals of modern science,4,3,female,course,astronomy and planets. maybe also something related to theoretical physics; ; ,4
+15,13,1,astronomy and planets. maybe also something related to theoretical physics,"CHEM4142: Symmetry, group theory and applications",2,3,female,course,astronomy and planets. maybe also something related to theoretical physics; ; ,4
+15,13,1,astronomy and planets. maybe also something related to theoretical physics,PHYS2155: Methods in physics II,4,3,female,course,astronomy and planets. maybe also something related to theoretical physics; ; ,4
+16,14,1,"java and object oriented programming, software engineering",COMP2396B: Object-oriented Programming and Java,5,5,female,course,"java and object oriented programming, software engineering; ; ",5
+16,14,1,"java and object oriented programming, software engineering",COMP2396A: Object-oriented Programming and Java (CS),5,5,female,course,"java and object oriented programming, software engineering; ; ",5
+16,14,1,"java and object oriented programming, software engineering",COMP3297A: Software Engineering (CS),5,5,female,course,"java and object oriented programming, software engineering; ; ",5
+16,14,1,"java and object oriented programming, software engineering","COMP3297B: Software Engineering (CE, IS, 2nd Major)",5,5,female,course,"java and object oriented programming, software engineering; ; ",5
+16,14,1,"java and object oriented programming, software engineering",COMP3330: Interactive Mobile Application Design and Programming,5,5,female,course,"java and object oriented programming, software engineering; ; ",5
+17,15,1,"astronomy, quantum physics, and probability",COMP3366: Quantum Algorithms and Computer Architecture,5,4,male,course,"astronomy, quantum physics, and probability; ; ",5
+17,15,1,"astronomy, quantum physics, and probability",CHEM4542: Computational chemistry,3,4,male,course,"astronomy, quantum physics, and probability; ; ",5
+17,15,1,"astronomy, quantum physics, and probability",PHYS2155: Methods in physics II,5,4,male,course,"astronomy, quantum physics, and probability; ; ",5
+17,15,1,"astronomy, quantum physics, and probability",PHYS3850: Physical Optics,5,4,male,course,"astronomy, quantum physics, and probability; ; ",5
+17,15,1,"astronomy, quantum physics, and probability","CHEM4142: Symmetry, group theory and applications",5,4,male,course,"astronomy, quantum physics, and probability; ; ",5
+18,16,1,food nutrition and health,BIOL1201: Introduction to food and nutrition,5,4,female,course,food nutrition and health; ; ,5
+18,16,1,food nutrition and health,BIOL4209: Functional foods,5,4,female,course,food nutrition and health; ; ,5
+18,16,1,food nutrition and health,BIOL3608: Food commodities,4,4,female,course,food nutrition and health; ; ,5
+18,16,1,food nutrition and health,BIOL4962: Food & nutritional science internship,4,4,female,course,food nutrition and health; ; ,5
+18,16,1,food nutrition and health,BIOL3203: Food microbiology,4,4,female,course,food nutrition and health; ; ,5
+19,17,1,i want to know more about courses that are related to math and statistic,MATH1009: Basic mathematics for business and economics,4,4,female,course,i want to know more about courses that are related to math and statistic; ; ,4
+19,17,1,i want to know more about courses that are related to math and statistic,STAT4767: Actuarial science internship,4,4,female,course,i want to know more about courses that are related to math and statistic; ; ,4
+19,17,1,i want to know more about courses that are related to math and statistic,PHYS1240: Physics by inquiry,2,4,female,course,i want to know more about courses that are related to math and statistic; ; ,4
+19,17,1,i want to know more about courses that are related to math and statistic,BIOL4962: Food & nutritional science internship,2,4,female,course,i want to know more about courses that are related to math and statistic; ; ,4
+19,17,1,i want to know more about courses that are related to math and statistic,MATH3999: Directed studies in mathematics,4,4,female,course,i want to know more about courses that are related to math and statistic; ; ,4
+20,19,2,physic heat,STAT4767: Actuarial science internship,1,3,female,course,course; ; ,3
+20,19,2,physic heat,MATH3999: Directed studies in mathematics,2,3,female,course,course; ; ,3
+20,19,2,physic heat,CHEM3999: Directed studies in chemistry,3,3,female,course,course; ; ,3
+20,19,2,physic heat,PHYS1240: Physics by inquiry,4,3,female,course,course; ; ,3
+20,19,2,physic heat,ENVS3999: Directed studies in environmental science,2,3,female,course,course; ; ,3
+21,24,2,anatomy and pathology,STAT4767: Actuarial science internship,1,4,male,course,course; ; ,2
+21,24,2,anatomy and pathology,MATH3999: Directed studies in mathematics,1,4,male,course,course; ; ,2
+21,24,2,anatomy and pathology,CHEM3999: Directed studies in chemistry,2,4,male,course,course; ; ,2
+21,24,2,anatomy and pathology,PHYS1240: Physics by inquiry,2,4,male,course,course; ; ,2
+21,24,2,anatomy and pathology,ENVS3999: Directed studies in environmental science,2,4,male,course,course; ; ,2
+22,27,1,deep learning,PHYS3151: Machine learning in physics,3,2,female,course,deep learning; ; ,3
+22,27,1,deep learning,BIOL4861: Ecology & biodiversity internship,2,2,female,course,deep learning; ; ,3
+22,27,1,deep learning,EASC1401: Blue Planet,1,2,female,course,deep learning; ; ,3
+22,27,1,deep learning,ENTR2001: Professional and leadership development,1,2,female,course,deep learning; ; ,3
+22,27,1,deep learning,EASC4966: Earth sciences internship,1,2,female,course,deep learning; ; ,3
+23,28,1,physics like biology and homeopathy,CHEM4444: Chemical biology,3,2,female,course,physics like biology and homeopathy; ; ,3
+23,28,1,physics like biology and homeopathy,SCNC1112: Fundamentals of modern science,4,2,female,course,physics like biology and homeopathy; ; ,3
+23,28,1,physics like biology and homeopathy,CHEM4542: Computational chemistry,3,2,female,course,physics like biology and homeopathy; ; ,3
+23,28,1,physics like biology and homeopathy,BIOC4613: Advanced techniques in biochemistry & molecular biology,5,2,female,course,physics like biology and homeopathy; ; ,3
+23,28,1,physics like biology and homeopathy,BIOL3506: Evolutionary biology,3,2,female,course,physics like biology and homeopathy; ; ,3
+24,29,1,biology,CHEM4444: Chemical biology,4,4,male,course,biology; ; ,4
+24,29,1,biology,BIOL4963: Molecular biology & biotechnology internship,4,4,male,course,biology; ; ,4
+24,29,1,biology,BIOC4613: Advanced techniques in biochemistry & molecular biology,4,4,male,course,biology; ; ,4
+24,29,1,biology,BIOL3506: Evolutionary biology,4,4,male,course,biology; ; ,4
+24,29,1,biology,BIOL1110: From molecules to cells,4,4,male,course,biology; ; ,4
+25,31,1,molecular biology,CHEM4444: Chemical biology,2,3,female,course,molecular biology; ; ,3
+25,31,1,molecular biology,CHEM4542: Computational chemistry,2,3,female,course,molecular biology; ; ,3
+25,31,1,molecular biology,BIOC2600: Basic biochemistry,3,3,female,course,molecular biology; ; ,3
+25,31,1,molecular biology,BIOL1110: From molecules to cells,5,3,female,course,molecular biology; ; ,3
+25,31,1,molecular biology,BIOL4963: Molecular biology & biotechnology internship,5,3,female,course,molecular biology; ; ,3
+26,32,1,ecology,BIOL3303: Conservation biology,4,4,male,course,ecology; ; ,4
+26,32,1,ecology,ENVS1301: Environmental life science,4,4,male,course,ecology; ; ,4
+26,32,1,ecology,BIOL3109: Environmental and molecular ecology,4,4,male,course,ecology; ; ,4
+26,32,1,ecology,BIOL4861: Ecology & biodiversity internship,3,4,male,course,ecology; ; ,4
+26,32,1,ecology,ENVS3020: Global change ecology,5,4,male,course,ecology; ; ,4
+27,33,1,I am interested in Environmental Science.,ENVS1301: Environmental life science,5,3,female,course,I am interested in Environmental Science.; ; ,4
+27,33,1,I am interested in Environmental Science.,SCNC1112: Fundamentals of modern science,3,3,female,course,I am interested in Environmental Science.; ; ,4
+27,33,1,I am interested in Environmental Science.,BIOL3994: Directed studies in biological sciences,3,3,female,course,I am interested in Environmental Science.; ; ,4
+27,33,1,I am interested in Environmental Science.,BIOL3303: Conservation biology,4,3,female,course,I am interested in Environmental Science.; ; ,4
+27,33,1,I am interested in Environmental Science.,BIOL4861: Ecology & biodiversity internship,5,3,female,course,I am interested in Environmental Science.; ; ,4
+28,35,1,"hey dumb ass, i want to study statistical modeling",COMP2121A: Discrete Mathematics (CS),2,2,male,course,"hey dumb ass, i want to study statistical modeling; ; ",3
+28,35,1,"hey dumb ass, i want to study statistical modeling","COMP2121B: Discrete Mathematics (CS, CE, IS)",2,2,male,course,"hey dumb ass, i want to study statistical modeling; ; ",3
+28,35,1,"hey dumb ass, i want to study statistical modeling","COMP2121C: Discrete Mathematics (CS, CE, IS, 2nd Major)",2,2,male,course,"hey dumb ass, i want to study statistical modeling; ; ",3
+28,35,1,"hey dumb ass, i want to study statistical modeling",STAT3622: Data visualization,4,2,male,course,"hey dumb ass, i want to study statistical modeling; ; ",3
+28,35,1,"hey dumb ass, i want to study statistical modeling",APAI3021: Modern biostatistics,4,2,male,course,"hey dumb ass, i want to study statistical modeling; ; ",3
+29,36,1,"fuck you idiot, give me some python programming course",COMP2396B: Object-oriented Programming and Java,4,4,male,course,"fuck you idiot, give me some python programming course; ; ",4
+29,36,1,"fuck you idiot, give me some python programming course",COMP2396A: Object-oriented Programming and Java (CS),4,4,male,course,"fuck you idiot, give me some python programming course; ; ",4
+29,36,1,"fuck you idiot, give me some python programming course",COMP3259: Principles of Programming Languages,5,4,male,course,"fuck you idiot, give me some python programming course; ; ",4
+29,36,1,"fuck you idiot, give me some python programming course",COMP3329: Computer Game Design and Programming,3,4,male,course,"fuck you idiot, give me some python programming course; ; ",4
+29,36,1,"fuck you idiot, give me some python programming course","COMP2120B: Computer Organization (IS, 2nd Major)",4,4,male,course,"fuck you idiot, give me some python programming course; ; ",4
+30,37,1,statistics and programming like R language and python,COMP3259: Principles of Programming Languages,4,5,female,course,statistics and programming like R language and python; ; ,5
+30,37,1,statistics and programming like R language and python,COMP2396B: Object-oriented Programming and Java,5,5,female,course,statistics and programming like R language and python; ; ,5
+30,37,1,statistics and programming like R language and python,COMP2396A: Object-oriented Programming and Java (CS),5,5,female,course,statistics and programming like R language and python; ; ,5
+30,37,1,statistics and programming like R language and python,STAT2604: Introduction to R/Python programming and elementary data analysis,5,5,female,course,statistics and programming like R language and python; ; ,5
+30,37,1,statistics and programming like R language and python,COMP2502: Computing Fundamentals (Minor in DS&E only),4,5,female,course,statistics and programming like R language and python; ; ,5
+31,38,1,linear algebra,MATH7502: Topics in applied discrete mathematics,3,2,male,course,linear algebra; ; ,3
+31,38,1,linear algebra,MATH1009: Basic mathematics for business and economics,1,2,male,course,linear algebra; ; ,3
+31,38,1,linear algebra,COMP2121A: Discrete Mathematics (CS),2,2,male,course,linear algebra; ; ,3
+31,38,1,linear algebra,"COMP2121C: Discrete Mathematics (CS, CE, IS, 2nd Major)",2,2,male,course,linear algebra; ; ,3
+31,38,1,linear algebra,"COMP2121B: Discrete Mathematics (CS, CE, IS)",2,2,male,course,linear algebra; ; ,3
+32,39,1,"i love earth science related stuff, can you recommend me some course?",PHYS1055: How things work,1,2,male,course,"i love earth science related stuff, can you recommend me some course?; ; ",3
+32,39,1,"i love earth science related stuff, can you recommend me some course?",SCNC1112: Fundamentals of modern science,4,2,male,course,"i love earth science related stuff, can you recommend me some course?; ; ",3
+32,39,1,"i love earth science related stuff, can you recommend me some course?",EASC1401: Blue Planet,5,2,male,course,"i love earth science related stuff, can you recommend me some course?; ; ",3
+32,39,1,"i love earth science related stuff, can you recommend me some course?",ENVS1301: Environmental life science,5,2,male,course,"i love earth science related stuff, can you recommend me some course?; ; ",3
+32,39,1,"i love earth science related stuff, can you recommend me some course?",PHYS1240: Physics by inquiry,1,2,male,course,"i love earth science related stuff, can you recommend me some course?; ; ",3
+33,40,1,optimization and gradient descent. i also want to learn about differential calculus.,PHYS2150: Methods in physics I,2,3,female,course,optimization and gradient descent. i also want to learn about differential calculus.; ; ,4
+33,40,1,optimization and gradient descent. i also want to learn about differential calculus.,MATH3904: Introduction to optimization,5,3,female,course,optimization and gradient descent. i also want to learn about differential calculus.; ; ,4
+33,40,1,optimization and gradient descent. i also want to learn about differential calculus.,MATH3901: Operations research I,4,3,female,course,optimization and gradient descent. i also want to learn about differential calculus.; ; ,4
+33,40,1,optimization and gradient descent. i also want to learn about differential calculus.,PHYS2155: Methods in physics II,4,3,female,course,optimization and gradient descent. i also want to learn about differential calculus.; ; ,4
+33,40,1,optimization and gradient descent. i also want to learn about differential calculus.,STAT4608: Market risk analysis,3,3,female,course,optimization and gradient descent. i also want to learn about differential calculus.; ; ,4
+34,41,1,"hydrogeology, mineralogy",EASC2409: Regional field studies,4,3,male,course,"hydrogeology, mineralogy; ; ",4
+34,41,1,"hydrogeology, mineralogy",EASC3410: Hydrogeology,5,3,male,course,"hydrogeology, mineralogy; ; ",4
+34,41,1,"hydrogeology, mineralogy",EASC1403: Geological heritage of Hong Kong,5,3,male,course,"hydrogeology, mineralogy; ; ",4
+34,41,1,"hydrogeology, mineralogy",BIOL3109: Environmental and molecular ecology,5,3,male,course,"hydrogeology, mineralogy; ; ",4
+34,41,1,"hydrogeology, mineralogy",BIOL3508: Microbial physiology and biotechnology,3,3,male,course,"hydrogeology, mineralogy; ; ",4
+35,42,1,"financial time series modeling, stochastic calculus?",STAT3615: Practical mathematics for investment,5,4,male,course,"financial time series modeling, stochastic calculus?; ; ",4
+35,42,1,"financial time series modeling, stochastic calculus?",STAT2902: Financial mathematics,5,4,male,course,"financial time series modeling, stochastic calculus?; ; ",4
+35,42,1,"financial time series modeling, stochastic calculus?",PHYS2155: Methods in physics II,2,4,male,course,"financial time series modeling, stochastic calculus?; ; ",4
+35,42,1,"financial time series modeling, stochastic calculus?",PHYS2150: Methods in physics I,2,4,male,course,"financial time series modeling, stochastic calculus?; ; ",4
+35,42,1,"financial time series modeling, stochastic calculus?",COMP2121A: Discrete Mathematics (CS),3,4,male,course,"financial time series modeling, stochastic calculus?; ; ",4
+36,43,1,i want to work in the environment industry. I like studying rocks and the earth.,EASC1401: Blue Planet,5,5,female,course,i want to work in the environment industry. I like studying rocks and the earth.; ; ,5
+36,43,1,i want to work in the environment industry. I like studying rocks and the earth.,ENVS1301: Environmental life science,5,5,female,course,i want to work in the environment industry. I like studying rocks and the earth.; ; ,5
+36,43,1,i want to work in the environment industry. I like studying rocks and the earth.,EASC2404: Introduction to atmosphere and hydrosphere,5,5,female,course,i want to work in the environment industry. I like studying rocks and the earth.; ; ,5
+36,43,1,i want to work in the environment industry. I like studying rocks and the earth.,ENVS1401: Introduction to environmental science,5,5,female,course,i want to work in the environment industry. I like studying rocks and the earth.; ; ,5
+36,43,1,i want to work in the environment industry. I like studying rocks and the earth.,ENVS3028: Coastal Sustainability,5,5,female,course,i want to work in the environment industry. I like studying rocks and the earth.; ; ,5
+37,44,1,i want to learn about decision theory.,MATH3600: Discrete mathematics,5,3,female,course,i want to learn about decision theory.; ; ,3
+37,44,1,i want to learn about decision theory.,MATH3999: Directed studies in mathematics,5,3,female,course,i want to learn about decision theory.; ; ,3
+37,44,1,i want to learn about decision theory.,ENVS1301: Environmental life science,1,3,female,course,i want to learn about decision theory.; ; ,3
+37,44,1,i want to learn about decision theory.,PHYS1240: Physics by inquiry,2,3,female,course,i want to learn about decision theory.; ; ,3
+37,44,1,i want to learn about decision theory.,MATH2012: Fundamental concepts of mathematics,4,3,female,course,i want to learn about decision theory.; ; ,3
+38,45,1,I am majoring in biology. I want to learn something related to human health and disease. Any recommendation?,ENVS1301: Environmental life science,2,2,male,course,I am majoring in biology. I want to learn something related to human health and disease. Any recommendation?; ; ,2
+38,45,1,I am majoring in biology. I want to learn something related to human health and disease. Any recommendation?,BIOL4963: Molecular biology & biotechnology internship,4,2,male,course,I am majoring in biology. I want to learn something related to human health and disease. Any recommendation?; ; ,2
+38,45,1,I am majoring in biology. I want to learn something related to human health and disease. Any recommendation?,BIOL1110: From molecules to cells,5,2,male,course,I am majoring in biology. I want to learn something related to human health and disease. Any recommendation?; ; ,2
+38,45,1,I am majoring in biology. I want to learn something related to human health and disease. Any recommendation?,BIOL3994: Directed studies in biological sciences,5,2,male,course,I am majoring in biology. I want to learn something related to human health and disease. Any recommendation?; ; ,2
+38,45,1,I am majoring in biology. I want to learn something related to human health and disease. Any recommendation?,BIOL4964: Biological sciences internship,5,2,male,course,I am majoring in biology. I want to learn something related to human health and disease. Any recommendation?; ; ,2
+39,46,1,Maybe on natural disasters and how to prevent them,ENVS3020: Global change ecology,4,4,female,course,Maybe on natural disasters and how to prevent them; ; ,4
+39,46,1,Maybe on natural disasters and how to prevent them,ENVS1401: Introduction to environmental science,4,4,female,course,Maybe on natural disasters and how to prevent them; ; ,4
+39,46,1,Maybe on natural disasters and how to prevent them,BIOL3303: Conservation biology,5,4,female,course,Maybe on natural disasters and how to prevent them; ; ,4
+39,46,1,Maybe on natural disasters and how to prevent them,EASC1020: Introduction to climate science,4,4,female,course,Maybe on natural disasters and how to prevent them; ; ,4
+39,46,1,Maybe on natural disasters and how to prevent them,EASC1401: Blue Planet,4,4,female,course,Maybe on natural disasters and how to prevent them; ; ,4
+40,47,1,matlab programming and calculation heavy,COMP2396A: Object-oriented Programming and Java (CS),1,1,male,course,matlab programming and calculation heavy; ; ,2
+40,47,1,matlab programming and calculation heavy,COMP2396B: Object-oriented Programming and Java,1,1,male,course,matlab programming and calculation heavy; ; ,2
+40,47,1,matlab programming and calculation heavy,COMP3259: Principles of Programming Languages,1,1,male,course,matlab programming and calculation heavy; ; ,2
+40,47,1,matlab programming and calculation heavy,MATH3901: Operations research I,3,1,male,course,matlab programming and calculation heavy; ; ,2
+40,47,1,matlab programming and calculation heavy,COMP3314A: Machine Learning,1,1,male,course,matlab programming and calculation heavy; ; ,2
+41,48,1,geochemistry and geochronology,EASC2409: Regional field studies,3,3,female,course,geochemistry and geochronology; ; ,3
+41,48,1,geochemistry and geochronology,EASC3410: Hydrogeology,3,3,female,course,geochemistry and geochronology; ; ,3
+41,48,1,geochemistry and geochronology,BIOL3109: Environmental and molecular ecology,3,3,female,course,geochemistry and geochronology; ; ,3
+41,48,1,geochemistry and geochronology,CHEM4241: Modern chemical instrumentation and applications,3,3,female,course,geochemistry and geochronology; ; ,3
+41,48,1,geochemistry and geochronology,EASC1403: Geological heritage of Hong Kong,3,3,female,course,geochemistry and geochronology; ; ,3
+42,50,1,"I am a final year chemistry student, I want to do a research project or capstone project in chemistry.",ENVS4999: Environmental science project,5,3,male,course,"I am a final year chemistry student, I want to do a research project or capstone project in chemistry.; ; ",5
+42,50,1,"I am a final year chemistry student, I want to do a research project or capstone project in chemistry.",CHEM4999: Chemistry project,5,3,male,course,"I am a final year chemistry student, I want to do a research project or capstone project in chemistry.; ; ",5
+42,50,1,"I am a final year chemistry student, I want to do a research project or capstone project in chemistry.",CHEM4910: Chemistry literacy and research,5,3,male,course,"I am a final year chemistry student, I want to do a research project or capstone project in chemistry.; ; ",5
+42,50,1,"I am a final year chemistry student, I want to do a research project or capstone project in chemistry.",EASC4999: Earth sciences project,1,3,male,course,"I am a final year chemistry student, I want to do a research project or capstone project in chemistry.; ; ",5
+42,50,1,"I am a final year chemistry student, I want to do a research project or capstone project in chemistry.",BIOL4963: Molecular biology & biotechnology internship,3,3,male,course,"I am a final year chemistry student, I want to do a research project or capstone project in chemistry.; ; ",5
+43,51,1,Artificial Intelligence and Big data,STAT4609: Big data analytics,5,4,female,course,Artificial Intelligence and Big data; ; ,4
+43,51,1,Artificial Intelligence and Big data,FITE3010: Big Data and Data Mining,5,4,female,course,Artificial Intelligence and Big data; ; ,4
+43,51,1,Artificial Intelligence and Big data,STAT2604: Introduction to R/Python programming and elementary data analysis,5,4,female,course,Artificial Intelligence and Big data; ; ,4
+43,51,1,Artificial Intelligence and Big data,ENVS2001: Methods in environmental science,2,4,female,course,Artificial Intelligence and Big data; ; ,4
+43,51,1,Artificial Intelligence and Big data,COMP3314A: Machine Learning,5,4,female,course,Artificial Intelligence and Big data; ; ,4
+44,52,1,I want to learn chemistry and biology. Thank you.,BIOL4963: Molecular biology & biotechnology internship,4,4,male,course,I want to learn chemistry and biology. Thank you.; ; ,4
+44,52,1,I want to learn chemistry and biology. Thank you.,ENVS1301: Environmental life science,4,4,male,course,I want to learn chemistry and biology. Thank you.; ; ,4
+44,52,1,I want to learn chemistry and biology. Thank you.,CHEM4444: Chemical biology,4,4,male,course,I want to learn chemistry and biology. Thank you.; ; ,4
+44,52,1,I want to learn chemistry and biology. Thank you.,SCNC1112: Fundamentals of modern science,4,4,male,course,I want to learn chemistry and biology. Thank you.; ; ,4
+44,52,1,I want to learn chemistry and biology. Thank you.,CHEM2442: Fundamentals of organic chemistry,4,4,male,course,I want to learn chemistry and biology. Thank you.; ; ,4
+45,53,1,systematics and evolution,BIOL3506: Evolutionary biology,5,3,female,course,systematics and evolution; ; ,4
+45,53,1,systematics and evolution,BIOL3109: Environmental and molecular ecology,5,3,female,course,systematics and evolution; ; ,4
+45,53,1,systematics and evolution,SCNC1112: Fundamentals of modern science,3,3,female,course,systematics and evolution; ; ,4
+45,53,1,systematics and evolution,BIOL3508: Microbial physiology and biotechnology,4,3,female,course,systematics and evolution; ; ,4
+45,53,1,systematics and evolution,ENVS3020: Global change ecology,3,3,female,course,systematics and evolution; ; ,4
+46,54,1,give me some plant related course. Dump ass,CHEM3999: Directed studies in chemistry,1,0,male,course,give me some plant related course. Dump ass; ; ,1
+46,54,1,give me some plant related course. Dump ass,BIOL4964: Biological sciences internship,1,0,male,course,give me some plant related course. Dump ass; ; ,1
+46,54,1,give me some plant related course. Dump ass,BIOL4861: Ecology & biodiversity internship,1,0,male,course,give me some plant related course. Dump ass; ; ,1
+46,54,1,give me some plant related course. Dump ass,BIOL4962: Food & nutritional science internship,1,0,male,course,give me some plant related course. Dump ass; ; ,1
+46,54,1,give me some plant related course. Dump ass,CHEM4966: Chemistry internship,1,0,male,course,give me some plant related course. Dump ass; ; ,1
+47,55,1,policies about environmental preservation,BIOL3303: Conservation biology,5,4,female,course,policies about environmental preservation; ; ,5
+47,55,1,policies about environmental preservation,ENVS1301: Environmental life science,5,4,female,course,policies about environmental preservation; ; ,5
+47,55,1,policies about environmental preservation,ENVS1401: Introduction to environmental science,5,4,female,course,policies about environmental preservation; ; ,5
+47,55,1,policies about environmental preservation,ENVS3010: Sustainable energy and environment,5,4,female,course,policies about environmental preservation; ; ,5
+47,55,1,policies about environmental preservation,BIOL3109: Environmental and molecular ecology,3,4,female,course,policies about environmental preservation; ; ,5
+48,56,1,hydrogeology,EASC3410: Hydrogeology,4,3,male,course,hydrogeology; ; ,4
+48,56,1,hydrogeology,EASC2409: Regional field studies,3,3,male,course,hydrogeology; ; ,4
+48,56,1,hydrogeology,EASC1403: Geological heritage of Hong Kong,2,3,male,course,hydrogeology; ; ,4
+48,56,1,hydrogeology,BIOL3994: Directed studies in biological sciences,4,3,male,course,hydrogeology; ; ,4
+48,56,1,hydrogeology,BIOL3109: Environmental and molecular ecology,4,3,male,course,hydrogeology; ; ,4
+49,57,1,marine and fish ecology,BIOL3303: Conservation biology,4,3,female,course,marine and fish ecology; ; ,4
+49,57,1,marine and fish ecology,ENVS1301: Environmental life science,4,3,female,course,marine and fish ecology; ; ,4
+49,57,1,marine and fish ecology,ENVS3313: Environmental oceanography,4,3,female,course,marine and fish ecology; ; ,4
+49,57,1,marine and fish ecology,BIOL3109: Environmental and molecular ecology,4,3,female,course,marine and fish ecology; ; ,4
+49,57,1,marine and fish ecology,ENVS3020: Global change ecology,4,3,female,course,marine and fish ecology; ; ,4
+50,58,1,capstone course for earth system science,SCNC1112: Fundamentals of modern science,1,0,male,course,capstone course for earth system science; ; ,1
+50,58,1,capstone course for earth system science,EASC1401: Blue Planet,1,0,male,course,capstone course for earth system science; ; ,1
+50,58,1,capstone course for earth system science,ENVS1301: Environmental life science,2,0,male,course,capstone course for earth system science; ; ,1
+50,58,1,capstone course for earth system science,BIOL3994: Directed studies in biological sciences,5,0,male,course,capstone course for earth system science; ; ,1
+50,58,1,capstone course for earth system science,EASC2404: Introduction to atmosphere and hydrosphere,2,0,male,course,capstone course for earth system science; ; ,1
+51,59,1,I am a year one want to take biology major in future. Any introduction course of biology?,BIOL4963: Molecular biology & biotechnology internship,1,0,female,course,I am a year one want to take biology major in future. Any introduction course of biology?; ; ,1
+51,59,1,I am a year one want to take biology major in future. Any introduction course of biology?,ENVS1301: Environmental life science,3,0,female,course,I am a year one want to take biology major in future. Any introduction course of biology?; ; ,1
+51,59,1,I am a year one want to take biology major in future. Any introduction course of biology?,BIOL4964: Biological sciences internship,1,0,female,course,I am a year one want to take biology major in future. Any introduction course of biology?; ; ,1
+51,59,1,I am a year one want to take biology major in future. Any introduction course of biology?,BIOL4861: Ecology & biodiversity internship,1,0,female,course,I am a year one want to take biology major in future. Any introduction course of biology?; ; ,1
+51,59,1,I am a year one want to take biology major in future. Any introduction course of biology?,BIOL4962: Food & nutritional science internship,1,0,female,course,I am a year one want to take biology major in future. Any introduction course of biology?; ; ,1
+52,60,1,Machine learning,PHYS3151: Machine learning in physics,4,4,male,course,Machine learning; ; ,4
+52,60,1,Machine learning,COMP3314B: Machine Learning,4,4,male,course,Machine learning; ; ,4
+52,60,1,Machine learning,COMP3314C: Machine Learning,4,4,male,course,Machine learning; ; ,4
+52,60,1,Machine learning,COMP3314A: Machine Learning,4,4,male,course,Machine learning; ; ,4
+52,60,1,Machine learning,"COMP2120B: Computer Organization (IS, 2nd Major)",3,4,male,course,Machine learning; ; ,4
+53,61,1,i want some courses on writing proofs,MATH3999: Directed studies in mathematics,4,3,female,course,i want some courses on writing proofs; ; ,4
+53,61,1,i want some courses on writing proofs,MATH2012: Fundamental concepts of mathematics,5,3,female,course,i want some courses on writing proofs; ; ,4
+53,61,1,i want some courses on writing proofs,STAT4767: Actuarial science internship,1,3,female,course,i want some courses on writing proofs; ; ,4
+53,61,1,i want some courses on writing proofs,COMP4804: Computing and Data Analytics Project (CDA),2,3,female,course,i want some courses on writing proofs; ; ,4
+53,61,1,i want some courses on writing proofs,MATH3541: Introduction to topology,2,3,female,course,i want some courses on writing proofs; ; ,4
+54,62,1,I wanna know how food affects our body and how to build a healthy body,BIOL1201: Introduction to food and nutrition,5,4,male,course,I wanna know how food affects our body and how to build a healthy body; ; ,5
+54,62,1,I wanna know how food affects our body and how to build a healthy body,BIOL3205: Human physiology,5,4,male,course,I wanna know how food affects our body and how to build a healthy body; ; ,5
+54,62,1,I wanna know how food affects our body and how to build a healthy body,BIOL3204: Nutrition and the life cycle,5,4,male,course,I wanna know how food affects our body and how to build a healthy body; ; ,5
+54,62,1,I wanna know how food affects our body and how to build a healthy body,BIOL4209: Functional foods,5,4,male,course,I wanna know how food affects our body and how to build a healthy body; ; ,5
+54,62,1,I wanna know how food affects our body and how to build a healthy body,ENVS3028: Coastal Sustainability,1,4,male,course,I wanna know how food affects our body and how to build a healthy body; ; ,5
+55,63,1,I am interested in earth and planet ,EASC1401: Blue Planet,5,4,female,course,I am interested in earth and planet ; ; ,5
+55,63,1,I am interested in earth and planet ,EASC2404: Introduction to atmosphere and hydrosphere,5,4,female,course,I am interested in earth and planet ; ; ,5
+55,63,1,I am interested in earth and planet ,PHYS4655: Interstellar medium,3,4,female,course,I am interested in earth and planet ; ; ,5
+55,63,1,I am interested in earth and planet ,EASC1020: Introduction to climate science,4,4,female,course,I am interested in earth and planet ; ; ,5
+55,63,1,I am interested in earth and planet ,ENVS3020: Global change ecology,4,4,female,course,I am interested in earth and planet ; ; ,5
+56,64,1,Physical chemistry,CHEM2442: Fundamentals of organic chemistry,2,0,male,course,Physical chemistry; ; ,1
+56,64,1,Physical chemistry,CHEM4341: Advanced inorganic chemistry,1,0,male,course,Physical chemistry; ; ,1
+56,64,1,Physical chemistry,CHEM4444: Chemical biology,1,0,male,course,Physical chemistry; ; ,1
+56,64,1,Physical chemistry,PHYS1240: Physics by inquiry,1,0,male,course,Physical chemistry; ; ,1
+56,64,1,Physical chemistry,"CHEM4142: Symmetry, group theory and applications",1,0,male,course,Physical chemistry; ; ,1
+57,65,1,Climate change and sustainability,ENVS3020: Global change ecology,4,4,female,course,Climate change and sustainability; ; ,4
+57,65,1,Climate change and sustainability,EASC1020: Introduction to climate science,4,4,female,course,Climate change and sustainability; ; ,4
+57,65,1,Climate change and sustainability,ENVS1301: Environmental life science,4,4,female,course,Climate change and sustainability; ; ,4
+57,65,1,Climate change and sustainability,ENVS1401: Introduction to environmental science,4,4,female,course,Climate change and sustainability; ; ,4
+57,65,1,Climate change and sustainability,BIOL3303: Conservation biology,3,4,female,course,Climate change and sustainability; ; ,4
+58,66,1,game theory and statistics like counting and distributions,"COMP2121C: Discrete Mathematics (CS, CE, IS, 2nd Major)",3,1,male,course,game theory and statistics like counting and distributions; ; ,1
+58,66,1,game theory and statistics like counting and distributions,"COMP2121B: Discrete Mathematics (CS, CE, IS)",3,1,male,course,game theory and statistics like counting and distributions; ; ,1
+58,66,1,game theory and statistics like counting and distributions,COMP2121A: Discrete Mathematics (CS),3,1,male,course,game theory and statistics like counting and distributions; ; ,1
+58,66,1,game theory and statistics like counting and distributions,PHYS2150: Methods in physics I,1,1,male,course,game theory and statistics like counting and distributions; ; ,1
+58,66,1,game theory and statistics like counting and distributions,STAT2604: Introduction to R/Python programming and elementary data analysis,1,1,male,course,game theory and statistics like counting and distributions; ; ,1
+59,67,1,I hate exam. Give me some Biochemistry courses that without exam.,STAT4767: Actuarial science internship,1,3,male,course,I hate exam. Give me some Biochemistry courses that without exam.; ; ,4
+59,67,1,I hate exam. Give me some Biochemistry courses that without exam.,BIOL4963: Molecular biology & biotechnology internship,5,3,male,course,I hate exam. Give me some Biochemistry courses that without exam.; ; ,4
+59,67,1,I hate exam. Give me some Biochemistry courses that without exam.,MATH3999: Directed studies in mathematics,1,3,male,course,I hate exam. Give me some Biochemistry courses that without exam.; ; ,4
+59,67,1,I hate exam. Give me some Biochemistry courses that without exam.,BIOL4962: Food & nutritional science internship,5,3,male,course,I hate exam. Give me some Biochemistry courses that without exam.; ; ,4
+59,67,1,I hate exam. Give me some Biochemistry courses that without exam.,BIOL4964: Biological sciences internship,5,3,male,course,I hate exam. Give me some Biochemistry courses that without exam.; ; ,4
+60,68,1,want to learn how environment affects the society,ENVS1301: Environmental life science,3,5,female,course,want to learn how environment affects the society; ; ,5
+60,68,1,want to learn how environment affects the society,ENVS1401: Introduction to environmental science,3,5,female,course,want to learn how environment affects the society; ; ,5
+60,68,1,want to learn how environment affects the society,ENVS3028: Coastal Sustainability,5,5,female,course,want to learn how environment affects the society; ; ,5
+60,68,1,want to learn how environment affects the society,ENVS3020: Global change ecology,5,5,female,course,want to learn how environment affects the society; ; ,5
+60,68,1,want to learn how environment affects the society,EASC1401: Blue Planet,3,5,female,course,want to learn how environment affects the society; ; ,5
+61,69,1,"environment conservation, marine life",BIOL3303: Conservation biology,5,5,female,course,"environment conservation, marine life; ; ",5
+61,69,1,"environment conservation, marine life",ENVS1301: Environmental life science,5,5,female,course,"environment conservation, marine life; ; ",5
+61,69,1,"environment conservation, marine life",ENVS3313: Environmental oceanography,5,5,female,course,"environment conservation, marine life; ; ",5
+61,69,1,"environment conservation, marine life",ENVS1401: Introduction to environmental science,4,5,female,course,"environment conservation, marine life; ; ",5
+61,69,1,"environment conservation, marine life",ENVS3020: Global change ecology,5,5,female,course,"environment conservation, marine life; ; ",5
+62,70,1,algorithms and data structure,COMP2119A: Introduction to Data Structures and Algorithms (CS),5,4,male,course,algorithms and data structure; ; ,4
+62,70,1,algorithms and data structure,"COMP2119C: Introduction to Data Structures and Algorithms (CS, CE, IS, DA, Minor, 2nd Major)",5,4,male,course,algorithms and data structure; ; ,4
+62,70,1,algorithms and data structure,"COMP2119B: Introduction to Data Structures and Algorithms  (CE, IS, DA, Minor, 2nd Major)",5,4,male,course,algorithms and data structure; ; ,4
+62,70,1,algorithms and data structure,MATH3943: Network models in operations research,1,4,male,course,algorithms and data structure; ; ,4
+62,70,1,algorithms and data structure,STAT2604: Introduction to R/Python programming and elementary data analysis,3,4,male,course,algorithms and data structure; ; ,4
+63,71,1,ocean and coastal ,ENVS3313: Environmental oceanography,4,4,male,course,ocean and coastal ; ; ,4
+63,71,1,ocean and coastal ,EASC2404: Introduction to atmosphere and hydrosphere,4,4,male,course,ocean and coastal ; ; ,4
+63,71,1,ocean and coastal ,BIOL3303: Conservation biology,2,4,male,course,ocean and coastal ; ; ,4
+63,71,1,ocean and coastal ,ENVS3028: Coastal Sustainability,4,4,male,course,ocean and coastal ; ; ,4
+63,71,1,ocean and coastal ,EASC3410: Hydrogeology,4,4,male,course,ocean and coastal ; ; ,4
+64,72,1,Some math course for completing my decision analytics degree,MATH1009: Basic mathematics for business and economics,2,1,male,course,Some math course for completing my decision analytics degree; ; ,2
+64,72,1,Some math course for completing my decision analytics degree,"COMP2121B: Discrete Mathematics (CS, CE, IS)",1,1,male,course,Some math course for completing my decision analytics degree; ; ,2
+64,72,1,Some math course for completing my decision analytics degree,"COMP2121C: Discrete Mathematics (CS, CE, IS, 2nd Major)",1,1,male,course,Some math course for completing my decision analytics degree; ; ,2
+64,72,1,Some math course for completing my decision analytics degree,COMP2121A: Discrete Mathematics (CS),1,1,male,course,Some math course for completing my decision analytics degree; ; ,2
+64,72,1,Some math course for completing my decision analytics degree,MATH7502: Topics in applied discrete mathematics,11,1,male,course,Some math course for completing my decision analytics degree; ; ,2
+65,73,1,inorganic and organic chemistry,CHEM2442: Fundamentals of organic chemistry,4,4,female,course,inorganic and organic chemistry; ; ,4
+65,73,1,inorganic and organic chemistry,CHEM4341: Advanced inorganic chemistry,4,4,female,course,inorganic and organic chemistry; ; ,4
+65,73,1,inorganic and organic chemistry,"CHEM4142: Symmetry, group theory and applications",4,4,female,course,inorganic and organic chemistry; ; ,4
+65,73,1,inorganic and organic chemistry,CHEM4444: Chemical biology,2,4,female,course,inorganic and organic chemistry; ; ,4
+65,73,1,inorganic and organic chemistry,CHEM3445: Integrated laboratory,3,4,female,course,inorganic and organic chemistry; ; ,4
+66,74,1,how does the earth work? ,EASC1401: Blue Planet,5,4,female,course,how does the earth work? ; ; ,4
+66,74,1,how does the earth work? ,EASC2404: Introduction to atmosphere and hydrosphere,4,4,female,course,how does the earth work? ; ; ,4
+66,74,1,how does the earth work? ,EASC1020: Introduction to climate science,4,4,female,course,how does the earth work? ; ; ,4
+66,74,1,how does the earth work? ,ENVS3313: Environmental oceanography,4,4,female,course,how does the earth work? ; ; ,4
+66,74,1,how does the earth work? ,BIOL4861: Ecology & biodiversity internship,3,4,female,course,how does the earth work? ; ; ,4
+67,75,1,some theoretical maths maybe,MATH1009: Basic mathematics for business and economics,1,1,female,course,some theoretical maths maybe; ; ,2
+67,75,1,some theoretical maths maybe,"COMP2121C: Discrete Mathematics (CS, CE, IS, 2nd Major)",2,1,female,course,some theoretical maths maybe; ; ,2
+67,75,1,some theoretical maths maybe,"COMP2121B: Discrete Mathematics (CS, CE, IS)",2,1,female,course,some theoretical maths maybe; ; ,2
+67,75,1,some theoretical maths maybe,COMP2121A: Discrete Mathematics (CS),2,1,female,course,some theoretical maths maybe; ; ,2
+67,75,1,some theoretical maths maybe,PHYS2155: Methods in physics II,3,1,female,course,some theoretical maths maybe; ; ,2
+68,76,1,Give me information about bioinformatics course,BIOL4963: Molecular biology & biotechnology internship,5,3,female,course,Give me information about bioinformatics course; ; ,3
+68,76,1,Give me information about bioinformatics course,BIOL3994: Directed studies in biological sciences,3,3,female,course,Give me information about bioinformatics course; ; ,3
+68,76,1,Give me information about bioinformatics course,BIOL4415: Healthcare biotechnology,4,3,female,course,Give me information about bioinformatics course; ; ,3
+68,76,1,Give me information about bioinformatics course,BIOC4613: Advanced techniques in biochemistry & molecular biology,3,3,female,course,Give me information about bioinformatics course; ; ,3
+68,76,1,Give me information about bioinformatics course,FITE3010: Big Data and Data Mining,3,3,female,course,Give me information about bioinformatics course; ; ,3
+69,77,1,bioinformatics course,BIOL4963: Molecular biology & biotechnology internship,4,4,female,course,bioinformatics course; ; ,4
+69,77,1,bioinformatics course,BIOC4613: Advanced techniques in biochemistry & molecular biology,2,4,female,course,bioinformatics course; ; ,4
+69,77,1,bioinformatics course,BIOL3508: Microbial physiology and biotechnology,4,4,female,course,bioinformatics course; ; ,4
+69,77,1,bioinformatics course,CHEM4542: Computational chemistry,4,4,female,course,bioinformatics course; ; ,4
+69,77,1,bioinformatics course,BIOL4415: Healthcare biotechnology,4,4,female,course,bioinformatics course; ; ,4
+70,78,1,introduction to differential calculus and optimization,"COMP1117A: Computer Programming (ActSc, AppAI, DA, IS, Minor & 2nd Major)",1,0,male,course,introduction to differential calculus and optimization; ; ,1
+70,78,1,introduction to differential calculus and optimization,PHYS1650: Nature of the universe,1,0,male,course,introduction to differential calculus and optimization; ; ,1
+70,78,1,introduction to differential calculus and optimization,PHYS1240: Physics by inquiry,1,0,male,course,introduction to differential calculus and optimization; ; ,1
+70,78,1,introduction to differential calculus and optimization,PHYS1150: Problem solving in physics,1,0,male,course,introduction to differential calculus and optimization; ; ,1
+70,78,1,introduction to differential calculus and optimization,"PHYS1056: Weather, climate and climate change",1,0,male,course,introduction to differential calculus and optimization; ; ,1
+71,79,1,some practical courses on geology? i want to go on field trips,BIOL4861: Ecology & biodiversity internship,3,2,male,course,some practical courses on geology? i want to go on field trips; ; ,3
+71,79,1,some practical courses on geology? i want to go on field trips,BIOL4962: Food & nutritional science internship,1,2,male,course,some practical courses on geology? i want to go on field trips; ; ,3
+71,79,1,some practical courses on geology? i want to go on field trips,BIOL4964: Biological sciences internship,1,2,male,course,some practical courses on geology? i want to go on field trips; ; ,3
+71,79,1,some practical courses on geology? i want to go on field trips,EASC2409: Regional field studies,4,2,male,course,some practical courses on geology? i want to go on field trips; ; ,3
+71,79,1,some practical courses on geology? i want to go on field trips,BIOL4963: Molecular biology & biotechnology internship,3,2,male,course,some practical courses on geology? i want to go on field trips; ; ,3
+72,80,1,courses that will discuss about the time series,MATH3999: Directed studies in mathematics,2,0,female,course,courses that will discuss about the time series; ; ,1
+72,80,1,courses that will discuss about the time series,STAT4767: Actuarial science internship,1,0,female,course,courses that will discuss about the time series; ; ,1
+72,80,1,courses that will discuss about the time series,MATH4999: Mathematics project,1,0,female,course,courses that will discuss about the time series; ; ,1
+72,80,1,courses that will discuss about the time series,COMP4804: Computing and Data Analytics Project (CDA),1,0,female,course,courses that will discuss about the time series; ; ,1
+72,80,1,courses that will discuss about the time series,MATH3002: Mathematics seminar,1,0,female,course,courses that will discuss about the time series; ; ,1
+73,81,1,"introduction to nutrition, biology, chemistry",CHEM4444: Chemical biology,1,2,female,course,"introduction to nutrition, biology, chemistry; ; ",3
+73,81,1,"introduction to nutrition, biology, chemistry",CHEM2442: Fundamentals of organic chemistry,3,2,female,course,"introduction to nutrition, biology, chemistry; ; ",3
+73,81,1,"introduction to nutrition, biology, chemistry",BIOL3508: Microbial physiology and biotechnology,2,2,female,course,"introduction to nutrition, biology, chemistry; ; ",3
+73,81,1,"introduction to nutrition, biology, chemistry",BIOL4963: Molecular biology & biotechnology internship,1,2,female,course,"introduction to nutrition, biology, chemistry; ; ",3
+73,81,1,"introduction to nutrition, biology, chemistry",SCNC1112: Fundamentals of modern science,2,2,female,course,"introduction to nutrition, biology, chemistry; ; ",3
+74,82,1,environment and chemistry,CHEM2442: Fundamentals of organic chemistry,3,3,male,course,environment and chemistry; ; ,3
+74,82,1,environment and chemistry,ENVS1301: Environmental life science,3,3,male,course,environment and chemistry; ; ,3
+74,82,1,environment and chemistry,CHEM4341: Advanced inorganic chemistry,1,3,male,course,environment and chemistry; ; ,3
+74,82,1,environment and chemistry,BIOL3508: Microbial physiology and biotechnology,2,3,male,course,environment and chemistry; ; ,3
+74,82,1,environment and chemistry,EASC1401: Blue Planet,3,3,male,course,environment and chemistry; ; ,3
+75,83,1,cell biology,BIOL4416: Stem cells and regenerative biology,5,3,male,course,cell biology; ; ,5
+75,83,1,cell biology,CHEM4444: Chemical biology,2,3,male,course,cell biology; ; ,5
+75,83,1,cell biology,BIOL1110: From molecules to cells,5,3,male,course,cell biology; ; ,5
+75,83,1,cell biology,BIOC2600: Basic biochemistry,2,3,male,course,cell biology; ; ,5
+75,83,1,cell biology,BIOC4613: Advanced techniques in biochemistry & molecular biology,5,3,male,course,cell biology; ; ,5
+76,84,1,Biology courses with laboratory session.,BIOC4613: Advanced techniques in biochemistry & molecular biology,4,2,male,course,Biology courses with laboratory session.; ; ,3
+76,84,1,Biology courses with laboratory session.,BIOL4963: Molecular biology & biotechnology internship,3,2,male,course,Biology courses with laboratory session.; ; ,3
+76,84,1,Biology courses with laboratory session.,BIOL3994: Directed studies in biological sciences,4,2,male,course,Biology courses with laboratory session.; ; ,3
+76,84,1,Biology courses with laboratory session.,ENVS4999: Environmental science project,3,2,male,course,Biology courses with laboratory session.; ; ,3
+76,84,1,Biology courses with laboratory session.,CHEM4444: Chemical biology,3,2,male,course,Biology courses with laboratory session.; ; ,3
+77,85,1,"I am majoring in biological science. I want to have some working experience in this field, which course should I take?","COMP1117A: Computer Programming (ActSc, AppAI, DA, IS, Minor & 2nd Major)",1,0,female,course,"I am majoring in biological science. I want to have some working experience in this field, which course should I take?; ; ",1
+77,85,1,"I am majoring in biological science. I want to have some working experience in this field, which course should I take?",PHYS1650: Nature of the universe,1,0,female,course,"I am majoring in biological science. I want to have some working experience in this field, which course should I take?; ; ",1
+77,85,1,"I am majoring in biological science. I want to have some working experience in this field, which course should I take?",PHYS1240: Physics by inquiry,1,0,female,course,"I am majoring in biological science. I want to have some working experience in this field, which course should I take?; ; ",1
+77,85,1,"I am majoring in biological science. I want to have some working experience in this field, which course should I take?",PHYS1150: Problem solving in physics,1,0,female,course,"I am majoring in biological science. I want to have some working experience in this field, which course should I take?; ; ",1
+77,85,1,"I am majoring in biological science. I want to have some working experience in this field, which course should I take?","PHYS1056: Weather, climate and climate change",1,0,female,course,"I am majoring in biological science. I want to have some working experience in this field, which course should I take?; ; ",1
+78,86,1,Fundamentals science and fundamentals chemistry courses,MATH1009: Basic mathematics for business and economics,1,2,female,course,Fundamentals science and fundamentals chemistry courses; ; ,5
+78,86,1,Fundamentals science and fundamentals chemistry courses,SCNC1112: Fundamentals of modern science,5,2,female,course,Fundamentals science and fundamentals chemistry courses; ; ,5
+78,86,1,Fundamentals science and fundamentals chemistry courses,PHYS1240: Physics by inquiry,1,2,female,course,Fundamentals science and fundamentals chemistry courses; ; ,5
+78,86,1,Fundamentals science and fundamentals chemistry courses,ENVS1301: Environmental life science,2,2,female,course,Fundamentals science and fundamentals chemistry courses; ; ,5
+78,86,1,Fundamentals science and fundamentals chemistry courses,CHEM2442: Fundamentals of organic chemistry,5,2,female,course,Fundamentals science and fundamentals chemistry courses; ; ,5
+79,87,1,environmental chemistry,ENVS1301: Environmental life science,2,2,female,course,environmental chemistry; ; ,3
+79,87,1,environmental chemistry,CHEM4444: Chemical biology,3,2,female,course,environmental chemistry; ; ,3
+79,87,1,environmental chemistry,CHEM2442: Fundamentals of organic chemistry,3,2,female,course,environmental chemistry; ; ,3
+79,87,1,environmental chemistry,BIOL3109: Environmental and molecular ecology,4,2,female,course,environmental chemistry; ; ,3
+79,87,1,environmental chemistry,CHEM4341: Advanced inorganic chemistry,3,2,female,course,environmental chemistry; ; ,3
+80,88,2,Computational chemistry,PHYS3151: Machine learning in physics,1,0,female,course,learn chemistry with computer; ; ,1
+80,88,2,Computational chemistry,BIOL4963: Molecular biology & biotechnology internship,1,0,female,course,learn chemistry with computer; ; ,1
+80,88,2,Computational chemistry,"COMP2120B: Computer Organization (IS, 2nd Major)",1,0,female,course,learn chemistry with computer; ; ,1
+80,88,2,Computational chemistry,COMP2120A: Computer Organization (CS),1,0,female,course,learn chemistry with computer; ; ,1
+80,88,2,Computational chemistry,CHEM4444: Chemical biology,3,0,female,course,learn chemistry with computer; ; ,1
+81,89,1,I want to learn some programming skills for my Decision Analytics degree.,ENTR2001: Professional and leadership development,1,3,female,course,I want to learn some programming skills for my Decision Analytics degree.; ; ,4
+81,89,1,I want to learn some programming skills for my Decision Analytics degree.,STAT4609: Big data analytics,3,3,female,course,I want to learn some programming skills for my Decision Analytics degree.; ; ,4
+81,89,1,I want to learn some programming skills for my Decision Analytics degree.,PHYS3151: Machine learning in physics,1,3,female,course,I want to learn some programming skills for my Decision Analytics degree.; ; ,4
+81,89,1,I want to learn some programming skills for my Decision Analytics degree.,COMP2396B: Object-oriented Programming and Java,3,3,female,course,I want to learn some programming skills for my Decision Analytics degree.; ; ,4
+81,89,1,I want to learn some programming skills for my Decision Analytics degree.,COMP2396A: Object-oriented Programming and Java (CS),3,3,female,course,I want to learn some programming skills for my Decision Analytics degree.; ; ,4
+82,90,1,courses related to computer graphic and data visualization,STAT3622: Data visualization,5,5,male,course,courses related to computer graphic and data visualization; ; ,5
+82,90,1,courses related to computer graphic and data visualization,STAT2604: Introduction to R/Python programming and elementary data analysis,3,5,male,course,courses related to computer graphic and data visualization; ; ,5
+82,90,1,courses related to computer graphic and data visualization,FITE3010: Big Data and Data Mining,3,5,male,course,courses related to computer graphic and data visualization; ; ,5
+82,90,1,courses related to computer graphic and data visualization,STAT4609: Big data analytics,3,5,male,course,courses related to computer graphic and data visualization; ; ,5
+82,90,1,courses related to computer graphic and data visualization,COMP3314C: Machine Learning,3,5,male,course,courses related to computer graphic and data visualization; ; ,5
+83,91,1,Earth system science major student want to take courses related to data analysis and modeling,ENVS2001: Methods in environmental science,1,0,male,course,Earth system science major student want to take courses related to data analysis and modeling; ; ,2
+83,91,1,Earth system science major student want to take courses related to data analysis and modeling,FITE3010: Big Data and Data Mining,1,0,male,course,Earth system science major student want to take courses related to data analysis and modeling; ; ,2
+83,91,1,Earth system science major student want to take courses related to data analysis and modeling,BIOL4964: Biological sciences internship,1,0,male,course,Earth system science major student want to take courses related to data analysis and modeling; ; ,2
+83,91,1,Earth system science major student want to take courses related to data analysis and modeling,ENVS4999: Environmental science project,1,0,male,course,Earth system science major student want to take courses related to data analysis and modeling; ; ,2
+83,91,1,Earth system science major student want to take courses related to data analysis and modeling,STAT4609: Big data analytics,1,0,male,course,Earth system science major student want to take courses related to data analysis and modeling; ; ,2
+84,92,1,atmosphere,EASC2404: Introduction to atmosphere and hydrosphere,5,4,female,course,atmosphere; ; ,4
+84,92,1,atmosphere,EASC1401: Blue Planet,5,4,female,course,atmosphere; ; ,4
+84,92,1,atmosphere,PHYS4655: Interstellar medium,1,4,female,course,atmosphere; ; ,4
+84,92,1,atmosphere,EASC1020: Introduction to climate science,5,4,female,course,atmosphere; ; ,4
+84,92,1,atmosphere,ENVS3313: Environmental oceanography,3,4,female,course,atmosphere; ; ,4
+85,93,1,interested in biodiversity and animals,BIOL3303: Conservation biology,3,1,female,course,interested in biodiversity and animals; ; ,3
+85,93,1,interested in biodiversity and animals,ENVS1301: Environmental life science,3,1,female,course,interested in biodiversity and animals; ; ,3
+85,93,1,interested in biodiversity and animals,BIOL4861: Ecology & biodiversity internship,5,1,female,course,interested in biodiversity and animals; ; ,3
+85,93,1,interested in biodiversity and animals,ENVS3020: Global change ecology,3,1,female,course,interested in biodiversity and animals; ; ,3
+85,93,1,interested in biodiversity and animals,BIOL3109: Environmental and molecular ecology,3,1,female,course,interested in biodiversity and animals; ; ,3
+86,94,1,"i want to learn about minerals and natural resources, also quite interested in rocks and the chemistry behind.",EASC1401: Blue Planet,1,1,female,course,"i want to learn about minerals and natural resources, also quite interested in rocks and the chemistry behind.; ; ",1
+86,94,1,"i want to learn about minerals and natural resources, also quite interested in rocks and the chemistry behind.",CHEM4341: Advanced inorganic chemistry,1,1,female,course,"i want to learn about minerals and natural resources, also quite interested in rocks and the chemistry behind.; ; ",1
+86,94,1,"i want to learn about minerals and natural resources, also quite interested in rocks and the chemistry behind.",ENVS1401: Introduction to environmental science,1,1,female,course,"i want to learn about minerals and natural resources, also quite interested in rocks and the chemistry behind.; ; ",1
+86,94,1,"i want to learn about minerals and natural resources, also quite interested in rocks and the chemistry behind.",ENVS1301: Environmental life science,1,1,female,course,"i want to learn about minerals and natural resources, also quite interested in rocks and the chemistry behind.; ; ",1
+86,94,1,"i want to learn about minerals and natural resources, also quite interested in rocks and the chemistry behind.",EASC2404: Introduction to atmosphere and hydrosphere,2,1,female,course,"i want to learn about minerals and natural resources, also quite interested in rocks and the chemistry behind.; ; ",1
+87,95,1,I want to learn environmental toxicology and protection.,ENVS1301: Environmental life science,1,0,male,course,I want to learn environmental toxicology and protection.; ; ,1
+87,95,1,I want to learn environmental toxicology and protection.,BIOL3303: Conservation biology,1,0,male,course,I want to learn environmental toxicology and protection.; ; ,1
+87,95,1,I want to learn environmental toxicology and protection.,ENVS1401: Introduction to environmental science,1,0,male,course,I want to learn environmental toxicology and protection.; ; ,1
+87,95,1,I want to learn environmental toxicology and protection.,CHEM3242: Food and water analysis,1,0,male,course,I want to learn environmental toxicology and protection.; ; ,1
+87,95,1,I want to learn environmental toxicology and protection.,BIOL4861: Ecology & biodiversity internship,1,0,male,course,I want to learn environmental toxicology and protection.; ; ,1
+88,96,1,"climate change, air pollution, ecology",ENVS3020: Global change ecology,5,4,male,course,"climate change, air pollution, ecology; ; ",4
+88,96,1,"climate change, air pollution, ecology",EASC1020: Introduction to climate science,5,4,male,course,"climate change, air pollution, ecology; ; ",4
+88,96,1,"climate change, air pollution, ecology",ENVS1301: Environmental life science,3,4,male,course,"climate change, air pollution, ecology; ; ",4
+88,96,1,"climate change, air pollution, ecology",BIOL3303: Conservation biology,5,4,male,course,"climate change, air pollution, ecology; ; ",4
+88,96,1,"climate change, air pollution, ecology",ENVS3313: Environmental oceanography,5,4,male,course,"climate change, air pollution, ecology; ; ",4
+89,97,1,learn about living organisms and the environment,ENVS1301: Environmental life science,5,3,female,course,learn about living organisms and the environment; ; ,4
+89,97,1,learn about living organisms and the environment,BIOL3508: Microbial physiology and biotechnology,2,3,female,course,learn about living organisms and the environment; ; ,4
+89,97,1,learn about living organisms and the environment,BIOL3109: Environmental and molecular ecology,4,3,female,course,learn about living organisms and the environment; ; ,4
+89,97,1,learn about living organisms and the environment,ENVS3020: Global change ecology,5,3,female,course,learn about living organisms and the environment; ; ,4
+89,97,1,learn about living organisms and the environment,EASC1401: Blue Planet,4,3,female,course,learn about living organisms and the environment; ; ,4
+90,98,1,"carbohydrates, protein , fat, how do they affect the body?",BIOL2220: Principles of biochemistry,3,3,female,course,"carbohydrates, protein , fat, how do they affect the body?; ; ",4
+90,98,1,"carbohydrates, protein , fat, how do they affect the body?",BIOC2600: Basic biochemistry,3,3,female,course,"carbohydrates, protein , fat, how do they affect the body?; ; ",4
+90,98,1,"carbohydrates, protein , fat, how do they affect the body?",BIOL1110: From molecules to cells,3,3,female,course,"carbohydrates, protein , fat, how do they affect the body?; ; ",4
+90,98,1,"carbohydrates, protein , fat, how do they affect the body?",BIOL4416: Stem cells and regenerative biology,2,3,female,course,"carbohydrates, protein , fat, how do they affect the body?; ; ",4
+90,98,1,"carbohydrates, protein , fat, how do they affect the body?",BIOL4209: Functional foods,5,3,female,course,"carbohydrates, protein , fat, how do they affect the body?; ; ",4
+91,99,1,"quality control over food, waste management",CHEM3242: Food and water analysis,5,5,female,course,"quality control over food, waste management; ; ",5
+91,99,1,"quality control over food, waste management",BIOL4205: Food technology,3,5,female,course,"quality control over food, waste management; ; ",5
+91,99,1,"quality control over food, waste management",BIOL1201: Introduction to food and nutrition,3,5,female,course,"quality control over food, waste management; ; ",5
+91,99,1,"quality control over food, waste management",BIOL3608: Food commodities,4,5,female,course,"quality control over food, waste management; ; ",5
+91,99,1,"quality control over food, waste management",BIOL3203: Food microbiology,3,5,female,course,"quality control over food, waste management; ; ",5
+92,100,1,physiology,BIOL1110: From molecules to cells,4,3,female,course,physiology; ; ,4
+92,100,1,physiology,BIOL3508: Microbial physiology and biotechnology,5,3,female,course,physiology; ; ,4
+92,100,1,physiology,BIOC2600: Basic biochemistry,3,3,female,course,physiology; ; ,4
+92,100,1,physiology,CHEM4444: Chemical biology,3,3,female,course,physiology; ; ,4
+92,100,1,physiology,BIOL3506: Evolutionary biology,2,3,female,course,physiology; ; ,4
+93,101,1,I want to make biotechnological applications,BIOL4415: Healthcare biotechnology,3,3,male,course,I want to make biotechnological applications; ; ,4
+93,101,1,I want to make biotechnological applications,ENTR3001: Science-based innovation development,5,3,male,course,I want to make biotechnological applications; ; ,4
+93,101,1,I want to make biotechnological applications,BIOL3508: Microbial physiology and biotechnology,5,3,male,course,I want to make biotechnological applications; ; ,4
+93,101,1,I want to make biotechnological applications,BIOL4205: Food technology,2,3,male,course,I want to make biotechnological applications; ; ,4
+93,101,1,I want to make biotechnological applications,ENTR3002: Customer analysis and strategic marketing,4,3,male,course,I want to make biotechnological applications; ; ,4
+94,102,1,want to be a quantitative analyst,EASC4999: Earth sciences project,1,0,female,course,want to be a quantitative analyst; ; ,1
+94,102,1,want to be a quantitative analyst,ENTR3002: Customer analysis and strategic marketing,1,0,female,course,want to be a quantitative analyst; ; ,1
+94,102,1,want to be a quantitative analyst,CHEM4242: Analytical chemistry,1,0,female,course,want to be a quantitative analyst; ; ,1
+94,102,1,want to be a quantitative analyst,BIOL3209: Food and nutrient analysis,1,0,female,course,want to be a quantitative analyst; ; ,1
+94,102,1,want to be a quantitative analyst,EASC3999: Directed studies in earth sciences,1,0,female,course,want to be a quantitative analyst; ; ,1
+95,103,1,time series analysis,STAT3617: Sample survey methods,1,0,female,course,time series analysis; ; ,1
+95,103,1,time series analysis,APAI3021: Modern biostatistics,1,0,female,course,time series analysis; ; ,1
+95,103,1,time series analysis,STAT3021: Modern biostatistics,1,0,female,course,time series analysis; ; ,1
+95,103,1,time series analysis,STAT4609: Big data analytics,2,0,female,course,time series analysis; ; ,1
+95,103,1,time series analysis,STAT2604: Introduction to R/Python programming and elementary data analysis,3,0,female,course,time series analysis; ; ,1
+96,104,1,credit analyst ,STAT4903: Actuarial techniques for general insurance,2,3,male,course,credit analyst ; ; ,4
+96,104,1,credit analyst ,STAT3618: Derivatives and risk management,5,3,male,course,credit analyst ; ; ,4
+96,104,1,credit analyst ,STAT3615: Practical mathematics for investment,5,3,male,course,credit analyst ; ; ,4
+96,104,1,credit analyst ,STAT2902: Financial mathematics,2,3,male,course,credit analyst ; ; ,4
+96,104,1,credit analyst ,STAT4603: Current topics in risk management,3,3,male,course,credit analyst ; ; ,4
+97,106,1,I want to learn fundamental physics,PHYS1240: Physics by inquiry,4,3,female,course,I want to learn fundamental physics; ; ,5
+97,106,1,I want to learn fundamental physics,SCNC1112: Fundamentals of modern science,5,3,female,course,I want to learn fundamental physics; ; ,5
+97,106,1,I want to learn fundamental physics,ENVS1301: Environmental life science,1,3,female,course,I want to learn fundamental physics; ; ,5
+97,106,1,I want to learn fundamental physics,PHYS2150: Methods in physics I,5,3,female,course,I want to learn fundamental physics; ; ,5
+97,106,1,I want to learn fundamental physics,MATH3541: Introduction to topology,3,3,female,course,I want to learn fundamental physics; ; ,5
+98,107,1,I want to do physics research and project,EASC4999: Earth sciences project,1,0,female,course,I want to do physics research and project; ; ,1
+98,107,1,I want to do physics research and project,CHEM4910: Chemistry literacy and research,1,0,female,course,I want to do physics research and project; ; ,1
+98,107,1,I want to do physics research and project,ENVS4999: Environmental science project,1,0,female,course,I want to do physics research and project; ; ,1
+98,107,1,I want to do physics research and project,CHEM4999: Chemistry project,1,0,female,course,I want to do physics research and project; ; ,1
+98,107,1,I want to do physics research and project,SCNC1112: Fundamentals of modern science,2,0,female,course,I want to do physics research and project; ; ,1
+99,108,1,knowledge of statistics,STAT4609: Big data analytics,4,3,male,course,knowledge of statistics; ; ,3
+99,108,1,knowledge of statistics,APAI3021: Modern biostatistics,3,3,male,course,knowledge of statistics; ; ,3
+99,108,1,knowledge of statistics,STAT3021: Modern biostatistics,3,3,male,course,knowledge of statistics; ; ,3
+99,108,1,knowledge of statistics,STAT4798: Statistics and actuarial science project,4,3,male,course,knowledge of statistics; ; ,3
+99,108,1,knowledge of statistics,FITE3010: Big Data and Data Mining,2,3,male,course,knowledge of statistics; ; ,3
+100,109,1,I want to learn applied statistical concepts and models,APAI3021: Modern biostatistics,1,0,female,course,I want to learn applied statistical concepts and models; ; ,1
+100,109,1,I want to learn applied statistical concepts and models,STAT3021: Modern biostatistics,1,0,female,course,I want to learn applied statistical concepts and models; ; ,1
+100,109,1,I want to learn applied statistical concepts and models,COMP2121A: Discrete Mathematics (CS),1,0,female,course,I want to learn applied statistical concepts and models; ; ,1
+100,109,1,I want to learn applied statistical concepts and models,"COMP2121C: Discrete Mathematics (CS, CE, IS, 2nd Major)",1,0,female,course,I want to learn applied statistical concepts and models; ; ,1
+100,109,1,I want to learn applied statistical concepts and models,"COMP2121B: Discrete Mathematics (CS, CE, IS)",1,0,female,course,I want to learn applied statistical concepts and models; ; ,1
+101,110,1,small scale particle physics,PHYS4655: Interstellar medium,3,2,male,course,small scale particle physics; ; ,4
+101,110,1,small scale particle physics,CHEM4542: Computational chemistry,1,2,male,course,small scale particle physics; ; ,4
+101,110,1,small scale particle physics,PHYS3850: Physical Optics,2,2,male,course,small scale particle physics; ; ,4
+101,110,1,small scale particle physics,"CHEM4142: Symmetry, group theory and applications",1,2,male,course,small scale particle physics; ; ,4
+101,110,1,small scale particle physics,CHEM4241: Modern chemical instrumentation and applications,1,2,male,course,small scale particle physics; ; ,4
+102,111,1,I’m interested in biological sciences. Which course should I take?,BIOL4964: Biological sciences internship,4,3,female,course,I’m interested in biological sciences. Which course should I take?; ; ,4
+102,111,1,I’m interested in biological sciences. Which course should I take?,BIOL3994: Directed studies in biological sciences,4,3,female,course,I’m interested in biological sciences. Which course should I take?; ; ,4
+102,111,1,I’m interested in biological sciences. Which course should I take?,BIOL4963: Molecular biology & biotechnology internship,3,3,female,course,I’m interested in biological sciences. Which course should I take?; ; ,4
+102,111,1,I’m interested in biological sciences. Which course should I take?,ENVS1301: Environmental life science,2,3,female,course,I’m interested in biological sciences. Which course should I take?; ; ,4
+102,111,1,I’m interested in biological sciences. Which course should I take?,SCNC1112: Fundamentals of modern science,4,3,female,course,I’m interested in biological sciences. Which course should I take?; ; ,4
+103,112,1,life science,SCNC1112: Fundamentals of modern science,3,2,male,course,life science; ; ,3
+103,112,1,life science,ENVS1301: Environmental life science,5,2,male,course,life science; ; ,3
+103,112,1,life science,BIOL3994: Directed studies in biological sciences,3,2,male,course,life science; ; ,3
+103,112,1,life science,PHYS1055: How things work,3,2,male,course,life science; ; ,3
+103,112,1,life science,BIOL4962: Food & nutritional science internship,3,2,male,course,life science; ; ,3
+104,113,1,learn things related to risk identification,STAT4603: Current topics in risk management,4,2,female,course,learn things related to risk identification; ; ,4
+104,113,1,learn things related to risk identification,ENTR3001: Science-based innovation development,1,2,female,course,learn things related to risk identification; ; ,4
+104,113,1,learn things related to risk identification,STAT4798: Statistics and actuarial science project,3,2,female,course,learn things related to risk identification; ; ,4
+104,113,1,learn things related to risk identification,BIOL3204: Nutrition and the life cycle,1,2,female,course,learn things related to risk identification; ; ,4
+104,113,1,learn things related to risk identification,ENVS2001: Methods in environmental science,1,2,female,course,learn things related to risk identification; ; ,4
+105,114,1,I like to learn biofuels as alternative energy sources!,ENVS3010: Sustainable energy and environment,5,4,female,course,I like to learn biofuels as alternative energy sources!; ; ,5
+105,114,1,I like to learn biofuels as alternative energy sources!,ENVS1401: Introduction to environmental science,5,4,female,course,I like to learn biofuels as alternative energy sources!; ; ,5
+105,114,1,I like to learn biofuels as alternative energy sources!,ENVS1301: Environmental life science,5,4,female,course,I like to learn biofuels as alternative energy sources!; ; ,5
+105,114,1,I like to learn biofuels as alternative energy sources!,BIOL3303: Conservation biology,5,4,female,course,I like to learn biofuels as alternative energy sources!; ; ,5
+105,114,1,I like to learn biofuels as alternative energy sources!,ENTR3001: Science-based innovation development,3,4,female,course,I like to learn biofuels as alternative energy sources!; ; ,5
+106,115,1,I’m interested in risk management,STAT4603: Current topics in risk management,5,3,female,course,I’m interested in risk management; ; ,4
+106,115,1,I’m interested in risk management,ENTR3001: Science-based innovation development,3,3,female,course,I’m interested in risk management; ; ,4
+106,115,1,I’m interested in risk management,STAT3906: Risk theory I,5,3,female,course,I’m interested in risk management; ; ,4
+106,115,1,I’m interested in risk management,STAT4798: Statistics and actuarial science project,4,3,female,course,I’m interested in risk management; ; ,4
+106,115,1,I’m interested in risk management,STAT3615: Practical mathematics for investment,5,3,female,course,I’m interested in risk management; ; ,4
+107,116,1,cosmology,SCNC1112: Fundamentals of modern science,3,2,male,course,cosmology; ; ,2
+107,116,1,cosmology,PHYS4655: Interstellar medium,5,2,male,course,cosmology; ; ,2
+107,116,1,cosmology,"CHEM4142: Symmetry, group theory and applications",3,2,male,course,cosmology; ; ,2
+107,116,1,cosmology,CHEM4542: Computational chemistry,2,2,male,course,cosmology; ; ,2
+107,116,1,cosmology,PHYS1240: Physics by inquiry,2,2,male,course,cosmology; ; ,2
+108,117,1,curious about astrophysics,SCNC1112: Fundamentals of modern science,4,4,male,course,curious about astrophysics; ; ,4
+108,117,1,curious about astrophysics,PHYS4655: Interstellar medium,5,4,male,course,curious about astrophysics; ; ,4
+108,117,1,curious about astrophysics,CHEM4542: Computational chemistry,4,4,male,course,curious about astrophysics; ; ,4
+108,117,1,curious about astrophysics,PHYS1240: Physics by inquiry,4,4,male,course,curious about astrophysics; ; ,4
+108,117,1,curious about astrophysics,PHYS3850: Physical Optics,1,4,male,course,curious about astrophysics; ; ,4
+109,119,1,risk analytics skills,STAT4609: Big data analytics,4,1,male,course,risk analytics skills; ; ,2
+109,119,1,risk analytics skills,STAT4603: Current topics in risk management,5,1,male,course,risk analytics skills; ; ,2
+109,119,1,risk analytics skills,COMP3314A: Machine Learning,2,1,male,course,risk analytics skills; ; ,2
+109,119,1,risk analytics skills,COMP3314B: Machine Learning,2,1,male,course,risk analytics skills; ; ,2
+109,119,1,risk analytics skills,COMP3314C: Machine Learning,2,1,male,course,risk analytics skills; ; ,2
+110,120,1,molecular and cell biology,CHEM4444: Chemical biology,2,3,male,course,molecular and cell biology; ; ,4
+110,120,1,molecular and cell biology,BIOL4416: Stem cells and regenerative biology,5,3,male,course,molecular and cell biology; ; ,4
+110,120,1,molecular and cell biology,BIOC2600: Basic biochemistry,5,3,male,course,molecular and cell biology; ; ,4
+110,120,1,molecular and cell biology,BIOL1110: From molecules to cells,5,3,male,course,molecular and cell biology; ; ,4
+110,120,1,molecular and cell biology,BIOL2220: Principles of biochemistry,2,3,male,course,molecular and cell biology; ; ,4
+111,121,1,"I want to learn about agriculture production, fisheries and aquaculture, biomedical research and pharmaceutical purposes",BIOL4415: Healthcare biotechnology,4,2,female,course,"I want to learn about agriculture production, fisheries and aquaculture, biomedical research and pharmaceutical purposes; ; ",3
+111,121,1,"I want to learn about agriculture production, fisheries and aquaculture, biomedical research and pharmaceutical purposes",BIOL3303: Conservation biology,2,2,female,course,"I want to learn about agriculture production, fisheries and aquaculture, biomedical research and pharmaceutical purposes; ; ",3
+111,121,1,"I want to learn about agriculture production, fisheries and aquaculture, biomedical research and pharmaceutical purposes",BIOL3508: Microbial physiology and biotechnology,2,2,female,course,"I want to learn about agriculture production, fisheries and aquaculture, biomedical research and pharmaceutical purposes; ; ",3
+111,121,1,"I want to learn about agriculture production, fisheries and aquaculture, biomedical research and pharmaceutical purposes",BIOL3608: Food commodities,4,2,female,course,"I want to learn about agriculture production, fisheries and aquaculture, biomedical research and pharmaceutical purposes; ; ",3
+111,121,1,"I want to learn about agriculture production, fisheries and aquaculture, biomedical research and pharmaceutical purposes",BIOL4205: Food technology,4,2,female,course,"I want to learn about agriculture production, fisheries and aquaculture, biomedical research and pharmaceutical purposes; ; ",3
