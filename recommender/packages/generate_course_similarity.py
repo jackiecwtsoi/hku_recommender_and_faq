@@ -21,7 +21,7 @@ from gensim.models import KeyedVectors
 FUNCTION
 - Generate similarity score for an individual course
 Return: FLOAT representing the final course similarity between the student text and that particular course info
-TODO: currently only maps CourseContent but not other attributes e.g. BasicInfo or AssessmentInfo, need to add these later
+NOTE: currently only maps CourseContent but not other attributes e.g. BasicInfo or AssessmentInfo
 '''
 def generate_individual_course_similarity(student: Student, course: Course, model, similarity_type, course_rec_type):
     # # NOTE below: can also consider looping through all class variables defined in Course class instead of directly specifying

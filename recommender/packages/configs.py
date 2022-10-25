@@ -16,8 +16,9 @@ Type: LIST
 '''
 COURSE_REC_TYPES = [
     'course_content',
-    # 'subject_domain'
 ]
+
+CF_COURSE_RECOMMENDER_DATA_PATH = 'hku_recommender_and_faq/recommender/data/recommendations_feedback_preprocessed_with_individual_ratings.csv'
 
 '''
 CONFIG - All the paths of the models used in our course-related recommender
@@ -26,7 +27,11 @@ CONFIG - All the paths of the models used in our course-related recommender
 Type: DICT
 '''
 COURSE_MODEL_PATHS_DICT = {
-    'course_content': 'hku_recommender_and_faq/recommender/models/w2v_google_news_300.model'
+    'course_content': 'hku_recommender_and_faq/recommender/models/w2v_google_news_300.model',
+    'user_based_collaborative_filtering': {
+        'word_embedding': 'hku_recommender_and_faq/recommender/models/w2v_google_news_300.model',
+        'knn': 'hku_recommender_and_faq/recommender/models/collaborative_filtering_neighbors_knn.joblib'
+    }
 }
 
 SUBJECT_DOMAIN_MODEL_PATH = 'hku_recommender_and_faq/recommender/models/w2v_online_job_descriptions.model'
